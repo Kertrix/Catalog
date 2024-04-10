@@ -1,0 +1,17 @@
+---
+name: PHTD
+statistics: 140 handwritten documents 1, 787 handwritten text-lines 27, 073 words
+class: 3 Types of text
+task: Text-line segmentation Sentence recognition/understanding Word segmentation/recognition
+  Characters segmentation Word spotting Text-line extraction Writer identification
+language:
+- Persian
+document_type: Persian handwritten text documents
+mode:
+- Grayscale
+resolution: 300 dpi
+format:
+- TIFF
+reference: '6121553'
+description: sssec:phtd
+...

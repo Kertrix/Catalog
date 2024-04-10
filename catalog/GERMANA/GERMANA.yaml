@@ -1,0 +1,22 @@
+---
+name: GERMANA
+statistics: 764 pages, 20, 529 text lines, 217.2K words
+class: 27.1K 50 word lexicon 115 character set
+task: Handwriting recognition Text block detection Baseline detection
+language:
+- Spanish
+- Catalan
+- Latin
+- French
+- German
+- Italian
+document_type: Page scans of Spanish manuscript from 1891 on the life of Germana de
+  Foix
+mode:
+- Color
+resolution: 300 dpi
+format:
+- N/A
+reference: '5277691'
+description: sssec:germana
+...

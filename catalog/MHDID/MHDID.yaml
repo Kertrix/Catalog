@@ -1,0 +1,16 @@
+---
+name: MHDID
+statistics: 335 images
+class: Paper translucency Stain Reader's annotations Worn holes
+task: Distortion classification Visual quality evaluation
+language:
+- Arabic
+document_type: Book pages edited from 1nth - 14nth Islamic Centuries
+mode:
+- Color
+resolution: 1024× 1280
+format:
+- JPEG
+reference: '8480372'
+description: sssec:mhdid
+...

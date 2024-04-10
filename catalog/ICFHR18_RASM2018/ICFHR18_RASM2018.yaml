@@ -1,0 +1,16 @@
+---
+name: ICFHR18 RASM2018
+statistics: 10-15 train images 50-80 test images
+class: Text Graphic Text line
+task: Page segmentation Text line detection \ac{OCR}
+language:
+- Arabic
+document_type: Arabic scientific manuscripts from 8nth-9nth centuries CE
+mode:
+- Color
+resolution: N/A
+format:
+- TIFF
+reference: '8583806'
+description: sssec:rasm2018
+...

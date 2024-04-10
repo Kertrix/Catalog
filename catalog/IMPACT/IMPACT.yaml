@@ -1,0 +1,19 @@
+---
+name: IMPACT
+statistics: 600K images 45K ground-truthed images 70K word outlines
+class: Text (+subcatecories) Graphics(+subcategories) Image, Line drawing Separator,
+  Table Chart, Maths
+task: Layout analysis
+language:
+- 18 languages
+document_type: European printed documents
+mode:
+- Color
+resolution: N/A
+format:
+- TIFF
+- JPEG
+- JPEG2000
+reference: 10.1145/2501115.2501130
+description: sssec:impact
+...

@@ -1,0 +1,19 @@
+---
+name: Warped Arabic
+statistics: 200 pages
+class: '4 centuries 4 document types: book page newspaper legal document journal other
+  document unclassified'
+task: Text line segmentation
+language:
+- Arabic
+document_type: Arabic historical documents from the 16nth-19nth century with curls
+  and warping from 4 document types
+mode:
+- Color
+resolution: 350 dpi
+format:
+- TIFF
+- JPEG
+reference: iet:/content/conferences/10.1049/cp.2018.1286
+description: sssec:warped_arabic
+...

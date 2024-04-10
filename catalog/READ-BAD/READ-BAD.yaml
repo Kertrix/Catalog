@@ -1,0 +1,16 @@
+---
+name: READ-BAD
+statistics: 2, 036 pages 132, 124 baselines
+class: Layout classes for text regions e.g. paragraphs
+task: Baseline detection
+language:
+- Latin
+document_type: European archival documents from 1470-1930
+mode:
+- Color
+resolution: N/A
+format:
+- JPEG
+reference: '8395221'
+description: sssec:read-bad
+...

@@ -1,0 +1,17 @@
+---
+name: ICDAR 2017 REID2017
+statistics: 5 train images 26 test images
+class: Text Separator Graphic Image
+task: Layout analysis Text recognition
+language:
+- Bengali
+- English
+document_type: Scanned images from printed books in Bengali from 1785-1909
+mode:
+- Color
+resolution: N/A
+format:
+- TIFF
+reference: '8270161'
+description: sssec:reid2017
+...

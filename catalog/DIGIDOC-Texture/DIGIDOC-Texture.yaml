@@ -1,0 +1,16 @@
+---
+name: DIGIDOC-Texture
+statistics: '%'
+class: ''
+task: ''
+language:
+- '%'
+document_type: ''
+mode:
+- ''
+resolution: 300 dpi
+format:
+- ''
+reference: Mehri2016TextureFB
+description: sssec:digidoc-texture
+...

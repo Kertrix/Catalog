@@ -1,0 +1,18 @@
+---
+name: DIVA-HisDB
+statistics: '150 images: 20 train 10 validation, 10 test 10 left out images for every
+  manuscript 493M pixels'
+class: Background Main text Decorations Comments
+task: Layout analysis Element extraction
+language:
+- Latin
+- Italian
+document_type: Pages from 3 medieval manuscripts from 11nth and 14nth century
+mode:
+- Color
+resolution: 600 dpi
+format:
+- JPEG
+reference: '7814109'
+description: sssec:diva-hisdb
+...

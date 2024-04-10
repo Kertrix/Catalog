@@ -1,0 +1,17 @@
+---
+name: ICFHR 2016 CLAMM
+statistics: '2K training images Task 1: 1K test images Task 2: 2K test images'
+class: Uncial, Half-uncial, Caroline, Humanistic Humanistic Cursive, Praegothica,
+  Southern Textualis, Semitextualis, Textualis, Hybrida Semihybrida, Cursiva (12 classes)
+task: Script type classification
+language:
+- Latin
+document_type: Manuscripts from the French catalogues the BVMM and Gallica
+mode:
+- Grayscale
+resolution: 300 dpi
+format:
+- TIFF
+reference: '7814129'
+description: sssec:ICFHR16CLAMM
+...

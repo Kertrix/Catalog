@@ -1,0 +1,16 @@
+---
+name: ESPOSALLES LICENCES
+statistics: 173 pages 1, 747 licences 5, 447 lines 60, 777 words 328, 229 characters
+class: 3, 465 lexicon size 85 character classes
+task: Off-line handwriting recognition
+language:
+- Spanish
+document_type: Handwritten documents from marriage license books
+mode:
+- Color
+resolution: 300 dpi
+format:
+- TIFF
+reference: ROMERO20131658
+description: sssec:esposalles
+...

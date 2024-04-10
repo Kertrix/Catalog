@@ -1,0 +1,16 @@
+---
+name: ESPOSALLES INDEX
+statistics: 29 pages 1, 563 lines 6, 534 words 30, 809 characters
+class: 1, 725 lexicon size 68 character classes
+task: Off-line handwriting recognition
+language:
+- Spanish
+document_type: Handwritten documents from marriage license books
+mode:
+- Color
+resolution: 300 dpi
+format:
+- TIFF
+reference: ROMERO20131658
+description: sssec:esposalles
+...

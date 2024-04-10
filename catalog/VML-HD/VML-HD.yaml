@@ -1,0 +1,17 @@
+---
+name: VML-HD
+statistics: 680 pages 121, 636 sub-words 244, 553 characters
+class: Book, Page number Sub-word id Location coordinates Arabic, Latin annotation
+  Sub-word length
+task: Word-spotting Handwritten sub-word recognition
+language:
+- Arabic
+document_type: Handwritten scripts from 5 books by different writers from 1088-1451
+mode:
+- Color
+resolution: 6000× 4000 pixels
+format:
+- TIFF
+reference: '8067751'
+description: sssec:vml-hd
+...

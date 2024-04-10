@@ -1,0 +1,20 @@
+---
+name: ICDAR 2017 CLAMM
+statistics: 'ICFHR16 CLaMM train images Task 1, 3: 2K test images Task 2, 4: 1K test
+  images'
+class: Same script classes as ICFHR16 CLaMM, 15 date classes starting from before
+  1000 C.E. to 1600 C.E.
+task: Script type and date classification
+language:
+- Latin
+document_type: Manuscripts from the French catalogues the BVMM and Gallica
+mode:
+- Grayscale
+- Color
+resolution: 'Task 1, 3: 300 dpi Task 2, 4: 300 and 400 dpi'
+format:
+- TIFF
+- JPEG
+reference: '8270155'
+description: sssec:ICFHR16CLAMM
+...

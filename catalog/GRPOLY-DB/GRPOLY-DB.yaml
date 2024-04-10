@@ -1,0 +1,19 @@
+---
+name: GRPOLY-DB
+statistics: 399 pages, 15, 084 text lines, 102, 596 words 171, 511 characters
+class: More than 270 character classes
+task: Word and text line segmentation Text and isolated character recognition Word
+  spotting
+language:
+- Greek
+document_type: Handwritten and printed document pages from 1838-1977 that contain
+  greek polytonic characters
+mode:
+- Color
+- Grayscale
+resolution: N/A
+format:
+- N/A
+reference: '7333841'
+description: sssec:GRPOLY-DB
+...

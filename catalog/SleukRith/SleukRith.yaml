@@ -1,0 +1,16 @@
+---
+name: SleukRith
+statistics: 301, 626 characters 73, 359 words 3, 245 text lines
+class: 207 character classes 6, 284 unique words
+task: Isolated character recognition Word line Segmentation
+language:
+- Khmer
+document_type: Palm leaf manuscript pages
+mode:
+- Color
+resolution: N/A
+format:
+- JPEG
+reference: 10.1145/3151509.3151510
+description: sssec:sleukrith
+...

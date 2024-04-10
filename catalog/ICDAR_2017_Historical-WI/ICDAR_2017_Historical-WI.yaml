@@ -1,0 +1,21 @@
+---
+name: ICDAR 2017 Historical-WI
+statistics: 1, 182 train images 3, 600 test images
+class: 394 train writers 720 test writers
+task: Image retrieval based on writer identification
+language:
+- German
+- French
+- Arabic
+document_type: Handwritten document pages from 13nth to 20nth century originating
+  from Universitätsbibliothek Basel
+mode:
+- Color
+- Binary
+resolution: 300 dpi
+format:
+- JPEG
+- PNG
+reference: '8270156'
+description: sssec:Historical-WI
+...

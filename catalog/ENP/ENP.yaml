@@ -1,0 +1,30 @@
+---
+name: ENP
+statistics: 528 pages, 61K regions 208 tables, 1K graphics 47K text regions 202K text-lines
+class: Regions, Tables Images/Graphics Text regions, Text lines
+task: \ac{OCR} Text recognition Layout analysis
+language:
+- Dutch
+- English
+- Estonian
+- Finnish
+- French
+- German
+- Latvian
+- Polish
+- Russian
+- Serbian
+- Swedish
+- Ukrainian
+- Yidish
+document_type: European Cultural Heritage
+mode:
+- Color
+- Grayscale
+- Binary
+resolution: 300 dpi 400 dpi
+format:
+- TIFF
+reference: '7333898'
+description: sssec:enp
+...

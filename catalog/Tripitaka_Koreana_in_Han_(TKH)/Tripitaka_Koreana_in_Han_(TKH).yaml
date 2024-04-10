@@ -1,0 +1,16 @@
+---
+name: Tripitaka Koreana in Han (TKH)
+statistics: 1K images 23, 471 lines 323, 491 characters
+class: 1, 471 character classes
+task: Character detection Character recognition
+language:
+- Chinese
+document_type: Chinese historical documents
+mode:
+- N/A
+resolution: N/A
+format:
+- N/A
+reference: Yang2018DenseAT
+description: sssec:tripitaka
+...

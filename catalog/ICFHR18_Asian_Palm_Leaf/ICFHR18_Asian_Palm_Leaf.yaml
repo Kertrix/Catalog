@@ -1,0 +1,24 @@
+---
+name: ICFHR18 Asian Palm Leaf
+statistics: 'Bin/tion: 50 train-50 test Balinese, 23 train-23 test Khmer, 31 train-30
+  test Sundanese images Text line: 47 train-49 test Balinese, 50 train-200 test Khmer,
+  31 train-30 test Sundanese images OCR: 11K train-7K test Balinese, 113K train-90K
+  test Khmer, 4.5K train-2.8K test Sundanese images Translit.: 15K train-10K test
+  Balinese, 16K-7.7K test Khmer, 1.4K train-318 test Sundanese images'
+class: 133 Balinese, 111 Khmer and 60 Sundanese character classes
+task: Binarization Text line segmentation Character recognition Transliteration
+language:
+- Balinese
+- Khmer
+- Sundanese
+- Latin
+document_type: Manuscripts
+mode:
+- Color
+resolution: N/A
+format:
+- PNG
+- TIFF
+reference: '8583808'
+description: sssec:ICFHR18_ASIAN_PALM_LEAF
+...
