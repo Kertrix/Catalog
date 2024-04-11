@@ -40,6 +40,31 @@
     "description": "sssec:vml-hd"
   },
   {
+    "id": "4d7e134b",
+    "name": "Multiple Font Groups",
+    "statistics": "35, 623 images",
+    "class": "Textura, Rotunda Gotico-antiqua, Hebrew Bastarda, Schwabacher Fraktur, Antiqua Italic, Greek Other Font, Not a Font",
+    "task": "Font recognition",
+    "language": [
+      "Latin",
+      "Greek",
+      "Hebrew",
+      "Other"
+    ],
+    "document_type": "Pages from early printed books from 15nth-18nth centuries",
+    "mode": [
+      "Color",
+      "Grayscale"
+    ],
+    "resolution": "side length: 79-14K pixels median surface: 5.3\u00d710^6 pixels",
+    "format": [
+      "JPEG",
+      "TIFF"
+    ],
+    "reference": "10.1145/3352631.3352640",
+    "description": "sssec:fonts"
+  },
+  {
     "id": "e1057f9b",
     "name": "Tripitaka Koreana in Han (TKH)",
     "statistics": "1K images 23, 471 lines 323, 491 characters",
@@ -58,6 +83,67 @@
     ],
     "reference": "Yang2018DenseAT",
     "description": "sssec:tripitaka"
+  },
+  {
+    "id": "4d26862f",
+    "name": "GloSAT",
+    "statistics": "500 images",
+    "class": "Heading Header Table body",
+    "task": "Table structure recognition",
+    "language": [
+      "N/A"
+    ],
+    "document_type": "Scanned printed and mixed pages from measurement logbooks from 1700 - modern days",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "10.1145/3476887.3476890",
+    "description": "sssec:GloSAT"
+  },
+  {
+    "id": "78dab2c4",
+    "name": "ICDAR19 HDRC Chinese DB",
+    "statistics": "11, 715 train images 1, 135 test images",
+    "class": "Text Non-text (background)",
+    "task": "Text recognition on extracted lines Layout analysis (pixel-level) Text line detection recognition",
+    "language": [
+      "Chinese"
+    ],
+    "document_type": "Historical Chinese family records pages",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "Various",
+    "format": [
+      "PNG",
+      "JPEG"
+    ],
+    "reference": "8977999",
+    "description": "sssec:chinese_reading_challenge"
+  },
+  {
+    "id": "cb71fc40",
+    "name": "ICDAR19 DMAS2019",
+    "statistics": "50-100 PAGE annotated images",
+    "class": "Page classes: cover table of contents content index Article classes: article illustration with caption advertisement index colophon",
+    "task": "Article segmentation Page segmentation Text recognition",
+    "language": [
+      "N/A"
+    ],
+    "document_type": "Digitised image pages from magazines from 1800 - 1938 by the National Library of the Netherlands",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG2000"
+    ],
+    "reference": "",
+    "description": "sssec:DMAS2019"
   },
   {
     "id": "3e2d643a",
@@ -159,6 +245,26 @@
     "description": "sssec:enp"
   },
   {
+    "id": "7523d7b6",
+    "name": "CASIA-AHCDB",
+    "statistics": "11, 937 images 2.2M characters",
+    "class": "10, 350 character categories",
+    "task": "Character recognition",
+    "language": [
+      "Chinese"
+    ],
+    "document_type": "Chinese ancient handwritten document pages from the Complete Library in Four Sections (style-1) and the Ancient Buddhist Scriptures (style-2)",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "GNTX"
+    ],
+    "reference": "8978010",
+    "description": "sssec:casia-ahcdb"
+  },
+  {
     "id": "baf195d7",
     "name": "IAM-HistDB Saint Gall",
     "statistics": "60 pages 1, 410 text-lines 11, 597 words 5, 436 word spellings",
@@ -178,6 +284,90 @@
     ],
     "reference": "10.1145/2037342.2037348",
     "description": "sssec:iam-histdb"
+  },
+  {
+    "id": "c2dfe56a",
+    "name": "ICDAR19 RASM2019",
+    "statistics": "20 train images 100 test images",
+    "class": "Text Graphic Text line",
+    "task": "Page segmentation Text line detection OCR",
+    "language": [
+      "Arabic"
+    ],
+    "document_type": "Arabic scientific manuscripts from 9nth-19nth CE",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "",
+    "description": "sssec:rasm2019"
+  },
+  {
+    "id": "8d526da2",
+    "name": "BiblIA",
+    "statistics": "202 images 11, 285 lines 74, 675 words",
+    "class": "Script classes: Ashkenazi Italian, Sephardi",
+    "task": "Line segmentation Text transcription",
+    "language": [
+      "Hebrew",
+      "Aramaic"
+    ],
+    "document_type": "Hebrew Manuscripts written from 11nth-15nth",
+    "mode": [
+      "Color",
+      "Grayscale"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "10.1145/3476887.3476892",
+    "description": "sssec:BiblIA"
+  },
+  {
+    "id": "2b100a23",
+    "name": "ICDAR 2021 HDC",
+    "statistics": "Font: 35k train, 5, 506 test images Script: CLaMM 2017 train, 1, 256 test images Date: 11, 294 train, 2, 516 test images Location: 5, 517 train, 60 val, 300 test images",
+    "class": "Font: same as Section \\ref{sssec:fonts} without \"other font\" and \"not a font\" classes (10 classes) Script: same as Section \\ref{sssec:ICFHR16CLAMM} Date: date ranges Location: Cluny, Corbie, Citeaux, Florence Fonteney, Himanis, Milan, Paris, Signy MontSaintMichel, SaintBertin SaintGermainDesPres, SainMatrialDeLinoges",
+    "task": "Font/script date and location classification",
+    "language": [
+      "Latin"
+    ],
+    "document_type": "Handwritten and printed page images in Latin",
+    "mode": [
+      "Color",
+      "Grayscale"
+    ],
+    "resolution": "Various",
+    "format": [
+      "TIFF",
+      "JPEG"
+    ],
+    "reference": "10.1145/3476887.3476913",
+    "description": "sssec:his_doc_classification_icdar_2021"
+  },
+  {
+    "id": "5fb6af2e",
+    "name": "HJDataset",
+    "statistics": "2, 271 Images 25K Elements",
+    "class": "Page frame Row Title, Text region Title, Subtitle Other",
+    "task": "Layout analysis Element extraction",
+    "language": [
+      "Japanese"
+    ],
+    "document_type": "Biography scans",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "Shen_2020_CVPR_Workshops",
+    "description": "sssec:hjdataset"
   },
   {
     "id": "28ad733c",
@@ -221,6 +411,66 @@
     "description": "sssec:phtd"
   },
   {
+    "id": "d43189c4",
+    "name": "Amharic Database",
+    "statistics": "Character dataset: 80K character images, 231 characters Text-line dataset: 40, 929 printed Power Geez text-line images, 197, 484 synthetic Power Geez text-line images, 98, 924 synthetic Visual Geez text-line images, 280 unique Amharic characters",
+    "class": "280 unique Amharic characters",
+    "task": "Text-line image recognition, OCR, Page binarization Line segmentation",
+    "language": [
+      "Amharic"
+    ],
+    "document_type": "Printed synthetic Amharic socuments",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "300 dpi Characters: 32\u00d732 pixels Text-lines: 48\u00d7128 pixels",
+    "format": [
+      "PNG"
+    ],
+    "reference": "8977980",
+    "description": "sssec:amharic"
+  },
+  {
+    "id": "b81999ad",
+    "name": "POPP",
+    "statistics": "Generic: 128 train, 16 val, 16 test pages 3, 840 train, 480 val, 480 test lines Belleville: 38 train, 5 val, 6 test pages 1, 140 train, 150 val, 180 test lines Chauss\u00e9e d'Antin: 625 train, 78 val, 77 test lines",
+    "class": "Generic - Belleville - Chauss\u00e9e d'Antin 80 - 1 - 10 writers",
+    "task": "Handwritten table recognition and information extraction",
+    "language": [
+      "French"
+    ],
+    "document_type": "Pages from Paris census tables from 1926",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "200 dpi",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "10.1007/978-3-031-06555-2_10",
+    "description": "sssec:popp"
+  },
+  {
+    "id": "49e86f02",
+    "name": "FCR",
+    "statistics": "500 pages",
+    "class": "6 layout regions",
+    "task": "Layout analysis HTR",
+    "language": [
+      "Swedish"
+    ],
+    "document_type": "Pages of records of deeds mortgages traditional life-annuity from the Renovated District Court Records (19nth century)",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "N/A",
+    "format": [
+      ""
+    ],
+    "reference": "Quirs2020FinnishCR",
+    "description": "sssec:FCR"
+  },
+  {
     "id": "a9c97d4b",
     "name": "ICDAR 2017 REID2017",
     "statistics": "5 train images 26 test images",
@@ -260,6 +510,26 @@
     ],
     "reference": "ROMERO20131658",
     "description": "sssec:esposalles"
+  },
+  {
+    "id": "c427ca34",
+    "name": "ICFHR 2020 HisFragIR20",
+    "statistics": "220K fragment images (101, 706 train - 20, 019 test)",
+    "class": "9, 800K writers (8, 717 train - 1, 152 test)",
+    "task": "Image retrieval per writer and per image",
+    "language": [
+      "N/A"
+    ],
+    "document_type": "Manuscript pages from books of the European Middle Ages 9nth - 15nth century CE",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "High and low quality factor resolution 2K pixel larger dimension",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "Seuret2020ICFHR2C",
+    "description": "sssec:HisFragIR20"
   },
   {
     "id": "c45e0a4b",
@@ -306,6 +576,26 @@
     "description": "sssec:iam-histdb"
   },
   {
+    "id": "14938bd8",
+    "name": "ICDAR19 cTDaR19",
+    "statistics": "Track A: 600 train, 199 test archival images Track B: 600 train, 150 test archival images",
+    "class": "Archival Modern",
+    "task": "Table detection Table recognition",
+    "language": [
+      "N/A"
+    ],
+    "document_type": "Images with tables from archival accounting books record books timetables etc.",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "8978120",
+    "description": "sssec:ctdar"
+  },
+  {
     "id": "a0b6c29f",
     "name": "READ-BAD",
     "statistics": "2, 036 pages 132, 124 baselines",
@@ -324,6 +614,47 @@
     ],
     "reference": "8395221",
     "description": "sssec:read-bad"
+  },
+  {
+    "id": "c517feb3",
+    "name": "IlluHisDoc",
+    "statistics": "400 images",
+    "class": "Illustration Text",
+    "task": "Baseline detection Illustration segmentation",
+    "language": [
+      "N/A"
+    ],
+    "document_type": "Document images from Gallica with various illustrations",
+    "mode": [
+      "Color",
+      "Grayscale"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "monnier2020docExtractor",
+    "description": "sssec:illuhisdoc"
+  },
+  {
+    "id": "81208653",
+    "name": "OBC306",
+    "statistics": "4, 024 distinct characters 309, 551 samples",
+    "class": "306 character categories",
+    "task": "Oracle-bone character recognition",
+    "language": [
+      "Oracle"
+    ],
+    "document_type": "Patch samples derived from oracle-bone publications",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "1:2 ratio Height: 50-150 pixels Width: 0-100 pixels",
+    "format": [
+      "N/A"
+    ],
+    "reference": "8978032",
+    "description": "sssec:obc306"
   },
   {
     "id": "050cd95e",
@@ -390,6 +721,26 @@
     "description": "sssec:ICFHR18_ASIAN_PALM_LEAF"
   },
   {
+    "id": "64ab0d69",
+    "name": "Pinkas",
+    "statistics": "30 pages 1, 013 lines 13, 744 words",
+    "class": "3, 117 train classes 1, 251 test classes main text line and word segmentation class",
+    "task": "Word spotting Page segmentation",
+    "language": [
+      "Hebrew"
+    ],
+    "document_type": "Manuscript records of Jewish communities in Europe from 1500-1800",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "High-resolution",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "8978129",
+    "description": "sssec:pinkas"
+  },
+  {
     "id": "c58e5d8d",
     "name": "Kuzushiji",
     "statistics": "K-MNIST: 60K train - 10K test images K-49: 232, 365 train - 38, 547 test images K-Kanji: 140, 426 images",
@@ -408,6 +759,49 @@
     ],
     "reference": "Clanuwat2018DeepLF",
     "description": "sssec:K-MNIST"
+  },
+  {
+    "id": "04c8b0d2",
+    "name": "ICDAR 2019 REID 2019",
+    "statistics": "25 annotated train images 56 test images",
+    "class": "Text Separator Graphic Image",
+    "task": "Layout analysis Text recognition",
+    "language": [
+      "Bengali",
+      "English"
+    ],
+    "document_type": "Scanned images from printed books in Bengali from 1713-1914",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "8978191",
+    "description": "sssec:reid2019"
+  },
+  {
+    "id": "c75447f7",
+    "name": "ARDIS",
+    "statistics": "\\textit{Dataset I}: 10K 4-digit images \\textit{Dataset II - IV}: 7.6K digit images (6.6K train/1K test)",
+    "class": "\\textit{Dataset I}: 75 year classes \\textit{Dataset II - IV}: 10 classes (0-9)",
+    "task": "Handwritten digit recognition",
+    "language": [
+      "Swedish",
+      "Latin"
+    ],
+    "document_type": "Swedish handwritten document crops of digits from 1800 - 1940",
+    "mode": [
+      "Color",
+      "Grayscale"
+    ],
+    "resolution": "\\textit{Dataset I}: 175\u00d795 pixels \\textit{Dataset IV}: 28\u00d728 pixels",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "kusetogullari2020ardis",
+    "description": "sssec:ardis"
   },
   {
     "id": "85493345",
@@ -429,6 +823,28 @@
     ],
     "reference": "iet:/content/conferences/10.1049/cp.2018.1286",
     "description": "sssec:warped_arabic"
+  },
+  {
+    "id": "7f2f4406",
+    "name": "BIR Database",
+    "statistics": "35 documents 285 pages 2, 106 bold words 5, 745 italic words 80, 168 regular words 880, 169 total words",
+    "class": "Bold Italic Regular",
+    "task": "Style classification Word detection",
+    "language": [
+      "French",
+      "Latin",
+      "Other"
+    ],
+    "document_type": "Printed pages from sale catalogues and exhibitions from the 19nth and 20nth centuries",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "10.1145/3476887.3476913",
+    "description": "sssec:bir_database"
   },
   {
     "id": "c63cd32a",
@@ -474,6 +890,26 @@
     "description": "sssec:bh2m"
   },
   {
+    "id": "f07d28e5",
+    "name": "HORAE",
+    "statistics": "557 images, 797 pages 843 text regions, 1112 line fillers 12512 text-lines, 284 miniatures 892 decorated and 118 illustrated borders 2776 decorated initials, 551 simple initials 22 historiated initials, 5 ornamentation 4 music notations",
+    "class": "Page classes: calendar miniature miniature-and- text text-with-miniature full-page text",
+    "task": "Line detection Layout analysis",
+    "language": [
+      "Latin"
+    ],
+    "document_type": "Pages from Books of Hours",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "10.1145/3352631.3352633",
+    "description": "sssec:horae"
+  },
+  {
     "id": "90133f35",
     "name": "OHG",
     "statistics": "596 pages, 23, 700 text-lines, 2, 400 words",
@@ -490,8 +926,69 @@
     "format": [
       "TIFF"
     ],
-    "reference": "",
+    "reference": "Quiros2018",
     "description": "sssec:OHG"
+  },
+  {
+    "id": "54d8709c",
+    "name": "Newspaper Navigator",
+    "statistics": "3, 559 pages 48, 409 annotations",
+    "class": "Photograph, Illustration Map, Comic/Cartoon Editorial cartoon Headline, Advertisement",
+    "task": "Visual content recognition \\ac{OCR}",
+    "language": [
+      "English"
+    ],
+    "document_type": "Historical newspaper pages from the Chronicling America corpus",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "10.1145/3340531.3412767",
+    "description": "sssec:newspaper_navigator"
+  },
+  {
+    "id": "e74772d3",
+    "name": "ICDAR 2019 HDRC-IR",
+    "statistics": "Train and validation from \\ref{sssec:Historical-WI} 20K test images",
+    "class": "10K writers Writers from manuscript books letter or charters",
+    "task": "Image retrieval based on writer identification",
+    "language": [
+      "N/A"
+    ],
+    "document_type": "Handwritten document pages of manuscript books letters charters and legal docs from various institutions",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "High and low quality factor resolution 2K pixel larger dimension",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "Christlein2019ICDAR2C",
+    "description": "sssec:ICDAR2019-HDRC-IR"
+  },
+  {
+    "id": "7cb15da6",
+    "name": "ABP NAF",
+    "statistics": "ABP small: 180 pages ABP large: 1, 098 pages NAF: 488 pages",
+    "class": "Text region Table region",
+    "task": "Table detection and partition",
+    "language": [
+      "N/A"
+    ],
+    "document_type": "Death birth marriage and tax records",
+    "mode": [
+      "Color",
+      "Grayscale"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "8978117",
+    "description": "sssec:ABP_NAF"
   },
   {
     "id": "67e9c0c7",
@@ -514,6 +1011,28 @@
     "description": "sssec:esposalles"
   },
   {
+    "id": "569c8082",
+    "name": "ScribbleLens",
+    "statistics": "1K pages 28, 255 lines 281, 914 characters 85 writers",
+    "class": "Writter-id and 150 years of origin classes",
+    "task": "Automatic transcription Handwriting recognition",
+    "language": [
+      "Dutch"
+    ],
+    "document_type": "Early Modern Manuscripts",
+    "mode": [
+      "Color",
+      "Binary",
+      "Grayscale"
+    ],
+    "resolution": "150 - 300 dpi",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "9257750",
+    "description": "sssec:scribblelens"
+  },
+  {
     "id": "6347b08b",
     "name": "KERTAS",
     "statistics": "2, 502 images 135 books",
@@ -532,6 +1051,46 @@
     ],
     "reference": "adam2018kertas",
     "description": "sssec:kertas"
+  },
+  {
+    "id": "f904bf13",
+    "name": "Digital Peter",
+    "statistics": "9, 694 text-line images (6, 237 train, 1, 930 validation, 1, 527 test) 265, 788 characters 50, 998 words",
+    "class": "N/A",
+    "task": "Line segmentation Line recognition",
+    "language": [
+      "Russian"
+    ],
+    "document_type": "Manuscripts from Peter the Great written from 1709-1713",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "10.1145/3476887.3476892",
+    "description": "sssec:digital_peter"
+  },
+  {
+    "id": "54aa8504",
+    "name": "HisClima",
+    "statistics": "208 pages, 33, 739 lines 66, 814 running words 15, 471 relevant information",
+    "class": "1, 483 lexicon, 76 characters",
+    "task": "Text recognition Layout analysis Information extraction",
+    "language": [
+      "N/A"
+    ],
+    "document_type": "Pages from a ship weather log book that sailed from 1880-1881",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "N/A"
+    ],
+    "reference": "9412210",
+    "description": "sssec:hisclima"
   },
   {
     "id": "8cdb2ee1",
@@ -555,6 +1114,26 @@
     "description": "sssec:diva-hisdb"
   },
   {
+    "id": "9efee761",
+    "name": "DIDA",
+    "statistics": "Dataset I: 250K single digits Dataset II: 200K multi-digits Dataset III: 25K bounding boxes",
+    "class": "Dataset I: 0 - 9",
+    "task": "Handwritten digit recognition and detection",
+    "language": [
+      "Swedish"
+    ],
+    "document_type": "Swedish handwritten document crops from 1800 - 1940",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "240\u00d7 210 Pixels",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "KUSETOGULLARI2021100182",
+    "description": "sssec:dida"
+  },
+  {
     "id": "a0a4d3e2",
     "name": "Lontar Sunda",
     "statistics": "66 pages, 1, 526 train and 317 test word images 4, 555 train and 2, 816 test character images",
@@ -574,6 +1153,26 @@
     ],
     "reference": "8270066",
     "description": "sssec:SUNDANESE_PALM_LEAF"
+  },
+  {
+    "id": "50651e8f",
+    "name": "Hugin-Munin",
+    "statistics": "828 pages, 23, 732 lines 164, 922 words 752, 080 characters",
+    "class": "12 writers",
+    "task": "Handwritten text recognition",
+    "language": [
+      "Norwegian"
+    ],
+    "document_type": "Pages from private correspondences and diaries from 12 writers written between 1820-1950",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "N/A"
+    ],
+    "reference": "10.1007/978-3-031-06555-2_27",
+    "description": "sssec:hugin_munin"
   },
   {
     "id": "db32a851",
@@ -596,6 +1195,27 @@
     "description": "sssec:amadi_lontarset"
   },
   {
+    "id": "9b5ab6e5",
+    "name": "GRK-Papyri PapyRow",
+    "statistics": "GRK-Papyri: 50 images PapyRow: 6, 498 samples",
+    "class": "10 writers",
+    "task": "Writer identification Image enhancement Binarization Line/word segmentation",
+    "language": [
+      "Greek"
+    ],
+    "document_type": "Handwritten Greek papyri from the 6nth century A.D.",
+    "mode": [
+      "Color",
+      "Grayscale"
+    ],
+    "resolution": "GRK-Papyri: 96-2000 dpi Height: 796-6818 Width: 177-2000 PapyRow: 1200 pixels width 500 pixels width",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "8978142",
+    "description": "sssec:grk-papyri"
+  },
+  {
     "id": "40c05165",
     "name": "MHDID",
     "statistics": "335 images",
@@ -616,6 +1236,27 @@
     "description": "sssec:mhdid"
   },
   {
+    "id": "801f39c4",
+    "name": "HTR Benchmarks",
+    "statistics": "ICFHR-2014: 433 pages, 11, 473 lines 106K running words, 550K characters ICDAR-2015: 796 pages, 21, 752 lines 186K running words, 955K characters ICFHR-2016: 450 pages, 10K lines 43K running words, 260K characters ICDAR-2017: 10K pages, 206K lines 1.7M running words, 8M characters",
+    "class": "ICFHR-2014: 9K lexicon, 86 character set ICDAR-2015: 17K lexicon, 87 character set ICFHR-2016: 8K lexicon, 92 character set ICDAR-2017: 4K lexicon, 104 character set",
+    "task": "Handwritten text recognition",
+    "language": [
+      "English",
+      "Early modern German"
+    ],
+    "document_type": "Handwritten document pages from the Bentham and the Ratsprotokolle (1470-1805) collections",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "300 dpi or 75-300 dpi",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "SANCHEZ2019122",
+    "description": "sssec:htr_benchmarks"
+  },
+  {
     "id": "50840302",
     "name": "ICFHR 2016 CLAMM",
     "statistics": "2K training images Task 1: 1K test images Task 2: 2K test images",
@@ -634,6 +1275,27 @@
     ],
     "reference": "7814129",
     "description": "sssec:ICFHR16CLAMM"
+  },
+  {
+    "id": "ee8bd3b2",
+    "name": "ICDAR19 DIBCO 2019",
+    "statistics": "10 historical machine-printed and handwritten test images 10 papyri test images",
+    "class": "N/A",
+    "task": "Binarization",
+    "language": [
+      "N/A"
+    ],
+    "document_type": "Historical machine-printed and handwritten images of the 19nth century and papyri images from various periods of Antiquity",
+    "mode": [
+      "Color",
+      "Grayscale"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "BMP"
+    ],
+    "reference": "8978205",
+    "description": "sssec:DIBCO_2019"
   },
   {
     "id": "75f857a1",
