@@ -1,0 +1,17 @@
+---
+name: FCR
+statistics: 500 pages
+class: 6 layout regions
+task: Layout analysis HTR
+language:
+- Swedish
+document_type: Pages of records of deeds mortgages traditional life-annuity from the
+  Renovated District Court Records (19nth century)
+mode:
+- Grayscale
+resolution: N/A
+format:
+- ''
+reference: Quirs2020FinnishCR
+description: sssec:FCR
+...

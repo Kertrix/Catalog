@@ -1,0 +1,20 @@
+---
+name: BIR Database
+statistics: 35 documents 285 pages 2, 106 bold words 5, 745 italic words 80, 168 regular
+  words 880, 169 total words
+class: Bold Italic Regular
+task: Style classification Word detection
+language:
+- French
+- Latin
+- Other
+document_type: Printed pages from sale catalogues and exhibitions from the 19nth and
+  20nth centuries
+mode:
+- Color
+resolution: N/A
+format:
+- JPEG
+reference: 10.1145/3476887.3476913
+description: sssec:bir_database
+...

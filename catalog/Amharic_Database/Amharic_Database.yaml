@@ -1,0 +1,18 @@
+---
+name: Amharic Database
+statistics: 'Character dataset: 80K character images, 231 characters Text-line dataset:
+  40, 929 printed Power Geez text-line images, 197, 484 synthetic Power Geez text-line
+  images, 98, 924 synthetic Visual Geez text-line images, 280 unique Amharic characters'
+class: 280 unique Amharic characters
+task: Text-line image recognition, OCR, Page binarization Line segmentation
+language:
+- Amharic
+document_type: Printed synthetic Amharic socuments
+mode:
+- Grayscale
+resolution: '300 dpi Characters: 32×32 pixels Text-lines: 48×128 pixels'
+format:
+- PNG
+reference: '8977980'
+description: sssec:amharic
+...

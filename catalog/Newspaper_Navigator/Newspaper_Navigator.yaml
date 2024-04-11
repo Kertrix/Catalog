@@ -1,0 +1,16 @@
+---
+name: Newspaper Navigator
+statistics: 3, 559 pages 48, 409 annotations
+class: Photograph, Illustration Map, Comic/Cartoon Editorial cartoon Headline, Advertisement
+task: Visual content recognition \ac{OCR}
+language:
+- English
+document_type: Historical newspaper pages from the Chronicling America corpus
+mode:
+- Grayscale
+resolution: N/A
+format:
+- JPEG
+reference: 10.1145/3340531.3412767
+description: sssec:newspaper_navigator
+...

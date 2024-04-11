@@ -1,0 +1,17 @@
+---
+name: ICDAR 2019 REID 2019
+statistics: 25 annotated train images 56 test images
+class: Text Separator Graphic Image
+task: Layout analysis Text recognition
+language:
+- Bengali
+- English
+document_type: Scanned images from printed books in Bengali from 1713-1914
+mode:
+- Color
+resolution: N/A
+format:
+- TIFF
+reference: '8978191'
+description: sssec:reid2019
+...

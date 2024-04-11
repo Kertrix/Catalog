@@ -1,0 +1,16 @@
+---
+name: HJDataset
+statistics: 2, 271 Images 25K Elements
+class: Page frame Row Title, Text region Title, Subtitle Other
+task: Layout analysis Element extraction
+language:
+- Japanese
+document_type: Biography scans
+mode:
+- Color
+resolution: N/A
+format:
+- JPEG
+reference: Shen_2020_CVPR_Workshops
+description: sssec:hjdataset
+...

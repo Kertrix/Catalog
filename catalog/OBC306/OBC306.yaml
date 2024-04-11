@@ -1,0 +1,16 @@
+---
+name: OBC306
+statistics: 4, 024 distinct characters 309, 551 samples
+class: 306 character categories
+task: Oracle-bone character recognition
+language:
+- Oracle
+document_type: Patch samples derived from oracle-bone publications
+mode:
+- Grayscale
+resolution: '1:2 ratio Height: 50-150 pixels Width: 0-100 pixels'
+format:
+- N/A
+reference: '8978032'
+description: sssec:obc306
+...

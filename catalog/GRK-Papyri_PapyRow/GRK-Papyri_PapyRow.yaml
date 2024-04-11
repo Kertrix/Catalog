@@ -1,0 +1,18 @@
+---
+name: GRK-Papyri PapyRow
+statistics: 'GRK-Papyri: 50 images PapyRow: 6, 498 samples'
+class: 10 writers
+task: Writer identification Image enhancement Binarization Line/word segmentation
+language:
+- Greek
+document_type: Handwritten Greek papyri from the 6nth century A.D.
+mode:
+- Color
+- Grayscale
+resolution: 'GRK-Papyri: 96-2000 dpi Height: 796-6818 Width: 177-2000 PapyRow: 1200
+  pixels width 500 pixels width'
+format:
+- JPEG
+reference: '8978142'
+description: sssec:grk-papyri
+...

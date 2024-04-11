@@ -1,0 +1,18 @@
+---
+name: ICDAR19 cTDaR19
+statistics: 'Track A: 600 train, 199 test archival images Track B: 600 train, 150
+  test archival images'
+class: Archival Modern
+task: Table detection Table recognition
+language:
+- N/A
+document_type: Images with tables from archival accounting books record books timetables
+  etc.
+mode:
+- Color
+resolution: N/A
+format:
+- JPEG
+reference: '8978120'
+description: sssec:ctdar
+...

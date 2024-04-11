@@ -1,0 +1,16 @@
+---
+name: HisClima
+statistics: 208 pages, 33, 739 lines 66, 814 running words 15, 471 relevant information
+class: 1, 483 lexicon, 76 characters
+task: Text recognition Layout analysis Information extraction
+language:
+- N/A
+document_type: Pages from a ship weather log book that sailed from 1880-1881
+mode:
+- Color
+resolution: N/A
+format:
+- N/A
+reference: '9412210'
+description: sssec:hisclima
+...

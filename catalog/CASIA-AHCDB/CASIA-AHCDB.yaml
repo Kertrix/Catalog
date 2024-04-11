@@ -1,0 +1,17 @@
+---
+name: CASIA-AHCDB
+statistics: 11, 937 images 2.2M characters
+class: 10, 350 character categories
+task: Character recognition
+language:
+- Chinese
+document_type: Chinese ancient handwritten document pages from the Complete Library
+  in Four Sections (style-1) and the Ancient Buddhist Scriptures (style-2)
+mode:
+- Grayscale
+resolution: N/A
+format:
+- GNTX
+reference: '8978010'
+description: sssec:casia-ahcdb
+...

@@ -1,0 +1,17 @@
+---
+name: ICDAR 2019 HDRC-IR
+statistics: Train and validation from \ref{sssec:Historical-WI} 20K test images
+class: 10K writers Writers from manuscript books letter or charters
+task: Image retrieval based on writer identification
+language:
+- N/A
+document_type: Handwritten document pages of manuscript books letters charters and
+  legal docs from various institutions
+mode:
+- Color
+resolution: High and low quality factor resolution 2K pixel larger dimension
+format:
+- JPEG
+reference: Christlein2019ICDAR2C
+description: sssec:ICDAR2019-HDRC-IR
+...

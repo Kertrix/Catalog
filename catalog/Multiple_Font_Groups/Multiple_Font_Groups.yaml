@@ -1,0 +1,22 @@
+---
+name: Multiple Font Groups
+statistics: 35, 623 images
+class: Textura, Rotunda Gotico-antiqua, Hebrew Bastarda, Schwabacher Fraktur, Antiqua
+  Italic, Greek Other Font, Not a Font
+task: Font recognition
+language:
+- Latin
+- Greek
+- Hebrew
+- Other
+document_type: Pages from early printed books from 15nth-18nth centuries
+mode:
+- Color
+- Grayscale
+resolution: 'side length: 79-14K pixels median surface: 5.3×10^6 pixels'
+format:
+- JPEG
+- TIFF
+reference: 10.1145/3352631.3352640
+description: sssec:fonts
+...

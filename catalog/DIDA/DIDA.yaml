@@ -1,0 +1,17 @@
+---
+name: DIDA
+statistics: 'Dataset I: 250K single digits Dataset II: 200K multi-digits Dataset III:
+  25K bounding boxes'
+class: 'Dataset I: 0 - 9'
+task: Handwritten digit recognition and detection
+language:
+- Swedish
+document_type: Swedish handwritten document crops from 1800 - 1940
+mode:
+- Color
+resolution: 240× 210 Pixels
+format:
+- JPEG
+reference: KUSETOGULLARI2021100182
+description: sssec:dida
+...

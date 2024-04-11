@@ -1,0 +1,19 @@
+---
+name: ARDIS
+statistics: '\textit{Dataset I}: 10K 4-digit images \textit{Dataset II - IV}: 7.6K
+  digit images (6.6K train/1K test)'
+class: '\textit{Dataset I}: 75 year classes \textit{Dataset II - IV}: 10 classes (0-9)'
+task: Handwritten digit recognition
+language:
+- Swedish
+- Latin
+document_type: Swedish handwritten document crops of digits from 1800 - 1940
+mode:
+- Color
+- Grayscale
+resolution: '\textit{Dataset I}: 175×95 pixels \textit{Dataset IV}: 28×28 pixels'
+format:
+- JPEG
+reference: kusetogullari2020ardis
+description: sssec:ardis
+...

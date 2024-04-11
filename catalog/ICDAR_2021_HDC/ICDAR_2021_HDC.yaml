@@ -1,0 +1,23 @@
+---
+name: ICDAR 2021 HDC
+statistics: 'Font: 35k train, 5, 506 test images Script: CLaMM 2017 train, 1, 256
+  test images Date: 11, 294 train, 2, 516 test images Location: 5, 517 train, 60 val,
+  300 test images'
+class: 'Font: same as Section \ref{sssec:fonts} without "other font" and "not a font"
+  classes (10 classes) Script: same as Section \ref{sssec:ICFHR16CLAMM} Date: date
+  ranges Location: Cluny, Corbie, Citeaux, Florence Fonteney, Himanis, Milan, Paris,
+  Signy MontSaintMichel, SaintBertin SaintGermainDesPres, SainMatrialDeLinoges'
+task: Font/script date and location classification
+language:
+- Latin
+document_type: Handwritten and printed page images in Latin
+mode:
+- Color
+- Grayscale
+resolution: Various
+format:
+- TIFF
+- JPEG
+reference: 10.1145/3476887.3476913
+description: sssec:his_doc_classification_icdar_2021
+...

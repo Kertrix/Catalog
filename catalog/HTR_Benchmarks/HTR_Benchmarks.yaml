@@ -1,0 +1,23 @@
+---
+name: HTR Benchmarks
+statistics: 'ICFHR-2014: 433 pages, 11, 473 lines 106K running words, 550K characters
+  ICDAR-2015: 796 pages, 21, 752 lines 186K running words, 955K characters ICFHR-2016:
+  450 pages, 10K lines 43K running words, 260K characters ICDAR-2017: 10K pages, 206K
+  lines 1.7M running words, 8M characters'
+class: 'ICFHR-2014: 9K lexicon, 86 character set ICDAR-2015: 17K lexicon, 87 character
+  set ICFHR-2016: 8K lexicon, 92 character set ICDAR-2017: 4K lexicon, 104 character
+  set'
+task: Handwritten text recognition
+language:
+- English
+- Early modern German
+document_type: Handwritten document pages from the Bentham and the Ratsprotokolle
+  (1470-1805) collections
+mode:
+- Color
+resolution: 300 dpi or 75-300 dpi
+format:
+- JPEG
+reference: SANCHEZ2019122
+description: sssec:htr_benchmarks
+...

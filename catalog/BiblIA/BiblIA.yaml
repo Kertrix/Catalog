@@ -1,0 +1,18 @@
+---
+name: BiblIA
+statistics: 202 images 11, 285 lines 74, 675 words
+class: 'Script classes: Ashkenazi Italian, Sephardi'
+task: Line segmentation Text transcription
+language:
+- Hebrew
+- Aramaic
+document_type: Hebrew Manuscripts written from 11nth-15nth
+mode:
+- Color
+- Grayscale
+resolution: N/A
+format:
+- JPEG
+reference: 10.1145/3476887.3476892
+description: sssec:BiblIA
+...

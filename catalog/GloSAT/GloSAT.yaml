@@ -1,0 +1,17 @@
+---
+name: GloSAT
+statistics: 500 images
+class: Heading Header Table body
+task: Table structure recognition
+language:
+- N/A
+document_type: Scanned printed and mixed pages from measurement logbooks from 1700
+  - modern days
+mode:
+- Color
+resolution: N/A
+format:
+- JPEG
+reference: 10.1145/3476887.3476890
+description: sssec:GloSAT
+...

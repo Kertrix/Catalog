@@ -1,0 +1,17 @@
+---
+name: Digital Peter
+statistics: 9, 694 text-line images (6, 237 train, 1, 930 validation, 1, 527 test)
+  265, 788 characters 50, 998 words
+class: N/A
+task: Line segmentation Line recognition
+language:
+- Russian
+document_type: Manuscripts from Peter the Great written from 1709-1713
+mode:
+- Color
+resolution: N/A
+format:
+- JPEG
+reference: 10.1145/3476887.3476892
+description: sssec:digital_peter
+...

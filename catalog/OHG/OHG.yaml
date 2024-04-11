@@ -11,6 +11,6 @@ mode:
 resolution: 300 dpi
 format:
 - TIFF
-reference: .nan
+reference: Quiros2018
 description: sssec:OHG
 ...
