@@ -1,45 +1,224 @@
 [
   {
-    "id": "986fd9c7",
-    "name": "DocExplore",
-    "statistics": "1, 500 images 1, 464 queries",
-    "class": "35 object categories (human faces decoration objects ornate initial letters etc.)",
-    "task": "Image retrieval Pattern localization",
+    "id": "5de344a6",
+    "name": "RODRIGO",
+    "statistics": "853 pages 20, 357 lines 232K words",
+    "class": "17K word lexicon 115 character set",
+    "task": "Handwriting recognition Text block detection Baseline detection",
     "language": [
+      "Old Castilian"
+    ],
+    "document_type": "Page images of a manuscript from 1545 written in old Castilian by one writer",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "300 dpi",
+    "format": [
       "N/A"
     ],
-    "document_type": "Page images of manuscripts from the 10nth and 16nth from the Municipal Library of Rouen with graphics",
+    "reference": "serrano-etal-2010-rodrigo",
+    "description": "sssec:rodrigo"
+  },
+  {
+    "id": "82faadfa",
+    "name": "VML-HD",
+    "statistics": "680 pages 121, 636 sub-words 244, 553 characters",
+    "class": "Book, Page number Sub-word id Location coordinates Arabic, Latin annotation Sub-word length",
+    "task": "Word-spotting Handwritten sub-word recognition",
+    "language": [
+      "Arabic"
+    ],
+    "document_type": "Handwritten scripts from 5 books by different writers from 1088-1451",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "6000\u00d7 4000 pixels",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "8067751",
+    "description": "sssec:vml-hd"
+  },
+  {
+    "id": "e1057f9b",
+    "name": "Tripitaka Koreana in Han (TKH)",
+    "statistics": "1K images 23, 471 lines 323, 491 characters",
+    "class": "1, 471 character classes",
+    "task": "Character detection Character recognition",
+    "language": [
+      "Chinese"
+    ],
+    "document_type": "Chinese historical documents",
+    "mode": [
+      "N/A"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "N/A"
+    ],
+    "reference": "Yang2018DenseAT",
+    "description": "sssec:tripitaka"
+  },
+  {
+    "id": "3e2d643a",
+    "name": "CFRAMUZ",
+    "statistics": "7 novels 64 pages 18, 027 words",
+    "class": "2, 998 unique words",
+    "task": "Word spotting (segmentation-free)",
+    "language": [
+      "French"
+    ],
+    "document_type": "Charles Ferdinand Ramuz's novels written from 1910 - 1946",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "Arvanitopoulos2017AHF",
+    "description": "sssec:cframuz"
+  },
+  {
+    "id": "d4eedb9d",
+    "name": "HBA",
+    "statistics": "4K images 7.58B pixels",
+    "class": "Graphics Normal text Capitalized text Handwritten text Italic text Footnote text",
+    "task": "Layout analysis Pixel-level annotation",
+    "language": [
+      "Latin          Italian"
+    ],
+    "document_type": "Manuscripts Printed pages",
     "mode": [
       "Color",
       "Grayscale"
     ],
-    "resolution": "72 dpi",
+    "resolution": "300 dpi 400 dpi",
     "format": [
-      "JPEG"
+      "TIFF"
     ],
-    "reference": "10.1117/1.JEI.26.1.011010",
-    "description": "sssec:docexplore"
+    "reference": "mehri:hal-01637826",
+    "description": "sssec:hba"
   },
   {
-    "id": "8cdb2ee1",
-    "name": "DIVA-HisDB",
-    "statistics": "150 images: 20 train 10 validation, 10 test 10 left out images for every manuscript 493M pixels",
-    "class": "Background Main text Decorations Comments",
-    "task": "Layout analysis Element extraction",
+    "id": "da530f10",
+    "name": "ICDAR 2017 Historical-WI",
+    "statistics": "1, 182 train images 3, 600 test images",
+    "class": "394 train writers 720 test writers",
+    "task": "Image retrieval based on writer identification",
     "language": [
-      "Latin",
-      "Italian"
+      "German",
+      "French",
+      "Arabic"
     ],
-    "document_type": "Pages from 3 medieval manuscripts from 11nth and 14nth century",
+    "document_type": "Handwritten document pages from 13nth to 20nth century originating from Universit\u00e4tsbibliothek Basel",
+    "mode": [
+      "Color",
+      "Binary"
+    ],
+    "resolution": "300 dpi",
+    "format": [
+      "JPEG",
+      "PNG"
+    ],
+    "reference": "8270156",
+    "description": "sssec:Historical-WI"
+  },
+  {
+    "id": "d4ed8582",
+    "name": "ENP",
+    "statistics": "528 pages, 61K regions 208 tables, 1K graphics 47K text regions 202K text-lines",
+    "class": "Regions, Tables Images/Graphics Text regions, Text lines",
+    "task": "\\ac{OCR} Text recognition Layout analysis",
+    "language": [
+      "Dutch",
+      "English",
+      "Estonian",
+      "Finnish",
+      "French",
+      "German",
+      "Latvian",
+      "Polish",
+      "Russian",
+      "Serbian",
+      "Swedish",
+      "Ukrainian",
+      "Yidish"
+    ],
+    "document_type": "European Cultural Heritage",
+    "mode": [
+      "Color",
+      "Grayscale",
+      "Binary"
+    ],
+    "resolution": "300 dpi 400 dpi",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "7333898",
+    "description": "sssec:enp"
+  },
+  {
+    "id": "baf195d7",
+    "name": "IAM-HistDB Saint Gall",
+    "statistics": "60 pages 1, 410 text-lines 11, 597 words 5, 436 word spellings",
+    "class": "4, 890 word labels 49 letters",
+    "task": "Handwriting recognition Layout analysis",
+    "language": [
+      "Latin"
+    ],
+    "document_type": "Page images of a 9nth century manuscript written in Carolingian script by a single writer",
     "mode": [
       "Color"
     ],
-    "resolution": "600 dpi",
+    "resolution": "300 dpi",
     "format": [
-      "JPEG"
+      "JPEG",
+      "PNG"
     ],
-    "reference": "7814109",
-    "description": "sssec:diva-hisdb"
+    "reference": "10.1145/2037342.2037348",
+    "description": "sssec:iam-histdb"
+  },
+  {
+    "id": "28ad733c",
+    "name": "GRPOLY-DB",
+    "statistics": "399 pages, 15, 084 text lines, 102, 596 words 171, 511 characters",
+    "class": "More than 270 character classes",
+    "task": "Word and text line segmentation Text and isolated character recognition Word spotting",
+    "language": [
+      "Greek"
+    ],
+    "document_type": "Handwritten and printed document pages from 1838-1977 that contain greek polytonic characters",
+    "mode": [
+      "Color",
+      "Grayscale"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "N/A"
+    ],
+    "reference": "7333841",
+    "description": "sssec:GRPOLY-DB"
+  },
+  {
+    "id": "31673181",
+    "name": "PHTD",
+    "statistics": "140 handwritten documents 1, 787 handwritten text-lines 27, 073 words",
+    "class": "3 Types of text",
+    "task": "Text-line segmentation Sentence recognition/understanding Word segmentation/recognition Characters segmentation Word spotting Text-line extraction Writer identification",
+    "language": [
+      "Persian"
+    ],
+    "document_type": "Persian handwritten text documents",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "300 dpi",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "6121553",
+    "description": "sssec:phtd"
   },
   {
     "id": "a9c97d4b",
@@ -61,6 +240,319 @@
     ],
     "reference": "8270161",
     "description": "sssec:reid2017"
+  },
+  {
+    "id": "dac94fb4",
+    "name": "ESPOSALLES LICENCES",
+    "statistics": "173 pages 1, 747 licences 5, 447 lines 60, 777 words 328, 229 characters",
+    "class": "3, 465 lexicon size 85 character classes",
+    "task": "Off-line handwriting recognition",
+    "language": [
+      "Spanish"
+    ],
+    "document_type": "Handwritten documents from marriage license books",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "300 dpi",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "ROMERO20131658",
+    "description": "sssec:esposalles"
+  },
+  {
+    "id": "c45e0a4b",
+    "name": "ICDAR 2017 CLAMM",
+    "statistics": "ICFHR16 CLaMM train images Task 1, 3: 2K test images Task 2, 4: 1K test images",
+    "class": "Same script classes as ICFHR16 CLaMM, 15 date classes starting from before 1000 C.E. to 1600 C.E.",
+    "task": "Script type and date classification",
+    "language": [
+      "Latin"
+    ],
+    "document_type": "Manuscripts from the French catalogues the BVMM and Gallica",
+    "mode": [
+      "Grayscale",
+      "Color"
+    ],
+    "resolution": "Task 1, 3: 300 dpi Task 2, 4: 300 and 400 dpi",
+    "format": [
+      "TIFF",
+      "JPEG"
+    ],
+    "reference": "8270155",
+    "description": "sssec:ICFHR16CLAMM"
+  },
+  {
+    "id": "75138526",
+    "name": "IAM-HistDB Parzival",
+    "statistics": "47 pages 4, 477 text lines 23, 478 words",
+    "class": "4, 934 word labels 93 letters",
+    "task": "Handwriting recognition Word spotting Layout analysis",
+    "language": [
+      "Medieval German"
+    ],
+    "document_type": "Page images of a 13nth century manuscript written in Gothic script by 3 writers",
+    "mode": [
+      "Color",
+      "Binary"
+    ],
+    "resolution": "300 dpi",
+    "format": [
+      "JPEG",
+      "PNG"
+    ],
+    "reference": "5306020",
+    "description": "sssec:iam-histdb"
+  },
+  {
+    "id": "a0b6c29f",
+    "name": "READ-BAD",
+    "statistics": "2, 036 pages 132, 124 baselines",
+    "class": "Layout classes for text regions e.g. paragraphs",
+    "task": "Baseline detection",
+    "language": [
+      "Latin"
+    ],
+    "document_type": "European archival documents from 1470-1930",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "8395221",
+    "description": "sssec:read-bad"
+  },
+  {
+    "id": "050cd95e",
+    "name": "HADARA80P",
+    "statistics": "80 pages 16, 720 words",
+    "class": "Word segment classes",
+    "task": "Word-spotting",
+    "language": [
+      "Arabic"
+    ],
+    "document_type": "Handwritten Arabic documents of one writer about the taaum disease",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "2882\u00d73650 pixels",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "6980990",
+    "description": "sssec:hadara80p"
+  },
+  {
+    "id": "0d718783",
+    "name": "ICFHR18 RASM2018",
+    "statistics": "10-15 train images 50-80 test images",
+    "class": "Text Graphic Text line",
+    "task": "Page segmentation Text line detection \\ac{OCR}",
+    "language": [
+      "Arabic"
+    ],
+    "document_type": "Arabic scientific manuscripts from 8nth-9nth centuries CE",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "8583806",
+    "description": "sssec:rasm2018"
+  },
+  {
+    "id": "e9f46e58",
+    "name": "ICFHR18 Asian Palm Leaf",
+    "statistics": "Bin/tion: 50 train-50 test Balinese, 23 train-23 test Khmer, 31 train-30 test Sundanese images Text line: 47 train-49 test Balinese, 50 train-200 test Khmer, 31 train-30 test Sundanese images OCR: 11K train-7K test Balinese, 113K train-90K test Khmer, 4.5K train-2.8K test Sundanese images Translit.: 15K train-10K test Balinese, 16K-7.7K test Khmer, 1.4K train-318 test Sundanese images",
+    "class": "133 Balinese, 111 Khmer and 60 Sundanese character classes",
+    "task": "Binarization Text line segmentation Character recognition Transliteration",
+    "language": [
+      "Balinese",
+      "Khmer",
+      "Sundanese",
+      "Latin"
+    ],
+    "document_type": "Manuscripts",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "PNG",
+      "TIFF"
+    ],
+    "reference": "8583808",
+    "description": "sssec:ICFHR18_ASIAN_PALM_LEAF"
+  },
+  {
+    "id": "c58e5d8d",
+    "name": "Kuzushiji",
+    "statistics": "K-MNIST: 60K train - 10K test images K-49: 232, 365 train - 38, 547 test images K-Kanji: 140, 426 images",
+    "class": "K-MNIST: 10 character classes K-49: 49 character classes K-Kanji: 3, 832 character classes",
+    "task": "Kuzushiji isolated character recognition",
+    "language": [
+      "Kuzushiji  (cursive Japanese)"
+    ],
+    "document_type": "Character images from scanned documents",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "28\u00d728 64\u00d764 pixel resolution",
+    "format": [
+      "PNG"
+    ],
+    "reference": "Clanuwat2018DeepLF",
+    "description": "sssec:K-MNIST"
+  },
+  {
+    "id": "85493345",
+    "name": "Warped Arabic",
+    "statistics": "200 pages",
+    "class": "4 centuries 4 document types: book page newspaper legal document journal other document unclassified",
+    "task": "Text line segmentation",
+    "language": [
+      "Arabic"
+    ],
+    "document_type": "Arabic historical documents from the 16nth-19nth century with curls and warping from 4 document types",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "350 dpi",
+    "format": [
+      "TIFF",
+      "JPEG"
+    ],
+    "reference": "iet:/content/conferences/10.1049/cp.2018.1286",
+    "description": "sssec:warped_arabic"
+  },
+  {
+    "id": "c63cd32a",
+    "name": "PBOK",
+    "statistics": "707 pages 12565 text-lines 104541 words 553536 characters 436 writers",
+    "class": "4 languages 436 writers",
+    "task": "Text-line segmentation Word segmentation Word recognition",
+    "language": [
+      "Persian",
+      "Bangla",
+      "Oriya",
+      "Kannada"
+    ],
+    "document_type": "Handwritten documents",
+    "mode": [
+      "Grayscale"
+    ],
+    "resolution": "300 dpi",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "Alaei2012DatasetAG",
+    "description": "sssec:pbok"
+  },
+  {
+    "id": "ba2b7993",
+    "name": "BH2M",
+    "statistics": "174 pages 1, 740 licenses 5, 498 lines 56, 645 words",
+    "class": "3, 360 word classes",
+    "task": "Layout analysis recognition understanding",
+    "language": [
+      "Old Catalan"
+    ],
+    "document_type": "Handwritten marriage record archives of Barcelona Cathedral",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "300 dpi",
+    "format": [
+      "N/A"
+    ],
+    "reference": "6976764",
+    "description": "sssec:bh2m"
+  },
+  {
+    "id": "90133f35",
+    "name": "OHG",
+    "statistics": "596 pages, 23, 700 text-lines, 2, 400 words",
+    "class": "6 layout regions",
+    "task": "Layout analysis Handwritten text recognition",
+    "language": [
+      "Spanish"
+    ],
+    "document_type": "Spanish notarial deeds of the 19nth century",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "300 dpi",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "",
+    "description": "sssec:OHG"
+  },
+  {
+    "id": "67e9c0c7",
+    "name": "ESPOSALLES INDEX",
+    "statistics": "29 pages 1, 563 lines 6, 534 words 30, 809 characters",
+    "class": "1, 725 lexicon size 68 character classes",
+    "task": "Off-line handwriting recognition",
+    "language": [
+      "Spanish"
+    ],
+    "document_type": "Handwritten documents from marriage license books",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "300 dpi",
+    "format": [
+      "TIFF"
+    ],
+    "reference": "ROMERO20131658",
+    "description": "sssec:esposalles"
+  },
+  {
+    "id": "6347b08b",
+    "name": "KERTAS",
+    "statistics": "2, 502 images 135 books",
+    "class": "14 islamic centuries",
+    "task": "Age detection Writer identification",
+    "language": [
+      "Arabic"
+    ],
+    "document_type": "Arabic manuscripts spanning 14 islamic centuries",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "High-resolution",
+    "format": [
+      "N/A"
+    ],
+    "reference": "adam2018kertas",
+    "description": "sssec:kertas"
+  },
+  {
+    "id": "8cdb2ee1",
+    "name": "DIVA-HisDB",
+    "statistics": "150 images: 20 train 10 validation, 10 test 10 left out images for every manuscript 493M pixels",
+    "class": "Background Main text Decorations Comments",
+    "task": "Layout analysis Element extraction",
+    "language": [
+      "Latin",
+      "Italian"
+    ],
+    "document_type": "Pages from 3 medieval manuscripts from 11nth and 14nth century",
+    "mode": [
+      "Color"
+    ],
+    "resolution": "600 dpi",
+    "format": [
+      "JPEG"
+    ],
+    "reference": "7814109",
+    "description": "sssec:diva-hisdb"
   },
   {
     "id": "a0a4d3e2",
@@ -104,105 +596,44 @@
     "description": "sssec:amadi_lontarset"
   },
   {
-    "id": "85493345",
-    "name": "Warped Arabic",
-    "statistics": "200 pages",
-    "class": "4 centuries 4 document types: book page newspaper legal document journal other document unclassified",
-    "task": "Text line segmentation",
+    "id": "40c05165",
+    "name": "MHDID",
+    "statistics": "335 images",
+    "class": "Paper translucency Stain Reader's annotations Worn holes",
+    "task": "Distortion classification Visual quality evaluation",
     "language": [
       "Arabic"
     ],
-    "document_type": "Arabic historical documents from the 16nth-19nth century with curls and warping from 4 document types",
+    "document_type": "Book pages edited from 1nth - 14nth Islamic Centuries",
     "mode": [
       "Color"
     ],
-    "resolution": "350 dpi",
+    "resolution": "1024\u00d7 1280",
     "format": [
-      "TIFF",
       "JPEG"
     ],
-    "reference": "iet:/content/conferences/10.1049/cp.2018.1286",
-    "description": "sssec:warped_arabic"
+    "reference": "8480372",
+    "description": "sssec:mhdid"
   },
   {
-    "id": "90133f35",
-    "name": "OHG",
-    "statistics": "596 pages, 23, 700 text-lines, 2, 400 words",
-    "class": "6 layout regions",
-    "task": "Layout analysis Handwritten text recognition",
+    "id": "50840302",
+    "name": "ICFHR 2016 CLAMM",
+    "statistics": "2K training images Task 1: 1K test images Task 2: 2K test images",
+    "class": "Uncial, Half-uncial, Caroline, Humanistic Humanistic Cursive, Praegothica, Southern Textualis, Semitextualis, Textualis, Hybrida Semihybrida, Cursiva (12 classes)",
+    "task": "Script type classification",
     "language": [
-      "Spanish"
+      "Latin"
     ],
-    "document_type": "Spanish notarial deeds of the 19nth century",
+    "document_type": "Manuscripts from the French catalogues the BVMM and Gallica",
     "mode": [
-      "Color"
+      "Grayscale"
     ],
     "resolution": "300 dpi",
     "format": [
       "TIFF"
     ],
-    "reference": "",
-    "description": "sssec:OHG"
-  },
-  {
-    "id": "0d718783",
-    "name": "ICFHR18 RASM2018",
-    "statistics": "10-15 train images 50-80 test images",
-    "class": "Text Graphic Text line",
-    "task": "Page segmentation Text line detection \\ac{OCR}",
-    "language": [
-      "Arabic"
-    ],
-    "document_type": "Arabic scientific manuscripts from 8nth-9nth centuries CE",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "N/A",
-    "format": [
-      "TIFF"
-    ],
-    "reference": "8583806",
-    "description": "sssec:rasm2018"
-  },
-  {
-    "id": "82faadfa",
-    "name": "VML-HD",
-    "statistics": "680 pages 121, 636 sub-words 244, 553 characters",
-    "class": "Book, Page number Sub-word id Location coordinates Arabic, Latin annotation Sub-word length",
-    "task": "Word-spotting Handwritten sub-word recognition",
-    "language": [
-      "Arabic"
-    ],
-    "document_type": "Handwritten scripts from 5 books by different writers from 1088-1451",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "6000\u00d7 4000 pixels",
-    "format": [
-      "TIFF"
-    ],
-    "reference": "8067751",
-    "description": "sssec:vml-hd"
-  },
-  {
-    "id": "c58e5d8d",
-    "name": "Kuzushiji",
-    "statistics": "K-MNIST: 60K train - 10K test images K-49: 232, 365 train - 38, 547 test images K-Kanji: 140, 426 images",
-    "class": "K-MNIST: 10 character classes K-49: 49 character classes K-Kanji: 3, 832 character classes",
-    "task": "Kuzushiji isolated character recognition",
-    "language": [
-      "Kuzushiji  (cursive Japanese)"
-    ],
-    "document_type": "Character images from scanned documents",
-    "mode": [
-      "Grayscale"
-    ],
-    "resolution": "28\u00d728 64\u00d764 pixel resolution",
-    "format": [
-      "PNG"
-    ],
-    "reference": "Clanuwat2018DeepLF",
-    "description": "sssec:K-MNIST"
+    "reference": "7814129",
+    "description": "sssec:ICFHR16CLAMM"
   },
   {
     "id": "75f857a1",
@@ -230,207 +661,25 @@
     "description": "sssec:germana"
   },
   {
-    "id": "50840302",
-    "name": "ICFHR 2016 CLAMM",
-    "statistics": "2K training images Task 1: 1K test images Task 2: 2K test images",
-    "class": "Uncial, Half-uncial, Caroline, Humanistic Humanistic Cursive, Praegothica, Southern Textualis, Semitextualis, Textualis, Hybrida Semihybrida, Cursiva (12 classes)",
-    "task": "Script type classification",
+    "id": "986fd9c7",
+    "name": "DocExplore",
+    "statistics": "1, 500 images 1, 464 queries",
+    "class": "35 object categories (human faces decoration objects ornate initial letters etc.)",
+    "task": "Image retrieval Pattern localization",
     "language": [
-      "Latin"
-    ],
-    "document_type": "Manuscripts from the French catalogues the BVMM and Gallica",
-    "mode": [
-      "Grayscale"
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      "TIFF"
-    ],
-    "reference": "7814129",
-    "description": "sssec:ICFHR16CLAMM"
-  },
-  {
-    "id": "59d470f7",
-    "name": "Multiple Tripitaka in Han (MTH)",
-    "statistics": "MTH 500 images 17178 lines 197886 characters",
-    "class": "3664 Character classes",
-    "task": "Character detection Character recognition",
-    "language": [
-      "Chinese"
-    ],
-    "document_type": "Chinese historical documents",
-    "mode": [
       "N/A"
     ],
-    "resolution": "N/A",
-    "format": [
-      "N/A"
-    ],
-    "reference": "Yang2018DenseAT",
-    "description": "sssec:tripitaka"
-  },
-  {
-    "id": "ba2b7993",
-    "name": "BH2M",
-    "statistics": "174 pages 1, 740 licenses 5, 498 lines 56, 645 words",
-    "class": "3, 360 word classes",
-    "task": "Layout analysis recognition understanding",
-    "language": [
-      "Old Catalan"
-    ],
-    "document_type": "Handwritten marriage record archives of Barcelona Cathedral",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      "N/A"
-    ],
-    "reference": "6976764",
-    "description": "sssec:bh2m"
-  },
-  {
-    "id": "e9f46e58",
-    "name": "ICFHR18 Asian Palm Leaf",
-    "statistics": "Bin/tion: 50 train-50 test Balinese, 23 train-23 test Khmer, 31 train-30 test Sundanese images Text line: 47 train-49 test Balinese, 50 train-200 test Khmer, 31 train-30 test Sundanese images OCR: 11K train-7K test Balinese, 113K train-90K test Khmer, 4.5K train-2.8K test Sundanese images Translit.: 15K train-10K test Balinese, 16K-7.7K test Khmer, 1.4K train-318 test Sundanese images",
-    "class": "133 Balinese, 111 Khmer and 60 Sundanese character classes",
-    "task": "Binarization Text line segmentation Character recognition Transliteration",
-    "language": [
-      "Balinese",
-      "Khmer",
-      "Sundanese",
-      "Latin"
-    ],
-    "document_type": "Manuscripts",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "N/A",
-    "format": [
-      "PNG",
-      "TIFF"
-    ],
-    "reference": "8583808",
-    "description": "sssec:ICFHR18_ASIAN_PALM_LEAF"
-  },
-  {
-    "id": "d4ed8582",
-    "name": "ENP",
-    "statistics": "528 pages, 61K regions 208 tables, 1K graphics 47K text regions 202K text-lines",
-    "class": "Regions, Tables Images/Graphics Text regions, Text lines",
-    "task": "\\ac{OCR} Text recognition Layout analysis",
-    "language": [
-      "Dutch",
-      "English",
-      "Estonian",
-      "Finnish",
-      "French",
-      "German",
-      "Latvian",
-      "Polish",
-      "Russian",
-      "Serbian",
-      "Swedish",
-      "Ukrainian",
-      "Yidish"
-    ],
-    "document_type": "European Cultural Heritage",
-    "mode": [
-      "Color",
-      "Grayscale",
-      "Binary"
-    ],
-    "resolution": "300 dpi 400 dpi",
-    "format": [
-      "TIFF"
-    ],
-    "reference": "7333898",
-    "description": "sssec:enp"
-  },
-  {
-    "id": "c63cd32a",
-    "name": "PBOK",
-    "statistics": "707 pages 12565 text-lines 104541 words 553536 characters 436 writers",
-    "class": "4 languages 436 writers",
-    "task": "Text-line segmentation Word segmentation Word recognition",
-    "language": [
-      "Persian",
-      "Bangla",
-      "Oriya",
-      "Kannada"
-    ],
-    "document_type": "Handwritten documents",
-    "mode": [
-      "Grayscale"
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      "TIFF"
-    ],
-    "reference": "Alaei2012DatasetAG",
-    "description": "sssec:pbok"
-  },
-  {
-    "id": "d9e121e0",
-    "name": "DIGIDOC-Texture",
-    "statistics": "%",
-    "class": "",
-    "task": "",
-    "language": [
-      "%"
-    ],
-    "document_type": "",
-    "mode": [
-      ""
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      ""
-    ],
-    "reference": "Mehri2016TextureFB",
-    "description": "sssec:digidoc-texture"
-  },
-  {
-    "id": "d4eedb9d",
-    "name": "HBA",
-    "statistics": "4K images 7.58B pixels",
-    "class": "Graphics Normal text Capitalized text Handwritten text Italic text Footnote text",
-    "task": "Layout analysis Pixel-level annotation",
-    "language": [
-      "Latin          Italian"
-    ],
-    "document_type": "Manuscripts Printed pages",
+    "document_type": "Page images of manuscripts from the 10nth and 16nth from the Municipal Library of Rouen with graphics",
     "mode": [
       "Color",
       "Grayscale"
     ],
-    "resolution": "300 dpi 400 dpi",
+    "resolution": "72 dpi",
     "format": [
-      "TIFF"
+      "JPEG"
     ],
-    "reference": "mehri:hal-01637826",
-    "description": "sssec:hba"
-  },
-  {
-    "id": "28ad733c",
-    "name": "GRPOLY-DB",
-    "statistics": "399 pages, 15, 084 text lines, 102, 596 words 171, 511 characters",
-    "class": "More than 270 character classes",
-    "task": "Word and text line segmentation Text and isolated character recognition Word spotting",
-    "language": [
-      "Greek"
-    ],
-    "document_type": "Handwritten and printed document pages from 1838-1977 that contain greek polytonic characters",
-    "mode": [
-      "Color",
-      "Grayscale"
-    ],
-    "resolution": "N/A",
-    "format": [
-      "N/A"
-    ],
-    "reference": "7333841",
-    "description": "sssec:GRPOLY-DB"
+    "reference": "10.1117/1.JEI.26.1.011010",
+    "description": "sssec:docexplore"
   },
   {
     "id": "f09ab558",
@@ -455,48 +704,6 @@
     "description": "sssec:impact"
   },
   {
-    "id": "050cd95e",
-    "name": "HADARA80P",
-    "statistics": "80 pages 16, 720 words",
-    "class": "Word segment classes",
-    "task": "Word-spotting",
-    "language": [
-      "Arabic"
-    ],
-    "document_type": "Handwritten Arabic documents of one writer about the taaum disease",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "2882\u00d73650 pixels",
-    "format": [
-      "TIFF"
-    ],
-    "reference": "6980990",
-    "description": "sssec:hadara80p"
-  },
-  {
-    "id": "c45e0a4b",
-    "name": "ICDAR 2017 CLAMM",
-    "statistics": "ICFHR16 CLaMM train images Task 1, 3: 2K test images Task 2, 4: 1K test images",
-    "class": "Same script classes as ICFHR16 CLaMM, 15 date classes starting from before 1000 C.E. to 1600 C.E.",
-    "task": "Script type and date classification",
-    "language": [
-      "Latin"
-    ],
-    "document_type": "Manuscripts from the French catalogues the BVMM and Gallica",
-    "mode": [
-      "Grayscale",
-      "Color"
-    ],
-    "resolution": "Task 1, 3: 300 dpi Task 2, 4: 300 and 400 dpi",
-    "format": [
-      "TIFF",
-      "JPEG"
-    ],
-    "reference": "8270155",
-    "description": "sssec:ICFHR16CLAMM"
-  },
-  {
     "id": "33ea38fb",
     "name": "SleukRith",
     "statistics": "301, 626 characters 73, 359 words 3, 245 text lines",
@@ -517,44 +724,44 @@
     "description": "sssec:sleukrith"
   },
   {
-    "id": "3e2d643a",
-    "name": "CFRAMUZ",
-    "statistics": "7 novels 64 pages 18, 027 words",
-    "class": "2, 998 unique words",
-    "task": "Word spotting (segmentation-free)",
+    "id": "d9e121e0",
+    "name": "DIGIDOC-Texture",
+    "statistics": "%",
+    "class": "",
+    "task": "",
     "language": [
-      "French"
+      "%"
     ],
-    "document_type": "Charles Ferdinand Ramuz's novels written from 1910 - 1946",
+    "document_type": "",
     "mode": [
-      "Grayscale"
-    ],
-    "resolution": "N/A",
-    "format": [
-      "TIFF"
-    ],
-    "reference": "Arvanitopoulos2017AHF",
-    "description": "sssec:cframuz"
-  },
-  {
-    "id": "dac94fb4",
-    "name": "ESPOSALLES LICENCES",
-    "statistics": "173 pages 1, 747 licences 5, 447 lines 60, 777 words 328, 229 characters",
-    "class": "3, 465 lexicon size 85 character classes",
-    "task": "Off-line handwriting recognition",
-    "language": [
-      "Spanish"
-    ],
-    "document_type": "Handwritten documents from marriage license books",
-    "mode": [
-      "Color"
+      ""
     ],
     "resolution": "300 dpi",
     "format": [
-      "TIFF"
+      ""
     ],
-    "reference": "ROMERO20131658",
-    "description": "sssec:esposalles"
+    "reference": "Mehri2016TextureFB",
+    "description": "sssec:digidoc-texture"
+  },
+  {
+    "id": "59d470f7",
+    "name": "Multiple Tripitaka in Han (MTH)",
+    "statistics": "MTH 500 images 17178 lines 197886 characters",
+    "class": "3664 Character classes",
+    "task": "Character detection Character recognition",
+    "language": [
+      "Chinese"
+    ],
+    "document_type": "Chinese historical documents",
+    "mode": [
+      "N/A"
+    ],
+    "resolution": "N/A",
+    "format": [
+      "N/A"
+    ],
+    "reference": "Yang2018DenseAT",
+    "description": "sssec:tripitaka"
   },
   {
     "id": "3e22e216",
@@ -575,212 +782,5 @@
     ],
     "reference": "FISCHER2012934",
     "description": "sssec:iam-histdb"
-  },
-  {
-    "id": "75138526",
-    "name": "IAM-HistDB Parzival",
-    "statistics": "47 pages 4, 477 text lines 23, 478 words",
-    "class": "4, 934 word labels 93 letters",
-    "task": "Handwriting recognition Word spotting Layout analysis",
-    "language": [
-      "Medieval German"
-    ],
-    "document_type": "Page images of a 13nth century manuscript written in Gothic script by 3 writers",
-    "mode": [
-      "Color",
-      "Binary"
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      "JPEG",
-      "PNG"
-    ],
-    "reference": "5306020",
-    "description": "sssec:iam-histdb"
-  },
-  {
-    "id": "31673181",
-    "name": "PHTD",
-    "statistics": "140 handwritten documents 1, 787 handwritten text-lines 27, 073 words",
-    "class": "3 Types of text",
-    "task": "Text-line segmentation Sentence recognition/understanding Word segmentation/recognition Characters segmentation Word spotting Text-line extraction Writer identification",
-    "language": [
-      "Persian"
-    ],
-    "document_type": "Persian handwritten text documents",
-    "mode": [
-      "Grayscale"
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      "TIFF"
-    ],
-    "reference": "6121553",
-    "description": "sssec:phtd"
-  },
-  {
-    "id": "6347b08b",
-    "name": "KERTAS",
-    "statistics": "2, 502 images 135 books",
-    "class": "14 islamic centuries",
-    "task": "Age detection Writer identification",
-    "language": [
-      "Arabic"
-    ],
-    "document_type": "Arabic manuscripts spanning 14 islamic centuries",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "High-resolution",
-    "format": [
-      "N/A"
-    ],
-    "reference": "adam2018kertas",
-    "description": "sssec:kertas"
-  },
-  {
-    "id": "67e9c0c7",
-    "name": "ESPOSALLES INDEX",
-    "statistics": "29 pages 1, 563 lines 6, 534 words 30, 809 characters",
-    "class": "1, 725 lexicon size 68 character classes",
-    "task": "Off-line handwriting recognition",
-    "language": [
-      "Spanish"
-    ],
-    "document_type": "Handwritten documents from marriage license books",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      "TIFF"
-    ],
-    "reference": "ROMERO20131658",
-    "description": "sssec:esposalles"
-  },
-  {
-    "id": "da530f10",
-    "name": "ICDAR 2017 Historical-WI",
-    "statistics": "1, 182 train images 3, 600 test images",
-    "class": "394 train writers 720 test writers",
-    "task": "Image retrieval based on writer identification",
-    "language": [
-      "German",
-      "French",
-      "Arabic"
-    ],
-    "document_type": "Handwritten document pages from 13nth to 20nth century originating from Universit\u00e4tsbibliothek Basel",
-    "mode": [
-      "Color",
-      "Binary"
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      "JPEG",
-      "PNG"
-    ],
-    "reference": "8270156",
-    "description": "sssec:Historical-WI"
-  },
-  {
-    "id": "40c05165",
-    "name": "MHDID",
-    "statistics": "335 images",
-    "class": "Paper translucency Stain Reader's annotations Worn holes",
-    "task": "Distortion classification Visual quality evaluation",
-    "language": [
-      "Arabic"
-    ],
-    "document_type": "Book pages edited from 1nth - 14nth Islamic Centuries",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "1024\u00d7 1280",
-    "format": [
-      "JPEG"
-    ],
-    "reference": "8480372",
-    "description": "sssec:mhdid"
-  },
-  {
-    "id": "5de344a6",
-    "name": "RODRIGO",
-    "statistics": "853 pages 20, 357 lines 232K words",
-    "class": "17K word lexicon 115 character set",
-    "task": "Handwriting recognition Text block detection Baseline detection",
-    "language": [
-      "Old Castilian"
-    ],
-    "document_type": "Page images of a manuscript from 1545 written in old Castilian by one writer",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      "N/A"
-    ],
-    "reference": "serrano-etal-2010-rodrigo",
-    "description": "sssec:rodrigo"
-  },
-  {
-    "id": "e1057f9b",
-    "name": "Tripitaka Koreana in Han (TKH)",
-    "statistics": "1K images 23, 471 lines 323, 491 characters",
-    "class": "1, 471 character classes",
-    "task": "Character detection Character recognition",
-    "language": [
-      "Chinese"
-    ],
-    "document_type": "Chinese historical documents",
-    "mode": [
-      "N/A"
-    ],
-    "resolution": "N/A",
-    "format": [
-      "N/A"
-    ],
-    "reference": "Yang2018DenseAT",
-    "description": "sssec:tripitaka"
-  },
-  {
-    "id": "baf195d7",
-    "name": "IAM-HistDB Saint Gall",
-    "statistics": "60 pages 1, 410 text-lines 11, 597 words 5, 436 word spellings",
-    "class": "4, 890 word labels 49 letters",
-    "task": "Handwriting recognition Layout analysis",
-    "language": [
-      "Latin"
-    ],
-    "document_type": "Page images of a 9nth century manuscript written in Carolingian script by a single writer",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "300 dpi",
-    "format": [
-      "JPEG",
-      "PNG"
-    ],
-    "reference": "10.1145/2037342.2037348",
-    "description": "sssec:iam-histdb"
-  },
-  {
-    "id": "a0b6c29f",
-    "name": "READ-BAD",
-    "statistics": "2, 036 pages 132, 124 baselines",
-    "class": "Layout classes for text regions e.g. paragraphs",
-    "task": "Baseline detection",
-    "language": [
-      "Latin"
-    ],
-    "document_type": "European archival documents from 1470-1930",
-    "mode": [
-      "Color"
-    ],
-    "resolution": "N/A",
-    "format": [
-      "JPEG"
-    ],
-    "reference": "8395221",
-    "description": "sssec:read-bad"
   }
 ]
