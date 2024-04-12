@@ -4,7 +4,11 @@
     "name": "RODRIGO",
     "statistics": "853 pages 20, 357 lines 232K words",
     "class": "17K word lexicon 115 character set",
-    "task": "Handwriting recognition Text block detection Baseline detection",
+    "task": [
+      "Handwriting recognition",
+      "Text block detection",
+      "Baseline detection"
+    ],
     "language": [
       "Old Castilian"
     ],
@@ -24,7 +28,10 @@
     "name": "VML-HD",
     "statistics": "680 pages 121, 636 sub-words 244, 553 characters",
     "class": "Book, Page number Sub-word id Location coordinates Arabic, Latin annotation Sub-word length",
-    "task": "Word-spotting Handwritten sub-word recognition",
+    "task": [
+      "Word-spotting",
+      "Handwritten sub-word recognition"
+    ],
     "language": [
       "Arabic"
     ],
@@ -44,7 +51,9 @@
     "name": "Multiple Font Groups",
     "statistics": "35, 623 images",
     "class": "Textura, Rotunda Gotico-antiqua, Hebrew Bastarda, Schwabacher Fraktur, Antiqua Italic, Greek Other Font, Not a Font",
-    "task": "Font recognition",
+    "task": [
+      "Font recognition"
+    ],
     "language": [
       "Latin",
       "Greek",
@@ -69,7 +78,10 @@
     "name": "Tripitaka Koreana in Han (TKH)",
     "statistics": "1K images 23, 471 lines 323, 491 characters",
     "class": "1, 471 character classes",
-    "task": "Character detection Character recognition",
+    "task": [
+      "Character detection",
+      "Character recognition"
+    ],
     "language": [
       "Chinese"
     ],
@@ -89,7 +101,9 @@
     "name": "GloSAT",
     "statistics": "500 images",
     "class": "Heading Header Table body",
-    "task": "Table structure recognition",
+    "task": [
+      "Table structure recognition"
+    ],
     "language": [
       "N/A"
     ],
@@ -109,7 +123,12 @@
     "name": "ICDAR19 HDRC Chinese DB",
     "statistics": "11, 715 train images 1, 135 test images",
     "class": "Text Non-text (background)",
-    "task": "Text recognition on extracted lines Layout analysis (pixel-level) Text line detection recognition",
+    "task": [
+      "Text recognition on extracted lines",
+      "Layout analysis (pixel-level)",
+      "Text line detection",
+      "Recognition"
+    ],
     "language": [
       "Chinese"
     ],
@@ -130,7 +149,11 @@
     "name": "ICDAR19 DMAS2019",
     "statistics": "50-100 PAGE annotated images",
     "class": "Page classes: cover table of contents content index Article classes: article illustration with caption advertisement index colophon",
-    "task": "Article segmentation Page segmentation Text recognition",
+    "task": [
+      "Article segmentation",
+      "Page segmentation",
+      "Text recognition"
+    ],
     "language": [
       "N/A"
     ],
@@ -150,7 +173,9 @@
     "name": "CFRAMUZ",
     "statistics": "7 novels 64 pages 18, 027 words",
     "class": "2, 998 unique words",
-    "task": "Word spotting (segmentation-free)",
+    "task": [
+      "Word spotting"
+    ],
     "language": [
       "French"
     ],
@@ -170,7 +195,10 @@
     "name": "HBA",
     "statistics": "4K images 7.58B pixels",
     "class": "Graphics Normal text Capitalized text Handwritten text Italic text Footnote text",
-    "task": "Layout analysis Pixel-level annotation",
+    "task": [
+      "Layout analysis",
+      "Pixel-level annotation"
+    ],
     "language": [
       "Latin          Italian"
     ],
@@ -191,7 +219,9 @@
     "name": "ICDAR 2017 Historical-WI",
     "statistics": "1, 182 train images 3, 600 test images",
     "class": "394 train writers 720 test writers",
-    "task": "Image retrieval based on writer identification",
+    "task": [
+      "Image retrieval based on writer identification"
+    ],
     "language": [
       "German",
       "French",
@@ -215,7 +245,11 @@
     "name": "ENP",
     "statistics": "528 pages, 61K regions 208 tables, 1K graphics 47K text regions 202K text-lines",
     "class": "Regions, Tables Images/Graphics Text regions, Text lines",
-    "task": "\\ac{OCR} Text recognition Layout analysis",
+    "task": [
+      "OCR",
+      "Text recognition",
+      "Layout analysis"
+    ],
     "language": [
       "Dutch",
       "English",
@@ -249,7 +283,9 @@
     "name": "CASIA-AHCDB",
     "statistics": "11, 937 images 2.2M characters",
     "class": "10, 350 character categories",
-    "task": "Character recognition",
+    "task": [
+      "Character recognition"
+    ],
     "language": [
       "Chinese"
     ],
@@ -269,7 +305,10 @@
     "name": "IAM-HistDB Saint Gall",
     "statistics": "60 pages 1, 410 text-lines 11, 597 words 5, 436 word spellings",
     "class": "4, 890 word labels 49 letters",
-    "task": "Handwriting recognition Layout analysis",
+    "task": [
+      "Handwriting recognition",
+      "Layout analysis"
+    ],
     "language": [
       "Latin"
     ],
@@ -290,7 +329,9 @@
     "name": "ICDAR19 RASM2019",
     "statistics": "20 train images 100 test images",
     "class": "Text Graphic Text line",
-    "task": "Page segmentation Text line detection OCR",
+    "task": [
+      "Page segmentation Text line detection OCR"
+    ],
     "language": [
       "Arabic"
     ],
@@ -310,7 +351,10 @@
     "name": "BiblIA",
     "statistics": "202 images 11, 285 lines 74, 675 words",
     "class": "Script classes: Ashkenazi Italian, Sephardi",
-    "task": "Line segmentation Text transcription",
+    "task": [
+      "Line segmentation",
+      "Text transcription"
+    ],
     "language": [
       "Hebrew",
       "Aramaic"
@@ -332,7 +376,9 @@
     "name": "ICDAR 2021 HDC",
     "statistics": "Font: 35k train, 5, 506 test images Script: CLaMM 2017 train, 1, 256 test images Date: 11, 294 train, 2, 516 test images Location: 5, 517 train, 60 val, 300 test images",
     "class": "Font: same as Section \\ref{sssec:fonts} without \"other font\" and \"not a font\" classes (10 classes) Script: same as Section \\ref{sssec:ICFHR16CLAMM} Date: date ranges Location: Cluny, Corbie, Citeaux, Florence Fonteney, Himanis, Milan, Paris, Signy MontSaintMichel, SaintBertin SaintGermainDesPres, SainMatrialDeLinoges",
-    "task": "Font/script date and location classification",
+    "task": [
+      "Font/script date  and location classification"
+    ],
     "language": [
       "Latin"
     ],
@@ -354,7 +400,10 @@
     "name": "HJDataset",
     "statistics": "2, 271 Images 25K Elements",
     "class": "Page frame Row Title, Text region Title, Subtitle Other",
-    "task": "Layout analysis Element extraction",
+    "task": [
+      "Layout analysis",
+      "Element extraction"
+    ],
     "language": [
       "Japanese"
     ],
@@ -374,7 +423,12 @@
     "name": "GRPOLY-DB",
     "statistics": "399 pages, 15, 084 text lines, 102, 596 words 171, 511 characters",
     "class": "More than 270 character classes",
-    "task": "Word and text line segmentation Text and isolated character recognition Word spotting",
+    "task": [
+      "Word and text",
+      "line segmentation",
+      "Text and isolated character recognition",
+      "Word spotting"
+    ],
     "language": [
       "Greek"
     ],
@@ -395,7 +449,15 @@
     "name": "PHTD",
     "statistics": "140 handwritten documents 1, 787 handwritten text-lines 27, 073 words",
     "class": "3 Types of text",
-    "task": "Text-line segmentation Sentence recognition/understanding Word segmentation/recognition Characters segmentation Word spotting Text-line extraction Writer identification",
+    "task": [
+      "Text-line segmentation",
+      "Sentence recognition/understanding",
+      "Word segmentation/recognition",
+      "Characters segmentation",
+      "Word spotting",
+      "Text-line extraction",
+      "Writer identification"
+    ],
     "language": [
       "Persian"
     ],
@@ -415,7 +477,12 @@
     "name": "Amharic Database",
     "statistics": "Character dataset: 80K character images, 231 characters Text-line dataset: 40, 929 printed Power Geez text-line images, 197, 484 synthetic Power Geez text-line images, 98, 924 synthetic Visual Geez text-line images, 280 unique Amharic characters",
     "class": "280 unique Amharic characters",
-    "task": "Text-line image recognition, OCR, Page binarization Line segmentation",
+    "task": [
+      "Text-line image recognition",
+      "OCR",
+      "Page binarization",
+      "Line segmentation"
+    ],
     "language": [
       "Amharic"
     ],
@@ -435,7 +502,9 @@
     "name": "POPP",
     "statistics": "Generic: 128 train, 16 val, 16 test pages 3, 840 train, 480 val, 480 test lines Belleville: 38 train, 5 val, 6 test pages 1, 140 train, 150 val, 180 test lines Chauss\u00e9e d'Antin: 625 train, 78 val, 77 test lines",
     "class": "Generic - Belleville - Chauss\u00e9e d'Antin 80 - 1 - 10 writers",
-    "task": "Handwritten table recognition and information extraction",
+    "task": [
+      "Handwritten table recognition and information extraction"
+    ],
     "language": [
       "French"
     ],
@@ -455,7 +524,10 @@
     "name": "FCR",
     "statistics": "500 pages",
     "class": "6 layout regions",
-    "task": "Layout analysis HTR",
+    "task": [
+      "Layout analysis",
+      "HTR"
+    ],
     "language": [
       "Swedish"
     ],
@@ -475,7 +547,10 @@
     "name": "ICDAR 2017 REID2017",
     "statistics": "5 train images 26 test images",
     "class": "Text Separator Graphic Image",
-    "task": "Layout analysis Text recognition",
+    "task": [
+      "Layout analysis",
+      "Text recognition"
+    ],
     "language": [
       "Bengali",
       "English"
@@ -496,7 +571,9 @@
     "name": "ESPOSALLES LICENCES",
     "statistics": "173 pages 1, 747 licences 5, 447 lines 60, 777 words 328, 229 characters",
     "class": "3, 465 lexicon size 85 character classes",
-    "task": "Off-line handwriting recognition",
+    "task": [
+      "Off-line handwriting recognition"
+    ],
     "language": [
       "Spanish"
     ],
@@ -516,7 +593,9 @@
     "name": "ICFHR 2020 HisFragIR20",
     "statistics": "220K fragment images (101, 706 train - 20, 019 test)",
     "class": "9, 800K writers (8, 717 train - 1, 152 test)",
-    "task": "Image retrieval per writer and per image",
+    "task": [
+      "Image retrieval per writer and per image"
+    ],
     "language": [
       "N/A"
     ],
@@ -536,7 +615,9 @@
     "name": "ICDAR 2017 CLAMM",
     "statistics": "ICFHR16 CLaMM train images Task 1, 3: 2K test images Task 2, 4: 1K test images",
     "class": "Same script classes as ICFHR16 CLaMM, 15 date classes starting from before 1000 C.E. to 1600 C.E.",
-    "task": "Script type and date classification",
+    "task": [
+      "Script type and date classification"
+    ],
     "language": [
       "Latin"
     ],
@@ -558,7 +639,11 @@
     "name": "IAM-HistDB Parzival",
     "statistics": "47 pages 4, 477 text lines 23, 478 words",
     "class": "4, 934 word labels 93 letters",
-    "task": "Handwriting recognition Word spotting Layout analysis",
+    "task": [
+      "Handwriting recognition",
+      "Word spotting",
+      "Layout analysis"
+    ],
     "language": [
       "Medieval German"
     ],
@@ -580,7 +665,10 @@
     "name": "ICDAR19 cTDaR19",
     "statistics": "Track A: 600 train, 199 test archival images Track B: 600 train, 150 test archival images",
     "class": "Archival Modern",
-    "task": "Table detection Table recognition",
+    "task": [
+      "Table detection",
+      "Table recognition"
+    ],
     "language": [
       "N/A"
     ],
@@ -600,7 +688,9 @@
     "name": "READ-BAD",
     "statistics": "2, 036 pages 132, 124 baselines",
     "class": "Layout classes for text regions e.g. paragraphs",
-    "task": "Baseline detection",
+    "task": [
+      "Baseline detection"
+    ],
     "language": [
       "Latin"
     ],
@@ -620,7 +710,10 @@
     "name": "IlluHisDoc",
     "statistics": "400 images",
     "class": "Illustration Text",
-    "task": "Baseline detection Illustration segmentation",
+    "task": [
+      "Baseline detection",
+      "Illustration segmentation"
+    ],
     "language": [
       "N/A"
     ],
@@ -641,7 +734,9 @@
     "name": "OBC306",
     "statistics": "4, 024 distinct characters 309, 551 samples",
     "class": "306 character categories",
-    "task": "Oracle-bone character recognition",
+    "task": [
+      "Oracle-bone character recognition"
+    ],
     "language": [
       "Oracle"
     ],
@@ -661,7 +756,9 @@
     "name": "HADARA80P",
     "statistics": "80 pages 16, 720 words",
     "class": "Word segment classes",
-    "task": "Word-spotting",
+    "task": [
+      "Word-spotting"
+    ],
     "language": [
       "Arabic"
     ],
@@ -681,7 +778,11 @@
     "name": "ICFHR18 RASM2018",
     "statistics": "10-15 train images 50-80 test images",
     "class": "Text Graphic Text line",
-    "task": "Page segmentation Text line detection \\ac{OCR}",
+    "task": [
+      "Page segmentation",
+      "Text line detection",
+      "OCR"
+    ],
     "language": [
       "Arabic"
     ],
@@ -701,7 +802,12 @@
     "name": "ICFHR18 Asian Palm Leaf",
     "statistics": "Bin/tion: 50 train-50 test Balinese, 23 train-23 test Khmer, 31 train-30 test Sundanese images Text line: 47 train-49 test Balinese, 50 train-200 test Khmer, 31 train-30 test Sundanese images OCR: 11K train-7K test Balinese, 113K train-90K test Khmer, 4.5K train-2.8K test Sundanese images Translit.: 15K train-10K test Balinese, 16K-7.7K test Khmer, 1.4K train-318 test Sundanese images",
     "class": "133 Balinese, 111 Khmer and 60 Sundanese character classes",
-    "task": "Binarization Text line segmentation Character recognition Transliteration",
+    "task": [
+      "Binarization",
+      "Text line segmentation",
+      "Character recognition",
+      "Transliteration"
+    ],
     "language": [
       "Balinese",
       "Khmer",
@@ -725,7 +831,10 @@
     "name": "Pinkas",
     "statistics": "30 pages 1, 013 lines 13, 744 words",
     "class": "3, 117 train classes 1, 251 test classes main text line and word segmentation class",
-    "task": "Word spotting Page segmentation",
+    "task": [
+      "Word spotting",
+      "Page segmentation"
+    ],
     "language": [
       "Hebrew"
     ],
@@ -745,7 +854,9 @@
     "name": "Kuzushiji",
     "statistics": "K-MNIST: 60K train - 10K test images K-49: 232, 365 train - 38, 547 test images K-Kanji: 140, 426 images",
     "class": "K-MNIST: 10 character classes K-49: 49 character classes K-Kanji: 3, 832 character classes",
-    "task": "Kuzushiji isolated character recognition",
+    "task": [
+      "Kuzushiji isolated  character recognition"
+    ],
     "language": [
       "Kuzushiji  (cursive Japanese)"
     ],
@@ -765,7 +876,10 @@
     "name": "ICDAR 2019 REID 2019",
     "statistics": "25 annotated train images 56 test images",
     "class": "Text Separator Graphic Image",
-    "task": "Layout analysis Text recognition",
+    "task": [
+      "Layout analysis",
+      "Text recognition"
+    ],
     "language": [
       "Bengali",
       "English"
@@ -786,7 +900,9 @@
     "name": "ARDIS",
     "statistics": "\\textit{Dataset I}: 10K 4-digit images \\textit{Dataset II - IV}: 7.6K digit images (6.6K train/1K test)",
     "class": "\\textit{Dataset I}: 75 year classes \\textit{Dataset II - IV}: 10 classes (0-9)",
-    "task": "Handwritten digit recognition",
+    "task": [
+      "Handwritten digit recognition"
+    ],
     "language": [
       "Swedish",
       "Latin"
@@ -808,7 +924,9 @@
     "name": "Warped Arabic",
     "statistics": "200 pages",
     "class": "4 centuries 4 document types: book page newspaper legal document journal other document unclassified",
-    "task": "Text line segmentation",
+    "task": [
+      "Text line segmentation"
+    ],
     "language": [
       "Arabic"
     ],
@@ -829,7 +947,10 @@
     "name": "BIR Database",
     "statistics": "35 documents 285 pages 2, 106 bold words 5, 745 italic words 80, 168 regular words 880, 169 total words",
     "class": "Bold Italic Regular",
-    "task": "Style classification Word detection",
+    "task": [
+      "Style classification",
+      "Word detection"
+    ],
     "language": [
       "French",
       "Latin",
@@ -851,7 +972,11 @@
     "name": "PBOK",
     "statistics": "707 pages 12565 text-lines 104541 words 553536 characters 436 writers",
     "class": "4 languages 436 writers",
-    "task": "Text-line segmentation Word segmentation Word recognition",
+    "task": [
+      "Text-line segmentation",
+      "Word segmentation",
+      "Word recognition"
+    ],
     "language": [
       "Persian",
       "Bangla",
@@ -874,7 +999,11 @@
     "name": "BH2M",
     "statistics": "174 pages 1, 740 licenses 5, 498 lines 56, 645 words",
     "class": "3, 360 word classes",
-    "task": "Layout analysis recognition understanding",
+    "task": [
+      "Layout analysis",
+      "recognition",
+      "understanding"
+    ],
     "language": [
       "Old Catalan"
     ],
@@ -894,7 +1023,10 @@
     "name": "HORAE",
     "statistics": "557 images, 797 pages 843 text regions, 1112 line fillers 12512 text-lines, 284 miniatures 892 decorated and 118 illustrated borders 2776 decorated initials, 551 simple initials 22 historiated initials, 5 ornamentation 4 music notations",
     "class": "Page classes: calendar miniature miniature-and- text text-with-miniature full-page text",
-    "task": "Line detection Layout analysis",
+    "task": [
+      "Line detection",
+      "Layout analysis"
+    ],
     "language": [
       "Latin"
     ],
@@ -914,7 +1046,10 @@
     "name": "OHG",
     "statistics": "596 pages, 23, 700 text-lines, 2, 400 words",
     "class": "6 layout regions",
-    "task": "Layout analysis Handwritten text recognition",
+    "task": [
+      "Layout analysis",
+      "Handwritten text recognition"
+    ],
     "language": [
       "Spanish"
     ],
@@ -934,7 +1069,10 @@
     "name": "Newspaper Navigator",
     "statistics": "3, 559 pages 48, 409 annotations",
     "class": "Photograph, Illustration Map, Comic/Cartoon Editorial cartoon Headline, Advertisement",
-    "task": "Visual content recognition \\ac{OCR}",
+    "task": [
+      "Visual content recognition",
+      "OCR"
+    ],
     "language": [
       "English"
     ],
@@ -954,7 +1092,9 @@
     "name": "ICDAR 2019 HDRC-IR",
     "statistics": "Train and validation from \\ref{sssec:Historical-WI} 20K test images",
     "class": "10K writers Writers from manuscript books letter or charters",
-    "task": "Image retrieval based on writer identification",
+    "task": [
+      "Image retrieval based on writer identification"
+    ],
     "language": [
       "N/A"
     ],
@@ -974,7 +1114,9 @@
     "name": "ABP NAF",
     "statistics": "ABP small: 180 pages ABP large: 1, 098 pages NAF: 488 pages",
     "class": "Text region Table region",
-    "task": "Table detection and partition",
+    "task": [
+      "Table detection and partition"
+    ],
     "language": [
       "N/A"
     ],
@@ -995,7 +1137,9 @@
     "name": "ESPOSALLES INDEX",
     "statistics": "29 pages 1, 563 lines 6, 534 words 30, 809 characters",
     "class": "1, 725 lexicon size 68 character classes",
-    "task": "Off-line handwriting recognition",
+    "task": [
+      "Off-line handwriting recognition"
+    ],
     "language": [
       "Spanish"
     ],
@@ -1015,7 +1159,10 @@
     "name": "ScribbleLens",
     "statistics": "1K pages 28, 255 lines 281, 914 characters 85 writers",
     "class": "Writter-id and 150 years of origin classes",
-    "task": "Automatic transcription Handwriting recognition",
+    "task": [
+      "Automatic transcription",
+      "Handwriting recognition"
+    ],
     "language": [
       "Dutch"
     ],
@@ -1037,7 +1184,10 @@
     "name": "KERTAS",
     "statistics": "2, 502 images 135 books",
     "class": "14 islamic centuries",
-    "task": "Age detection Writer identification",
+    "task": [
+      "Age detection",
+      "Writer identification"
+    ],
     "language": [
       "Arabic"
     ],
@@ -1057,7 +1207,10 @@
     "name": "Digital Peter",
     "statistics": "9, 694 text-line images (6, 237 train, 1, 930 validation, 1, 527 test) 265, 788 characters 50, 998 words",
     "class": "N/A",
-    "task": "Line segmentation Line recognition",
+    "task": [
+      "Line segmentation",
+      "Line recognition"
+    ],
     "language": [
       "Russian"
     ],
@@ -1077,7 +1230,11 @@
     "name": "HisClima",
     "statistics": "208 pages, 33, 739 lines 66, 814 running words 15, 471 relevant information",
     "class": "1, 483 lexicon, 76 characters",
-    "task": "Text recognition Layout analysis Information extraction",
+    "task": [
+      "Text recognition",
+      "Layout analysis",
+      "Information extraction"
+    ],
     "language": [
       "N/A"
     ],
@@ -1097,7 +1254,9 @@
     "name": "DIVA-HisDB",
     "statistics": "150 images: 20 train 10 validation, 10 test 10 left out images for every manuscript 493M pixels",
     "class": "Background Main text Decorations Comments",
-    "task": "Layout analysis Element extraction",
+    "task": [
+      "Layout analysis          Element extraction"
+    ],
     "language": [
       "Latin",
       "Italian"
@@ -1118,7 +1277,9 @@
     "name": "DIDA",
     "statistics": "Dataset I: 250K single digits Dataset II: 200K multi-digits Dataset III: 25K bounding boxes",
     "class": "Dataset I: 0 - 9",
-    "task": "Handwritten digit recognition and detection",
+    "task": [
+      "Handwritten digit recognition and detection"
+    ],
     "language": [
       "Swedish"
     ],
@@ -1138,7 +1299,13 @@
     "name": "Lontar Sunda",
     "statistics": "66 pages, 1, 526 train and 317 test word images 4, 555 train and 2, 816 test character images",
     "class": "61 character classes",
-    "task": "A. Binarization B. Text-line segmentation C. Character recognition D. Word transliteration Word spotting",
+    "task": [
+      "Binarization",
+      "Text-line segmentation",
+      "Character recognition",
+      "Word transliteration",
+      "Word spotting"
+    ],
     "language": [
       "Sundanese"
     ],
@@ -1159,7 +1326,10 @@
     "name": "Hugin-Munin",
     "statistics": "828 pages, 23, 732 lines 164, 922 words 752, 080 characters",
     "class": "12 writers",
-    "task": "Handwritten text recognition",
+    "task": [
+      "Handwritten",
+      "text recognition"
+    ],
     "language": [
       "Norwegian"
     ],
@@ -1179,7 +1349,11 @@
     "name": "AMADI",
     "statistics": "100 pages Binarization: 50 train, 50 test images, 100 binarized images Word spotting: 130 train, 100 test images 15K word patched Character recognition: 11K train- 7K test patch images",
     "class": "133 character classes",
-    "task": "Binarization Word spotting Isolated character recognition",
+    "task": [
+      "Binarization",
+      "Word spotting",
+      "Isolated character recognition"
+    ],
     "language": [
       "Balinese"
     ],
@@ -1199,7 +1373,12 @@
     "name": "GRK-Papyri PapyRow",
     "statistics": "GRK-Papyri: 50 images PapyRow: 6, 498 samples",
     "class": "10 writers",
-    "task": "Writer identification Image enhancement Binarization Line/word segmentation",
+    "task": [
+      "Writer identification",
+      "Image enhancement",
+      "Binarization",
+      "Line/word segmentation"
+    ],
     "language": [
       "Greek"
     ],
@@ -1220,7 +1399,10 @@
     "name": "MHDID",
     "statistics": "335 images",
     "class": "Paper translucency Stain Reader's annotations Worn holes",
-    "task": "Distortion classification Visual quality evaluation",
+    "task": [
+      "Distortion classification",
+      "Visual quality evaluation"
+    ],
     "language": [
       "Arabic"
     ],
@@ -1240,7 +1422,9 @@
     "name": "HTR Benchmarks",
     "statistics": "ICFHR-2014: 433 pages, 11, 473 lines 106K running words, 550K characters ICDAR-2015: 796 pages, 21, 752 lines 186K running words, 955K characters ICFHR-2016: 450 pages, 10K lines 43K running words, 260K characters ICDAR-2017: 10K pages, 206K lines 1.7M running words, 8M characters",
     "class": "ICFHR-2014: 9K lexicon, 86 character set ICDAR-2015: 17K lexicon, 87 character set ICFHR-2016: 8K lexicon, 92 character set ICDAR-2017: 4K lexicon, 104 character set",
-    "task": "Handwritten text recognition",
+    "task": [
+      "Handwritten text recognition"
+    ],
     "language": [
       "English",
       "Early modern German"
@@ -1261,7 +1445,9 @@
     "name": "ICFHR 2016 CLAMM",
     "statistics": "2K training images Task 1: 1K test images Task 2: 2K test images",
     "class": "Uncial, Half-uncial, Caroline, Humanistic Humanistic Cursive, Praegothica, Southern Textualis, Semitextualis, Textualis, Hybrida Semihybrida, Cursiva (12 classes)",
-    "task": "Script type classification",
+    "task": [
+      "Script type classification"
+    ],
     "language": [
       "Latin"
     ],
@@ -1281,7 +1467,9 @@
     "name": "ICDAR19 DIBCO 2019",
     "statistics": "10 historical machine-printed and handwritten test images 10 papyri test images",
     "class": "N/A",
-    "task": "Binarization",
+    "task": [
+      "Binarization"
+    ],
     "language": [
       "N/A"
     ],
@@ -1302,7 +1490,11 @@
     "name": "GERMANA",
     "statistics": "764 pages, 20, 529 text lines, 217.2K words",
     "class": "27.1K 50 word lexicon 115 character set",
-    "task": "Handwriting recognition Text block detection Baseline detection",
+    "task": [
+      "Handwriting recognition",
+      "Text block detection",
+      "Baseline detection"
+    ],
     "language": [
       "Spanish",
       "Catalan",
@@ -1327,7 +1519,10 @@
     "name": "DocExplore",
     "statistics": "1, 500 images 1, 464 queries",
     "class": "35 object categories (human faces decoration objects ornate initial letters etc.)",
-    "task": "Image retrieval Pattern localization",
+    "task": [
+      "Image retrieval",
+      "Pattern localization"
+    ],
     "language": [
       "N/A"
     ],
@@ -1348,7 +1543,9 @@
     "name": "IMPACT",
     "statistics": "600K images 45K ground-truthed images 70K word outlines",
     "class": "Text (+subcatecories) Graphics(+subcategories) Image, Line drawing Separator, Table Chart, Maths",
-    "task": "Layout analysis",
+    "task": [
+      "Layout analysis"
+    ],
     "language": [
       "18 languages"
     ],
@@ -1370,7 +1567,10 @@
     "name": "SleukRith",
     "statistics": "301, 626 characters 73, 359 words 3, 245 text lines",
     "class": "207 character classes 6, 284 unique words",
-    "task": "Isolated character recognition Word line Segmentation",
+    "task": [
+      "Isolated character recognition",
+      "Word and line Segmentation"
+    ],
     "language": [
       "Khmer"
     ],
@@ -1390,7 +1590,9 @@
     "name": "DIGIDOC-Texture",
     "statistics": "%",
     "class": "",
-    "task": "",
+    "task": [
+      ""
+    ],
     "language": [
       "%"
     ],
@@ -1410,7 +1612,10 @@
     "name": "Multiple Tripitaka in Han (MTH)",
     "statistics": "MTH 500 images 17178 lines 197886 characters",
     "class": "3664 Character classes",
-    "task": "Character detection Character recognition",
+    "task": [
+      "Character detection",
+      "Character recognition"
+    ],
     "language": [
       "Chinese"
     ],
@@ -1430,7 +1635,10 @@
     "name": "IAM-HistDB George Washington (GW)",
     "statistics": "20 pages 656 text lines 4, 894 words",
     "class": "1, 471 word labels 82 letters",
-    "task": "Handwriting recognition Word spotting",
+    "task": [
+      "Handwriting recognition",
+      "Word spotting"
+    ],
     "language": [
       "English"
     ],
