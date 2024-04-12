@@ -7,7 +7,8 @@ class: 'Font: same as Section \ref{sssec:fonts} without "other font" and "not a 
   classes (10 classes) Script: same as Section \ref{sssec:ICFHR16CLAMM} Date: date
   ranges Location: Cluny, Corbie, Citeaux, Florence Fonteney, Himanis, Milan, Paris,
   Signy MontSaintMichel, SaintBertin SaintGermainDesPres, SainMatrialDeLinoges'
-task: Font/script date and location classification
+task:
+- Font/script date  and location classification
 language:
 - Latin
 document_type: Handwritten and printed page images in Latin

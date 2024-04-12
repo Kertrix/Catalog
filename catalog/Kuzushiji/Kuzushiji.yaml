@@ -4,7 +4,8 @@ statistics: 'K-MNIST: 60K train - 10K test images K-49: 232, 365 train - 38, 547
   images K-Kanji: 140, 426 images'
 class: 'K-MNIST: 10 character classes K-49: 49 character classes K-Kanji: 3, 832 character
   classes'
-task: Kuzushiji isolated character recognition
+task:
+- Kuzushiji isolated  character recognition
 language:
 - Kuzushiji  (cursive Japanese)
 document_type: Character images from scanned documents

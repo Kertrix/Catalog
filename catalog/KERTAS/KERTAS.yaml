@@ -2,7 +2,9 @@
 name: KERTAS
 statistics: 2, 502 images 135 books
 class: 14 islamic centuries
-task: Age detection Writer identification
+task:
+- Age detection
+- Writer identification
 language:
 - Arabic
 document_type: Arabic manuscripts spanning 14 islamic centuries

@@ -2,7 +2,8 @@
 name: CFRAMUZ
 statistics: 7 novels 64 pages 18, 027 words
 class: 2, 998 unique words
-task: Word spotting (segmentation-free)
+task:
+- Word spotting
 language:
 - French
 document_type: Charles Ferdinand Ramuz's novels written from 1910 - 1946

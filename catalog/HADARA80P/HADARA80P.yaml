@@ -2,7 +2,8 @@
 name: HADARA80P
 statistics: 80 pages 16, 720 words
 class: Word segment classes
-task: Word-spotting
+task:
+- Word-spotting
 language:
 - Arabic
 document_type: Handwritten Arabic documents of one writer about the taaum disease

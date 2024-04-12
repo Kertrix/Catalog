@@ -2,7 +2,9 @@
 name: IAM-HistDB George Washington (GW)
 statistics: 20 pages 656 text lines 4, 894 words
 class: 1, 471 word labels 82 letters
-task: Handwriting recognition Word spotting
+task:
+- Handwriting recognition
+- Word spotting
 language:
 - English
 document_type: Page images of a 18nth century manuscript written in longhand script

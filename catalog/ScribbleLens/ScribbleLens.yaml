@@ -2,7 +2,9 @@
 name: ScribbleLens
 statistics: 1K pages 28, 255 lines 281, 914 characters 85 writers
 class: Writter-id and 150 years of origin classes
-task: Automatic transcription Handwriting recognition
+task:
+- Automatic transcription
+- Handwriting recognition
 language:
 - Dutch
 document_type: Early Modern Manuscripts

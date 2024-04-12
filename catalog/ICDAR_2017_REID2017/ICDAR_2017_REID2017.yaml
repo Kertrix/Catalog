@@ -2,7 +2,9 @@
 name: ICDAR 2017 REID2017
 statistics: 5 train images 26 test images
 class: Text Separator Graphic Image
-task: Layout analysis Text recognition
+task:
+- Layout analysis
+- Text recognition
 language:
 - Bengali
 - English

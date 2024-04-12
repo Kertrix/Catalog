@@ -3,7 +3,9 @@ name: Pinkas
 statistics: 30 pages 1, 013 lines 13, 744 words
 class: 3, 117 train classes 1, 251 test classes main text line and word segmentation
   class
-task: Word spotting Page segmentation
+task:
+- Word spotting
+- Page segmentation
 language:
 - Hebrew
 document_type: Manuscript records of Jewish communities in Europe from 1500-1800

@@ -3,7 +3,8 @@ name: ICDAR19 DIBCO 2019
 statistics: 10 historical machine-printed and handwritten test images 10 papyri test
   images
 class: N/A
-task: Binarization
+task:
+- Binarization
 language:
 - N/A
 document_type: Historical machine-printed and handwritten images of the 19nth century

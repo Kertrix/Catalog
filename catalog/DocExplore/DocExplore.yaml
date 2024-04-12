@@ -3,7 +3,9 @@ name: DocExplore
 statistics: 1, 500 images 1, 464 queries
 class: 35 object categories (human faces decoration objects ornate initial letters
   etc.)
-task: Image retrieval Pattern localization
+task:
+- Image retrieval
+- Pattern localization
 language:
 - N/A
 document_type: Page images of manuscripts from the 10nth and 16nth from the Municipal

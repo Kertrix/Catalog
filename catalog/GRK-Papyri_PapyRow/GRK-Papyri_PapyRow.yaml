@@ -2,7 +2,11 @@
 name: GRK-Papyri PapyRow
 statistics: 'GRK-Papyri: 50 images PapyRow: 6, 498 samples'
 class: 10 writers
-task: Writer identification Image enhancement Binarization Line/word segmentation
+task:
+- Writer identification
+- Image enhancement
+- Binarization
+- Line/word segmentation
 language:
 - Greek
 document_type: Handwritten Greek papyri from the 6nth century A.D.

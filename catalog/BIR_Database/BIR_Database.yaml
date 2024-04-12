@@ -3,7 +3,9 @@ name: BIR Database
 statistics: 35 documents 285 pages 2, 106 bold words 5, 745 italic words 80, 168 regular
   words 880, 169 total words
 class: Bold Italic Regular
-task: Style classification Word detection
+task:
+- Style classification
+- Word detection
 language:
 - French
 - Latin

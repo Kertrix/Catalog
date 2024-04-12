@@ -2,7 +2,9 @@
 name: HJDataset
 statistics: 2, 271 Images 25K Elements
 class: Page frame Row Title, Text region Title, Subtitle Other
-task: Layout analysis Element extraction
+task:
+- Layout analysis
+- Element extraction
 language:
 - Japanese
 document_type: Biography scans

@@ -3,7 +3,8 @@ name: Multiple Font Groups
 statistics: 35, 623 images
 class: Textura, Rotunda Gotico-antiqua, Hebrew Bastarda, Schwabacher Fraktur, Antiqua
   Italic, Greek Other Font, Not a Font
-task: Font recognition
+task:
+- Font recognition
 language:
 - Latin
 - Greek

@@ -3,7 +3,10 @@ name: ICDAR19 DMAS2019
 statistics: 50-100 PAGE annotated images
 class: 'Page classes: cover table of contents content index Article classes: article
   illustration with caption advertisement index colophon'
-task: Article segmentation Page segmentation Text recognition
+task:
+- Article segmentation
+- Page segmentation
+- Text recognition
 language:
 - N/A
 document_type: Digitised image pages from magazines from 1800 - 1938 by the National

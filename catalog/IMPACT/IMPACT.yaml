@@ -3,7 +3,8 @@ name: IMPACT
 statistics: 600K images 45K ground-truthed images 70K word outlines
 class: Text (+subcatecories) Graphics(+subcategories) Image, Line drawing Separator,
   Table Chart, Maths
-task: Layout analysis
+task:
+- Layout analysis
 language:
 - 18 languages
 document_type: European printed documents

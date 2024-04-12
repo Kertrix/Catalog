@@ -2,7 +2,8 @@
 name: ICFHR 2020 HisFragIR20
 statistics: 220K fragment images (101, 706 train - 20, 019 test)
 class: 9, 800K writers (8, 717 train - 1, 152 test)
-task: Image retrieval per writer and per image
+task:
+- Image retrieval per writer and per image
 language:
 - N/A
 document_type: Manuscript pages from books of the European Middle Ages 9nth - 15nth

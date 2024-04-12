@@ -2,7 +2,8 @@
 name: ABP NAF
 statistics: 'ABP small: 180 pages ABP large: 1, 098 pages NAF: 488 pages'
 class: Text region Table region
-task: Table detection and partition
+task:
+- Table detection and partition
 language:
 - N/A
 document_type: Death birth marriage and tax records

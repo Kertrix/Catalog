@@ -2,7 +2,9 @@
 name: IAM-HistDB Saint Gall
 statistics: 60 pages 1, 410 text-lines 11, 597 words 5, 436 word spellings
 class: 4, 890 word labels 49 letters
-task: Handwriting recognition Layout analysis
+task:
+- Handwriting recognition
+- Layout analysis
 language:
 - Latin
 document_type: Page images of a 9nth century manuscript written in Carolingian script

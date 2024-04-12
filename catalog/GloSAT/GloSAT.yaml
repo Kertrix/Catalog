@@ -2,7 +2,8 @@
 name: GloSAT
 statistics: 500 images
 class: Heading Header Table body
-task: Table structure recognition
+task:
+- Table structure recognition
 language:
 - N/A
 document_type: Scanned printed and mixed pages from measurement logbooks from 1700

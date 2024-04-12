@@ -2,7 +2,8 @@
 name: CASIA-AHCDB
 statistics: 11, 937 images 2.2M characters
 class: 10, 350 character categories
-task: Character recognition
+task:
+- Character recognition
 language:
 - Chinese
 document_type: Chinese ancient handwritten document pages from the Complete Library

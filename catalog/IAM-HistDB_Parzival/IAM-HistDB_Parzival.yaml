@@ -2,7 +2,10 @@
 name: IAM-HistDB Parzival
 statistics: 47 pages 4, 477 text lines 23, 478 words
 class: 4, 934 word labels 93 letters
-task: Handwriting recognition Word spotting Layout analysis
+task:
+- Handwriting recognition
+- Word spotting
+- Layout analysis
 language:
 - Medieval German
 document_type: Page images of a 13nth century manuscript written in Gothic script

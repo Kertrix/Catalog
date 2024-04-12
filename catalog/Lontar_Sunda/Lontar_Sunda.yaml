@@ -3,8 +3,12 @@ name: Lontar Sunda
 statistics: 66 pages, 1, 526 train and 317 test word images 4, 555 train and 2, 816
   test character images
 class: 61 character classes
-task: A. Binarization B. Text-line segmentation C. Character recognition D. Word transliteration
-  Word spotting
+task:
+- Binarization
+- Text-line segmentation
+- Character recognition
+- Word transliteration
+- Word spotting
 language:
 - Sundanese
 document_type: Sundanese manuscripts of the 15nth century from Garut, West Java and

@@ -2,7 +2,10 @@
 name: RODRIGO
 statistics: 853 pages 20, 357 lines 232K words
 class: 17K word lexicon 115 character set
-task: Handwriting recognition Text block detection Baseline detection
+task:
+- Handwriting recognition
+- Text block detection
+- Baseline detection
 language:
 - Old Castilian
 document_type: Page images of a manuscript from 1545 written in old Castilian by one

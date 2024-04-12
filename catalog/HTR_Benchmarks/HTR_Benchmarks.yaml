@@ -7,7 +7,8 @@ statistics: 'ICFHR-2014: 433 pages, 11, 473 lines 106K running words, 550K chara
 class: 'ICFHR-2014: 9K lexicon, 86 character set ICDAR-2015: 17K lexicon, 87 character
   set ICFHR-2016: 8K lexicon, 92 character set ICDAR-2017: 4K lexicon, 104 character
   set'
-task: Handwritten text recognition
+task:
+- Handwritten text recognition
 language:
 - English
 - Early modern German

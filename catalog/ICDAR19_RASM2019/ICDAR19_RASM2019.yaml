@@ -2,7 +2,8 @@
 name: ICDAR19 RASM2019
 statistics: 20 train images 100 test images
 class: Text Graphic Text line
-task: Page segmentation Text line detection OCR
+task:
+- Page segmentation Text line detection OCR
 language:
 - Arabic
 document_type: Arabic scientific manuscripts from 9nth-19nth CE

@@ -2,7 +2,8 @@
 name: DIGIDOC-Texture
 statistics: '%'
 class: ''
-task: ''
+task:
+- ''
 language:
 - '%'
 document_type: ''

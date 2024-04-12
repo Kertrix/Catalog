@@ -2,7 +2,9 @@
 name: Multiple Tripitaka in Han (MTH)
 statistics: MTH 500 images 17178 lines 197886 characters
 class: 3664 Character classes
-task: Character detection Character recognition
+task:
+- Character detection
+- Character recognition
 language:
 - Chinese
 document_type: Chinese historical documents

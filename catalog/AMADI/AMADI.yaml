@@ -4,7 +4,10 @@ statistics: '100 pages Binarization: 50 train, 50 test images, 100 binarized ima
   Word spotting: 130 train, 100 test images 15K word patched Character recognition:
   11K train- 7K test patch images'
 class: 133 character classes
-task: Binarization Word spotting Isolated character recognition
+task:
+- Binarization
+- Word spotting
+- Isolated character recognition
 language:
 - Balinese
 document_type: Palm leaf Balinese manuscripts

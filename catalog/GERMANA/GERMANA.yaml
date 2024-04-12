@@ -2,7 +2,10 @@
 name: GERMANA
 statistics: 764 pages, 20, 529 text lines, 217.2K words
 class: 27.1K 50 word lexicon 115 character set
-task: Handwriting recognition Text block detection Baseline detection
+task:
+- Handwriting recognition
+- Text block detection
+- Baseline detection
 language:
 - Spanish
 - Catalan
