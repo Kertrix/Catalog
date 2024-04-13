@@ -79,7 +79,7 @@
     "statistics": "1000 images, 23471 lines, 323491 characters",
     "class": "1, 471 character classes",
     "task": [
-      "Character detection",
+      "Character segmentation",
       "Character recognition"
     ],
     "language": [
@@ -352,7 +352,7 @@
     "class": "Script classes: Ashkenazi Italian, Sephardi",
     "task": [
       "Text-line segmentation",
-      "Text transcription"
+      "Text recognition"
     ],
     "language": [
       "Hebrew",
@@ -377,7 +377,7 @@
     "class": "Font: same as Section \\ref{sssec:fonts} without \"other font\" and \"not a font\" classes (10 classes) Script: same as Section \\ref{sssec:ICFHR16CLAMM} Date: date ranges Location: Cluny, Corbie, Citeaux, Florence Fonteney, Himanis, Milan, Paris, Signy MontSaintMichel, SaintBertin SaintGermainDesPres, SainMatrialDeLinoges",
     "task": [
       "Font classification",
-      "Script classificaction",
+      "Script classification",
       "Date prediction",
       "Location prediction"
     ],
@@ -457,9 +457,8 @@
       "Sentence recognition/understanding",
       "Word segmentation",
       "Word recognition",
-      "Characters segmentation",
+      "Character segmentation",
       "Word spotting",
-      "Text-line extraction",
       "Writer identification"
     ],
     "language": [
@@ -672,7 +671,7 @@
     "class": "Archival Modern",
     "task": [
       "Table detection",
-      "Table recognition"
+      "Table structure recognition"
     ],
     "language": [
       "N/A"
@@ -860,7 +859,7 @@
     "statistics": "K-MNIST: 60K train - 10K test images K-49: 232, 365 train - 38, 547 test images K-Kanji: 140, 426 images",
     "class": "K-MNIST: 10 character classes K-49: 49 character classes K-Kanji: 3, 832 character classes",
     "task": [
-      "Kuzushiji isolated  character recognition"
+      "Character recognition"
     ],
     "language": [
       "Kuzushiji  (cursive Japanese)"
@@ -1027,7 +1026,7 @@
     "statistics": "557 images, 797 pages, 843 text regions, 1112 line fillers, 12512 text-lines, 284 miniatures, 892 decorated boders, 118 illustrated borders, 2776 decorated initials, 551 simple initials, 22 historiated initials, 5 ornamentation, 4 music notations",
     "class": "Page classes: calendar miniature miniature-and- text text-with-miniature full-page text",
     "task": [
-      "Line detection",
+      "Text-line segmentation",
       "Layout analysis"
     ],
     "language": [
@@ -1282,7 +1281,7 @@
     "class": "Dataset I: 0 - 9, Handwritten",
     "task": [
       "Character recognition",
-      "Character detection"
+      "Character segmentation"
     ],
     "language": [
       "Swedish"
@@ -1574,7 +1573,7 @@
     "task": [
       "Character recognition",
       "Word segmentation",
-      "Text-line Segmentation"
+      "Text-line segmentation"
     ],
     "language": [
       "Khmer"
@@ -1618,7 +1617,7 @@
     "statistics": "MTH 500 images 17178 lines 197886 characters",
     "class": "3664 Character classes",
     "task": [
-      "Character detection",
+      "Character segmentation",
       "Character recognition"
     ],
     "language": [
