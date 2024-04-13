@@ -5,7 +5,7 @@ statistics: 'Track A: 600 train, 199 test archival images Track B: 600 train, 15
 class: Archival Modern
 task:
 - Table detection
-- Table recognition
+- Table structure recognition
 language:
 - N/A
 document_type: Images with tables from archival accounting books record books timetables

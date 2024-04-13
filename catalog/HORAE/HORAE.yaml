@@ -6,7 +6,7 @@ statistics: 557 images, 797 pages, 843 text regions, 1112 line fillers, 12512 te
 class: 'Page classes: calendar miniature miniature-and- text text-with-miniature full-page
   text'
 task:
-- Line detection
+- Text-line segmentation
 - Layout analysis
 language:
 - Latin

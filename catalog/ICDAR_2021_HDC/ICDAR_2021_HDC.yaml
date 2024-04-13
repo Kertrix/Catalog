@@ -9,7 +9,7 @@ class: 'Font: same as Section \ref{sssec:fonts} without "other font" and "not a 
   Signy MontSaintMichel, SaintBertin SaintGermainDesPres, SainMatrialDeLinoges'
 task:
 - Font classification
-- Script classificaction
+- Script classification
 - Date prediction
 - Location prediction
 language:

@@ -4,7 +4,7 @@ statistics: 202 images 11, 285 lines 74, 675 words
 class: 'Script classes: Ashkenazi Italian, Sephardi'
 task:
 - Text-line segmentation
-- Text transcription
+- Text recognition
 language:
 - Hebrew
 - Aramaic

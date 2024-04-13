@@ -5,7 +5,7 @@ statistics: 'Dataset I: 250K single digits Dataset II: 200K multi-digits Dataset
 class: 'Dataset I: 0 - 9, Handwritten'
 task:
 - Character recognition
-- Character detection
+- Character segmentation
 language:
 - Swedish
 document_type: Swedish handwritten document crops from 1800 - 1940

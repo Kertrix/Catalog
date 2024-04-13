@@ -7,9 +7,8 @@ task:
 - Sentence recognition/understanding
 - Word segmentation
 - Word recognition
-- Characters segmentation
+- Character segmentation
 - Word spotting
-- Text-line extraction
 - Writer identification
 language:
 - Persian

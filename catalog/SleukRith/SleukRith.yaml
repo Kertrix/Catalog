@@ -5,7 +5,7 @@ class: 207 character classes 6, 284 unique words
 task:
 - Character recognition
 - Word segmentation
-- Text-line Segmentation
+- Text-line segmentation
 language:
 - Khmer
 document_type: Palm leaf manuscript pages
