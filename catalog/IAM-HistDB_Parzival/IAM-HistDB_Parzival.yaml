@@ -1,9 +1,9 @@
 ---
 name: IAM-HistDB Parzival
-statistics: 47 pages 4, 477 text lines 23, 478 words
-class: 4, 934 word labels 93 letters
+statistics: 47 pages, 4477 lines, 23478 words
+class: 4, 934 word labels 93 letters, Handwritten
 task:
-- Handwriting recognition
+- Text recognition
 - Word spotting
 - Layout analysis
 language:

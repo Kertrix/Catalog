@@ -3,7 +3,7 @@ name: OBC306
 statistics: 4, 024 distinct characters 309, 551 samples
 class: 306 character categories
 task:
-- Oracle-bone character recognition
+- Character recognition
 language:
 - Oracle
 document_type: Patch samples derived from oracle-bone publications

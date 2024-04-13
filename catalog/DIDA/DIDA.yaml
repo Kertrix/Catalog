@@ -2,9 +2,10 @@
 name: DIDA
 statistics: 'Dataset I: 250K single digits Dataset II: 200K multi-digits Dataset III:
   25K bounding boxes'
-class: 'Dataset I: 0 - 9'
+class: 'Dataset I: 0 - 9, Handwritten'
 task:
-- Handwritten digit recognition and detection
+- Character recognition
+- Character detection
 language:
 - Swedish
 document_type: Swedish handwritten document crops from 1800 - 1940

@@ -1,9 +1,9 @@
 ---
 name: ENP
-statistics: 528 pages, 61K regions 208 tables, 1K graphics 47K text regions 202K text-lines
+statistics: 528 pages, 61K regions, 208 tables, 1000 graphics, 47000 text_regions,
+  202000 lines
 class: Regions, Tables Images/Graphics Text regions, Text lines
 task:
-- OCR
 - Text recognition
 - Layout analysis
 language:

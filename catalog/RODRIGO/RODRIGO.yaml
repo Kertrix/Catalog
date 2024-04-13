@@ -1,9 +1,9 @@
 ---
 name: RODRIGO
-statistics: 853 pages 20, 357 lines 232K words
-class: 17K word lexicon 115 character set
+statistics: 853 pages, 20357 lines, 232000 words
+class: 17K word lexicon 115 character set, Handwritten
 task:
-- Handwriting recognition
+- Text recognition
 - Text block detection
 - Baseline detection
 language:

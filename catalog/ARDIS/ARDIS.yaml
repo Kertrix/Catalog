@@ -2,9 +2,10 @@
 name: ARDIS
 statistics: '\textit{Dataset I}: 10K 4-digit images \textit{Dataset II - IV}: 7.6K
   digit images (6.6K train/1K test)'
-class: '\textit{Dataset I}: 75 year classes \textit{Dataset II - IV}: 10 classes (0-9)'
+class: '\textit{Dataset I}: 75 year classes \textit{Dataset II - IV}: 10 classes (0-9),
+  Handwritten'
 task:
-- Handwritten digit recognition
+- Character recognition
 language:
 - Swedish
 - Latin

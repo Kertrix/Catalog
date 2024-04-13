@@ -1,9 +1,9 @@
 ---
 name: ESPOSALLES INDEX
-statistics: 29 pages 1, 563 lines 6, 534 words 30, 809 characters
-class: 1, 725 lexicon size 68 character classes
+statistics: 29 pages, 1563 lines, 6534 words, 30809 characters
+class: 1, 725 lexicon size 68 character classes, Handwritten
 task:
-- Off-line handwriting recognition
+- Text recognition
 language:
 - Spanish
 document_type: Handwritten documents from marriage license books

@@ -7,7 +7,7 @@ task:
 - Script type classification
 language:
 - Latin
-document_type: Manuscripts from the French catalogues the BVMM and Gallica
+document_type: Manuscripts from the French catalogues BVMM and Gallica
 mode:
 - Grayscale
 resolution: 300 dpi

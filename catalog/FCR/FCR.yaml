@@ -1,10 +1,10 @@
 ---
 name: FCR
 statistics: 500 pages
-class: 6 layout regions
+class: 6 layout regions, Handwritten
 task:
 - Layout analysis
-- HTR
+- Text recognition
 language:
 - Swedish
 document_type: Pages of records of deeds mortgages traditional life-annuity from the

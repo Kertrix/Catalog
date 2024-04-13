@@ -1,10 +1,11 @@
 ---
 name: Newspaper Navigator
-statistics: 3, 559 pages 48, 409 annotations
-class: Photograph, Illustration Map, Comic/Cartoon Editorial cartoon Headline, Advertisement
+statistics: 3559 pages, 48409 annotations
+class: Photograph, Illustration, Map, Comic/Cartoon Editorial cartoon, Headline, Advertisement,
+  Printed
 task:
 - Visual content recognition
-- OCR
+- Text recognition
 language:
 - English
 document_type: Historical newspaper pages from the Chronicling America corpus

@@ -1,7 +1,7 @@
 ---
 name: PBOK
-statistics: 707 pages 12565 text-lines 104541 words 553536 characters 436 writers
-class: 4 languages 436 writers
+statistics: 707 pages, 12565 lines, 104541 words, 553536 characters, 436 writers
+class: 4 languages, 436 writers
 task:
 - Text-line segmentation
 - Word segmentation

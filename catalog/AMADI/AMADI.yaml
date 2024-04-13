@@ -1,13 +1,11 @@
 ---
 name: AMADI
-statistics: '100 pages Binarization: 50 train, 50 test images, 100 binarized images
-  Word spotting: 130 train, 100 test images 15K word patched Character recognition:
-  11K train- 7K test patch images'
+statistics: 100 pages, 100 binarized_images, 15000 word_patched 18000 characters
 class: 133 character classes
 task:
 - Binarization
 - Word spotting
-- Isolated character recognition
+- Character recognition
 language:
 - Balinese
 document_type: Palm leaf Balinese manuscripts

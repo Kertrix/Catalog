@@ -1,9 +1,9 @@
 ---
 name: ESPOSALLES LICENCES
-statistics: 173 pages 1, 747 licences 5, 447 lines 60, 777 words 328, 229 characters
-class: 3, 465 lexicon size 85 character classes
+statistics: 173 pages, 1747 acts, 5447 lines, 60777 words, 328229 characters
+class: 3, 465 lexicon size 85 character classes, Handwritten
 task:
-- Off-line handwriting recognition
+- Text recognition
 language:
 - Spanish
 document_type: Handwritten documents from marriage license books

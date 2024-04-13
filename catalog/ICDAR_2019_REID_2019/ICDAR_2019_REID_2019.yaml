@@ -1,6 +1,6 @@
 ---
 name: ICDAR 2019 REID 2019
-statistics: 25 annotated train images 56 test images
+statistics: 81 images
 class: Text Separator Graphic Image
 task:
 - Layout analysis

@@ -8,7 +8,7 @@ statistics: 'Bin/tion: 50 train-50 test Balinese, 23 train-23 test Khmer, 31 tra
 class: 133 Balinese, 111 Khmer and 60 Sundanese character classes
 task:
 - Binarization
-- Text line segmentation
+- Text-line segmentation
 - Character recognition
 - Transliteration
 language:

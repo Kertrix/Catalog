@@ -1,10 +1,10 @@
 ---
 name: OHG
-statistics: 596 pages, 23, 700 text-lines, 2, 400 words
-class: 6 layout regions
+statistics: 596 pages, 23700 lines, 2400 words
+class: 6 layout regions, Handwritten
 task:
 - Layout analysis
-- Handwritten text recognition
+- Text recognition
 language:
 - Spanish
 document_type: Spanish notarial deeds of the 19nth century

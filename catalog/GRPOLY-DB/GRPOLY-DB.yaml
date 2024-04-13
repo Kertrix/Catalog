@@ -1,11 +1,12 @@
 ---
 name: GRPOLY-DB
-statistics: 399 pages, 15, 084 text lines, 102, 596 words 171, 511 characters
+statistics: 399 pages, 15084 lines, 102596 words, 171511 characters
 class: More than 270 character classes
 task:
-- Word and text
-- line segmentation
-- Text and isolated character recognition
+- Word segmentation
+- Text-line segmentation
+- Text recognition
+- Character recognition
 - Word spotting
 language:
 - Greek

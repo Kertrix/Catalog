@@ -1,6 +1,6 @@
 ---
 name: Tripitaka Koreana in Han (TKH)
-statistics: 1K images 23, 471 lines 323, 491 characters
+statistics: 1000 images, 23471 lines, 323491 characters
 class: 1, 471 character classes
 task:
 - Character detection

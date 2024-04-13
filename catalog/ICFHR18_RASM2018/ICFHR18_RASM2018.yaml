@@ -1,11 +1,11 @@
 ---
 name: ICFHR18 RASM2018
 statistics: 10-15 train images 50-80 test images
-class: Text Graphic Text line
+class: Text, Graphic, Text line, Printed
 task:
 - Page segmentation
-- Text line detection
-- OCR
+- Text-line segmentation
+- Text recognition
 language:
 - Arabic
 document_type: Arabic scientific manuscripts from 8nth-9nth centuries CE

@@ -1,6 +1,6 @@
 ---
 name: HADARA80P
-statistics: 80 pages 16, 720 words
+statistics: 80 pages, 16720 words
 class: Word segment classes
 task:
 - Word-spotting

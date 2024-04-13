@@ -8,7 +8,7 @@ class: 'ICFHR-2014: 9K lexicon, 86 character set ICDAR-2015: 17K lexicon, 87 cha
   set ICFHR-2016: 8K lexicon, 92 character set ICDAR-2017: 4K lexicon, 104 character
   set'
 task:
-- Handwritten text recognition
+- Text recognition
 language:
 - English
 - Early modern German

@@ -1,7 +1,7 @@
 ---
 name: CASIA-AHCDB
-statistics: 11, 937 images 2.2M characters
-class: 10, 350 character categories
+statistics: 11937 images, 2200000 characters
+class: 10350 character categories
 task:
 - Character recognition
 language:

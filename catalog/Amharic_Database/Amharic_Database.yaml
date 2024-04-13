@@ -5,10 +5,9 @@ statistics: 'Character dataset: 80K character images, 231 characters Text-line d
   images, 98, 924 synthetic Visual Geez text-line images, 280 unique Amharic characters'
 class: 280 unique Amharic characters
 task:
-- Text-line image recognition
-- OCR
-- Page binarization
-- Line segmentation
+- Text recognition
+- Binarization
+- Text-line segmentation
 language:
 - Amharic
 document_type: Printed synthetic Amharic socuments

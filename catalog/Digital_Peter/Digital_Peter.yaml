@@ -4,8 +4,8 @@ statistics: 9, 694 text-line images (6, 237 train, 1, 930 validation, 1, 527 tes
   265, 788 characters 50, 998 words
 class: N/A
 task:
-- Line segmentation
-- Line recognition
+- Text-line segmentation
+- Text recognition
 language:
 - Russian
 document_type: Manuscripts from Peter the Great written from 1709-1713

@@ -1,6 +1,6 @@
 ---
 name: READ-BAD
-statistics: 2, 036 pages 132, 124 baselines
+statistics: 2036 pages 132124 baselines
 class: Layout classes for text regions e.g. paragraphs
 task:
 - Baseline detection

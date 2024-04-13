@@ -1,12 +1,11 @@
 ---
 name: ICDAR19 HDRC Chinese DB
-statistics: 11, 715 train images 1, 135 test images
+statistics: 12850 images
 class: Text Non-text (background)
 task:
-- Text recognition on extracted lines
-- Layout analysis (pixel-level)
-- Text line detection
-- Recognition
+- Text recognition
+- Layout analysis
+- Text-line segmentation
 language:
 - Chinese
 document_type: Historical Chinese family records pages

@@ -5,7 +5,8 @@ statistics: 'Generic: 128 train, 16 val, 16 test pages 3, 840 train, 480 val, 48
   test lines Chaussée d''Antin: 625 train, 78 val, 77 test lines'
 class: Generic - Belleville - Chaussée d'Antin 80 - 1 - 10 writers
 task:
-- Handwritten table recognition and information extraction
+- Text recognition
+- Information extraction
 language:
 - French
 document_type: Pages from Paris census tables from 1926

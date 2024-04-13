@@ -8,7 +8,10 @@ class: 'Font: same as Section \ref{sssec:fonts} without "other font" and "not a 
   ranges Location: Cluny, Corbie, Citeaux, Florence Fonteney, Himanis, Milan, Paris,
   Signy MontSaintMichel, SaintBertin SaintGermainDesPres, SainMatrialDeLinoges'
 task:
-- Font/script date  and location classification
+- Font classification
+- Script classificaction
+- Date prediction
+- Location prediction
 language:
 - Latin
 document_type: Handwritten and printed page images in Latin

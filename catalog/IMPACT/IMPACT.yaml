@@ -1,6 +1,6 @@
 ---
 name: IMPACT
-statistics: 600K images 45K ground-truthed images 70K word outlines
+statistics: 600000 images, 45000 ground-truthed images, 70000 word outlines
 class: Text (+subcatecories) Graphics(+subcategories) Image, Line drawing Separator,
   Table Chart, Maths
 task:

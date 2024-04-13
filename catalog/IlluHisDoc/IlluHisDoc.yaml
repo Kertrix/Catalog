@@ -4,7 +4,7 @@ statistics: 400 images
 class: Illustration Text
 task:
 - Baseline detection
-- Illustration segmentation
+- Illustration detection
 language:
 - N/A
 document_type: Document images from Gallica with various illustrations

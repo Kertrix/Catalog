@@ -1,8 +1,8 @@
 ---
 name: HORAE
-statistics: 557 images, 797 pages 843 text regions, 1112 line fillers 12512 text-lines,
-  284 miniatures 892 decorated and 118 illustrated borders 2776 decorated initials,
-  551 simple initials 22 historiated initials, 5 ornamentation 4 music notations
+statistics: 557 images, 797 pages, 843 text regions, 1112 line fillers, 12512 text-lines,
+  284 miniatures, 892 decorated boders, 118 illustrated borders, 2776 decorated initials,
+  551 simple initials, 22 historiated initials, 5 ornamentation, 4 music notations
 class: 'Page classes: calendar miniature miniature-and- text text-with-miniature full-page
   text'
 task:

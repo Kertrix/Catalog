@@ -1,10 +1,10 @@
 ---
 name: DIVA-HisDB
-statistics: '150 images: 20 train 10 validation, 10 test 10 left out images for every
-  manuscript 493M pixels'
+statistics: 150 images, 493000000 pixels
 class: Background Main text Decorations Comments
 task:
-- Layout analysis          Element extraction
+- Layout analysis
+- Element extraction
 language:
 - Latin
 - Italian

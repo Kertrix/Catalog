@@ -1,9 +1,9 @@
 ---
 name: IAM-HistDB Saint Gall
-statistics: 60 pages 1, 410 text-lines 11, 597 words 5, 436 word spellings
-class: 4, 890 word labels 49 letters
+statistics: 60 pages, 1410 lines, 11597 words, 5436 word_spellings
+class: 4, 890 word labels 49 letters, Handwritten
 task:
-- Handwriting recognition
+- Text recognition
 - Layout analysis
 language:
 - Latin

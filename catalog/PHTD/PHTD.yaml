@@ -1,11 +1,12 @@
 ---
 name: PHTD
-statistics: 140 handwritten documents 1, 787 handwritten text-lines 27, 073 words
-class: 3 Types of text
+statistics: 140 documents, 1787 handwritten lines, 27.073 words
+class: 3 Types of text, Handwritten
 task:
 - Text-line segmentation
 - Sentence recognition/understanding
-- Word segmentation/recognition
+- Word segmentation
+- Word recognition
 - Characters segmentation
 - Word spotting
 - Text-line extraction

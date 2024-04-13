@@ -6,7 +6,8 @@ task:
 - Writer identification
 - Image enhancement
 - Binarization
-- Line/word segmentation
+- Text-line segmentation
+- Word segmentation
 language:
 - Greek
 document_type: Handwritten Greek papyri from the 6nth century A.D.

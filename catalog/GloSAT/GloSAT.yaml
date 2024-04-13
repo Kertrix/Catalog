@@ -1,7 +1,7 @@
 ---
 name: GloSAT
 statistics: 500 images
-class: Heading Header Table body
+class: Heading, Header, Table body
 task:
 - Table structure recognition
 language:

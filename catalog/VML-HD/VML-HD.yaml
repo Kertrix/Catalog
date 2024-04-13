@@ -5,7 +5,7 @@ class: Book, Page number Sub-word id Location coordinates Arabic, Latin annotati
   Sub-word length
 task:
 - Word-spotting
-- Handwritten sub-word recognition
+- Word recognition
 language:
 - Arabic
 document_type: Handwritten scripts from 5 books by different writers from 1088-1451

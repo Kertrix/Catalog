@@ -1,11 +1,10 @@
 ---
 name: HBA
-statistics: 4K images 7.58B pixels
+statistics: 4000 images
 class: Graphics Normal text Capitalized text Handwritten text Italic text Footnote
   text
 task:
 - Layout analysis
-- Pixel-level annotation
 language:
 - Latin          Italian
 document_type: Manuscripts Printed pages

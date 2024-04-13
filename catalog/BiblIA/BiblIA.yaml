@@ -3,7 +3,7 @@ name: BiblIA
 statistics: 202 images 11, 285 lines 74, 675 words
 class: 'Script classes: Ashkenazi Italian, Sephardi'
 task:
-- Line segmentation
+- Text-line segmentation
 - Text transcription
 language:
 - Hebrew

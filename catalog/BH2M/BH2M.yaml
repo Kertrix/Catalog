@@ -1,11 +1,9 @@
 ---
 name: BH2M
-statistics: 174 pages 1, 740 licenses 5, 498 lines 56, 645 words
+statistics: 174 pages, 1740 licenses, 5498 lines, 56, 645 words
 class: 3, 360 word classes
 task:
 - Layout analysis
-- recognition
-- understanding
 language:
 - Old Catalan
 document_type: Handwritten marriage record archives of Barcelona Cathedral
