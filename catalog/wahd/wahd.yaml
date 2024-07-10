@@ -1,0 +1,12 @@
+---
+name: WAHD
+statistics: 353 manuscripts, 302 writers, 43,976 pages
+class: Writers
+task:
+- writer identification
+language:
+- Arabic
+document_type: manuscripts and books from the Islamic Heritage Project (IHP) and the National Library in Jerusalem (NLJ).
+mode:
+- Color
+...
