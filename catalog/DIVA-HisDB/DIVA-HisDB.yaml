@@ -15,5 +15,21 @@ resolution: 600 dpi
 format:
 - JPEG
 reference: '7814109'
-description: sssec:diva-hisdb
+description: "\nDIVA-HisDB \\cite{7814109} is a database that contains 150 images\
+  \ derived from three medieval manuscripts from the \\nth{11} and \\nth{14} centuries\
+  \ with complex layouts.\nThis database provides 20 training, 10 validation, 10 test,\
+  \ and 10 left out images for every manuscript annotated at pixel-level using the\
+  \ PAGE format for the following classes: main text body, decorations, and comments.\n\
+  Benchmark results applying convolutional autoencoders (N-light-N) \\cite{7814107}\
+  \ showed an average accuracy of approximately 95\\% for pixel classification and\
+  \ the accuracy for every category. \nAdditionally, the challenges of the dataset\
+  \ in terms of text-line segmentation using the Seam Carving \\cite{6981106} and\
+  \ OCRopus \\cite{Breuel2008TheOO} methods were demonstrated.\nThe HisDoc-Layout-Comp\
+  \ competition of ICDAR 2017 \\cite{8270154} used the DIVA-HisDB dataset to evaluate\
+  \ systems on layout analysis (Task 1), baseline detection (Task 2), and text-line\
+  \ segmentation (Task 3).\nFor layout analysis, the best overall performance in terms\
+  \ of \\ac{mIoU} was achieved by a \\ac{FCN} that segmented every image at pixel-level.\n\
+  The best performing system for Tasks 2 and 3 deployed Adaptive Run Length Smoothing\
+  \ (ARLS) \\cite{Nikolaou2010SegmentationOH} to propose text lines and then processed\
+  \ them using the Seam Carving algorithm."
 ...

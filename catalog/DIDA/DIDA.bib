@@ -10,3 +10,40 @@
     keywords = "Historical handwritten documents, Handwritten digit detection, Ensemble deep learning, Digit string recognition, DIDA handwritten digit dataset",
     abstract = "This paper introduces a novel deep learning architecture, named DIGITNET, and a large-scale digit dataset, named DIDA, to detect and recognize handwritten digits in historical document images written in the nineteen century. To generate the DIDA dataset, digit images are collected from 100,000 Swedish handwritten historical document images, which were written by different priests with different handwriting styles. This dataset contains three sub-datasets including single digit, large-scale bounding box annotated multi-digit, and digit string with 250,000, 25,000, and 200,000 samples in Red-Green-Blue (RGB) color spaces, respectively. Moreover, DIDA is used to train the DIGITNET network, which consists of two deep learning architectures, called DIGITNET-dect and DIGITNET-rec, respectively, to isolate digits and recognize digit strings in historical handwritten documents. In DIGITNET-dect architecture, to extract features from digits, three residual units where each residual unit has three convolution neural network structures are used and then a detection strategy based on You Look Only Once (YOLO) algorithm is employed to detect handwritten digits at two different scales. In DIGITNET-rec, the detected isolated digits are passed through 3 different designed Convolutional Neural Network (CNN) architectures and then the classification results of three different CNNs are combined using a voting scheme to recognize digit strings. The proposed model is also trained with various existing handwritten digit datasets and then validated over historical handwritten digit strings. The experimental results show that the proposed architecture trained with DIDA (publicly available from: https://didadataset.github.io/DIDA/) outperforms the state-of-the-art methods."
 }
+
+@article{merabti2018segmentation,
+    author = "Merabti, Hocine and Farou, Brahim and Seridi, Hamid",
+    title = "A segmentation-recognition approach with a fuzzy-artificial immune system for unconstrained handwritten connected digits",
+    journal = "Informatica",
+    volume = "42",
+    number = "1",
+    pages = "95--106",
+    year = "2018",
+    publisher = "Slovenian Society Informatika/Slovensko drustvo Informatika"
+}
+
+@article{Chen2000SegmentationOS,
+    author = "Chen, Yi-Kai and Wang, Jhing-Fa",
+    title = "Segmentation of {S}ingle- or {M}ultiple-{T}ouching {H}andwritten {N}umeral {S}tring {U}sing {B}ackground and {F}oreground {A}nalysis",
+    journal = "IEEE Trans. Pattern Anal. Mach. Intell.",
+    year = "2000",
+    volume = "22",
+    pages = "1304-1317"
+}
+
+@article{Gattal2017SegmentationAR,
+    author = "Gattal, Abdeljalil and Chibani, Youcef and Hadjadji, Bilal",
+    title = "Segmentation and recognition system for unknown-length handwritten digit strings",
+    journal = "Pattern Analysis and Applications",
+    year = "2017",
+    volume = "20",
+    pages = "307-323"
+}
+
+@article{Redmon2018YOLOv3AI,
+    author = "Redmon, Joseph and Farhadi, Ali",
+    title = "{YOLO}v3: An {I}ncremental {I}mprovement",
+    journal = "ArXiv",
+    year = "2018",
+    volume = "abs/1804.02767"
+}

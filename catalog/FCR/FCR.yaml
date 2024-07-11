@@ -15,5 +15,18 @@ resolution: N/A
 format:
 - ''
 reference: Quirs2020FinnishCR
-description: sssec:FCR
+description: '
+
+  The FCR dataset \cite{Quirs2020FinnishCR} includes 500 pages from the Renovated
+  District Court
+
+  Records of Finland from the \nth{19} century.
+
+  The images are both single- or double-page which makes the dataset quite complex
+  and the corresponding ground truth contains annotations on baseline- and layout-level.
+
+  The layout regions included are: page number, marginalia, paragraph, paragraph2,
+  table, and table2.
+
+  The ground truth further includes the line-level transcriptions in the Swedish language.'
 ...

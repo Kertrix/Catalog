@@ -14,5 +14,27 @@ resolution: N/A
 format:
 - N/A
 reference: 10.1007/978-3-031-06555-2_27
-description: sssec:hugin_munin
+description: '
+
+  The Hugin-Munin dataset \cite{10.1007/978-3-031-06555-2_27} is the first handwritten
+  recognition dataset for text written in Norwegian.
+
+  This dataset contains images derived from diaries and private correspondences written
+  from 1820 to 1950 from 12 different writers.
+
+  The ground truth includes the transcriptions of 164,922 words or 23,732 lines in
+  PAGE XML format.
+
+  The authors provide a 80\% training - 10\% validation - 10\% test random split and
+  another split with 3 unseen writers in the test set.
+
+  They further present a survey of open-source handwritten text recognition libraries
+  used since 2019 and compare the performance using the \ac{CER} and \ac{WER} on the
+  random split data.
+
+  The lowest \ac{CER} is obtained using PyLaia \cite{puigcerver2018pylaia}, while
+  the lowest \ac{WER} is obtained using Kaldi \cite{Arora2019UsingAM}.
+
+  These best methods were further deployed on the writer split and achieve much lower
+  performance than the random split. '
 ...

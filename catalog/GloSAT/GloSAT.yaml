@@ -14,5 +14,27 @@ resolution: N/A
 format:
 - JPEG
 reference: 10.1145/3476887.3476890
-description: sssec:GloSAT
+description: '
+
+  GloSAT \cite{10.1145/3476887.3476890} is a table structure recognition dataset of
+  500 archival images, printed, handwritten or mixed, of meteorological records.
+
+  There are two types of ground truth in the dataset: individual cell and coarse segmentation
+  cell annotations.
+
+  In addition to the conventional XML cTDaR19 format annotations, the dataset provides
+  the widely used Pascal Visual Object Classes (VOC) format \cite{Everingham2009ThePV}
+  and extends these formats with cell information such as headers, page type, and
+  table style.
+
+  A benchmark evaluation of GloSAT (individual cell and coarse segmentation cell separately),
+  cTDaR19, and their combination (+cTDaR19) using CascadeTabNet \cite{Prasad2020CascadeTabNetAA}
+  and CascadeTabNet with additional postprocessing proposed by the authors was presented.
+
+  This postprocessing step uses a 1-D DBSCAN clustering algorithm \cite{10.1145/3068335}
+  to infer vertical and horizontal lines of a table, assuming that only a subset of
+  cells is needed to place the rest for a rectangular table.
+
+  The results on the \ac{WA} F1 score showed that postprocessing helps the performance
+  in all experimental cases.'
 ...

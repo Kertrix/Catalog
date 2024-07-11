@@ -13,5 +13,21 @@ resolution: N/A
 format:
 - JPEG
 reference: '8395221'
-description: sssec:read-bad
+description: "\nThe READ-BAD dataset \\cite{8395221} contains 2,035 images of simple\
+  \ and complex documents with 132,123 baselines for baseline detection. \nThe images\
+  \ were derived from 9 European archives written from 1470 to 1930, and as ground\
+  \ truth, the PAGE XML annotation format \\cite{5597587} was used. \nThe ICDAR 2017\
+  \ Competition on Baseline Detection (cBAD) \\cite{8270153} used the READ-BAD dataset\
+  \ for Track A, text-line segmentation on simple documents, and Track B, text-line\
+  \ location on complex documents with noise and various layout elements, providing\
+  \ only the page.\nThis dataset provides 216 training images for the simple layouts\
+  \ and 270 for the complex layouts.\nAn evaluation scheme for baseline detection\
+  \ was introduced using the R-value, P-value, and F-value. \nThe R-value and the\
+  \ P-value have similarities to the recall and precision metrics, respectively, while\
+  \ the F-value is the harmonic mean of the two values. \nThe best performing system\
+  \ for both tracks used a U-Net-based architecture (DMRZ submission) that extracted\
+  \ baselines and text regions of interest. \nMoreover, a layout classification was\
+  \ performed according to the provided classes as a preprocessing step. \nPostprocessing\
+  \ further improved the predicted baselines through detection error pruning and baseline\
+  \ fragment merging."
 ...

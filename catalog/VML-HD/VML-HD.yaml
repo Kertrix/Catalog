@@ -15,5 +15,20 @@ resolution: 6000× 4000 pixels
 format:
 - TIFF
 reference: '8067751'
-description: sssec:vml-hd
+description: '
+
+  VML-HD \cite{8067751} is a database of Arabic handwritten documents that includes
+  680 pages from 5 different books of different writers.
+
+  This database can be used for handwriting recognition and word-spotting.
+
+  The annotations of the dataset include the book and page number, the segment id,
+  bounding box coordinates for 121,636 sub-words and 244,553 characters, length of
+  subword, and Arabic and Latin symbol transcriptions in Hadara XML format.
+
+  Word spotting results using Radial Descriptor \cite{6981050} and Radial Descriptor
+  Graph \cite{7814035} on a subset from every book and the 5 books combined were presented.
+
+  The Top1 - Top5 \ac{DR} of the Radial Descriptor Graph method showed better performance
+  on the combined set than the Radial Descriptor.'
 ...

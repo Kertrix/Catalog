@@ -18,5 +18,28 @@ resolution: N/A
 format:
 - JPEG
 reference: 10.1145/3476887.3476913
-description: sssec:bir_database
+description: '
+
+  The Bold-Italic-Regular (BIR) database \cite{10.1145/3476887.3476913} consists of
+  printed historical document pages with word bounding boxes and three font classes
+  (bold, italic, and regular) meant for word detection and font style classification.
+
+  The BIR database includes 285 scanned pages from various catalogues from the \nth{19}
+  and \nth{20} centuries written in French, Latin, or other languages.
+
+  Baseline results using 50\% training, 25\% validation, and 25\% test random splits
+  (TVT), and a 5-fold cross-validation (CV5) were presented.
+
+  For word detection, YOLOv5m was utilized \cite{glenn_jocher_2021_4418161}, and for
+  style classification, MobileNetV2 \cite{sandler2019mobilenetv2} and Xception \cite{chollet2017xception}
+  were utilized.
+
+  All models were evaluated according to the F1 score.
+
+  The MobileNetV2 style classification results were also compared with the results
+  of a human expert on 1K randomly chosen words.
+
+  The results showed a similar performance between the model and the human expert.
+
+  %********************************************************************************'
 ...

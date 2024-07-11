@@ -14,5 +14,15 @@ resolution: 300 dpi
 format:
 - TIFF
 reference: Quiros2018
-description: sssec:OHG
+description: '
+
+  The OHG dataset\footnote{\url{https://zenodo.org/record/1322666\#.Ypi6Ty8RoUE}\label{OHG_link}}
+  is a set of 596 pages of Spanish deeds written from a single writer on the \nth{18}
+  century with a complex layout and six different layout regions that contain only
+  text which are: page number, notarial typology, paragraph of text that begins next
+  to a notarial typology, paragraph that begins on a previous page, marginal note,
+  and marginal note added a posteriori to the document.
+
+  The dataset includes more than 23,700 lines and a 2,400-word vocabulary and the
+  PAGE XML ground truth files for both layout analysis and handwritten recognition.'
 ...

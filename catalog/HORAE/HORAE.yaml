@@ -17,5 +17,21 @@ resolution: N/A
 format:
 - JPEG
 reference: 10.1145/3352631.3352633
-description: sssec:horae
+description: "\nThe HORAE dataset \\cite{10.1145/3352631.3352633} contains 557 images\
+  \ derived from books of hours and their corresponding layout and text-related annotations.\n\
+  These images originate from the full HORAE corpus, which consists of 500 manuscripts\
+  \ and 107,227 pages.\nTo create the final HORAE dataset with the annotated pages,\
+  \ a selection pipeline was used that initially classified pages into the following\
+  \ classes: binding, white page, calendar, miniature, miniature-and-text, text-with-miniature,\
+  \ and full-page text.\nThey excluded the ones that were binding or white pages and\
+  \ kept two images per class.\nThen, the filtered pages were clustered from the initial\
+  \ step to keep one from every class and detect the ones considered outliers because\
+  \ of their rare layout. \nFor the final 557 image set, the centroids from the most\
+  \ frequent layouts and the strongest outliers were annotated.\nA PAGE XML \\cite{5597587}\
+  \ file accompanies every image of the final set with annotations for page, miniature,\
+  \ border elements, initials, and other decorations found in the text body, such\
+  \ as line filler, music notations, and ornaments. \nBenchmark results were presented\
+  \ for line detection and layout analysis using the dhSegment segmentation neural\
+  \ network \\cite{Oliveira2018dhSegmentAG} and evaluated according to the IoU with\
+  \ different thresholds and postprocessing."
 ...

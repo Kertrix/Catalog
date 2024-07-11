@@ -13,5 +13,17 @@ resolution: 2882×3650 pixels
 format:
 - TIFF
 reference: '6980990'
-description: sssec:hadara80p
+description: "\nThe HADARA80P dataset \\cite{6980990} contains 80 handwritten Arabic\
+  \ pages originating from a single-author book about the taaum disease and its connections\
+  \ to religion.\nThe XML ground truth files provide the pages, text block, word coordinates,\
+  \ and transcription for every word.\nIn some cases, tag values accompany the words.\n\
+  The total number of labeled words is 16,720.\nExperiments using a publicly available\
+  \ word spotting application\\footnote{\\url{http://www.corenum.com/products/ulysse/}\\\
+  label{ulysse}} are presented and an extension of the methods used in the application\
+  \ \\cite{Leydier2007TextSF, Leydier2009TowardsAO}, the HADARA word spotter, is proposed.\
+  \ \nThe original methods work by locating the zones of interest through gradients,\
+  \ while the proposed method employs curvature according to a threshold instead.\n\
+  The resulting \\ac{mAP} based on the precision measures $p_{IR}$ and $\\overline{\\\
+  gamma_{LA}}$, presented in \\cite{6628824}, showed that the proposed system outperformed\
+  \ the already existing application on the HADARA80P and the George Washington datasets."
 ...

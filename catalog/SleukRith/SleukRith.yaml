@@ -15,5 +15,33 @@ resolution: N/A
 format:
 - JPEG
 reference: 10.1145/3151509.3151510
-description: sssec:sleukrith
+description: '
+
+  SleukRith \cite{10.1145/3151509.3151510} is a dataset of 657 images from palm leaf
+  manuscripts written in Khmer from 4 different sources.
+
+  This dataset includes annotations for isolated character recognition and word and
+  line segmentation.
+
+  The most valuable aspect of this dataset is character recognition, which is the
+  foundation for building the other two elements.
+
+  The individual character images were constructed by cutting patches for every character
+  and removing the noise of near characters using inpainting.
+
+  For the rest of the annotations, the combination of the characters was used to determine
+  the words and lines.
+
+  To evaluate the set for character recognition, the \ac{CER} of a \ac{CNN}, which
+  was 6.04\%, was presented.
+
+  The dataset was further used in the ICFHR2018 Competition for Southeast Asian Palm
+  Leaf Manuscripts presented in Section \ref{sssec:ICFHR18_ASIAN_PALM_LEAF}, which
+  contained binarization, text-line segmentation, character recognition, and word
+  transliteration tasks.
+
+  However, this dataset was not part of the binarization task.
+
+  The winning systems presented in the competition section also performed the best
+  for this dataset alone.'
 ...

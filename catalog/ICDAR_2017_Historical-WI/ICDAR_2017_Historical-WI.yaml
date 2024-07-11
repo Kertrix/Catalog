@@ -18,5 +18,23 @@ format:
 - JPEG
 - PNG
 reference: '8270156'
-description: sssec:Historical-WI
+description: '
+
+  The Historical-WI competition \cite{8270156} focused on image retrieval based on
+  writer identification.
+
+  The competition offered a set of 3,600 images of handwritten document pages ranging
+  from the \nth{13} to the \nth{20} century for evaluation.
+
+  The test set originated from the Universitätsbibliothek Basel and included 720 different
+  writers.
+
+  For training, 1,182 images in color and binary format from 394 writers were provided
+  and were different from the writers in the test set.
+
+  The submitted systems were evaluated using the \ac{mAP} metric.
+
+  The system that achieved the highest \ac{mAP} used feature vectors derived from
+  binarized samples and the concatenation of their oriented Basic Image Feature (BIFs)
+  columns histograms \cite{7490135,NEWELL20142255}.'
 ...

@@ -24,5 +24,25 @@ format:
 - PNG
 - TIFF
 reference: '8583808'
-description: sssec:ICFHR18_ASIAN_PALM_LEAF
+description: "\nThe Southeast Asian palm leaf manuscripts competition \\cite{8583808}\
+  \ offered four tasks: binarization, text-line segmentation, isolated character/glyph\
+  \ recognition, and word transliteration. \nThis competition included manuscripts\
+  \ in three languages: Balinese, Khmer, and Sundanese.\nFor Balinese, Khmer, and\
+  \ Sundanese language sets, the Amadi\\_Lontarset dataset presented in Section \\\
+  ref{sssec:amadi_lontarset}, the SleukRith dataset presented in Section \\ref{sssec:sleukrith},\
+  \ and the Lontar Sunda dataset presented in Section \\ref{sssec:SUNDANESE_PALM_LEAF},\
+  \ respectively, were utilized. \n The results for each separate language set are\
+  \ presented in the corresponding dataset sections.\nIn this section, we will present\
+  \ the overall results of the competition.\nThe system that obtained the highest\
+  \ FM and PSNR values for binarization used Gaussian operators and a nonlinear function\
+  \ to enhance the images. \nThen, the enhanced images were finally segmented with\
+  \ a threshold of 0.9.\nThe same system achieved a value of 0.17 NRM that underperformed\
+  \ the best value by only 0.01.\nIn challenge B, text-line segmentation, the best\
+  \ and only \\ac{DR}, \\ac{RA}, and \\ac{FM} values were achieved by using the binarized\
+  \ images from Challenge A and the horizontal projection profile to perform line\
+  \ segmentation.\nChallenge C, character recognition, was evaluated according to\
+  \ the recognition rate, and the highest value was obtained by using a dense 100-layer\
+  \ \\ac{CNN} architecture that classifies similar characters.\nFinally, in Challenge\
+  \ D, the best performing system achieved a 5.62\\% \\ac{CER} on the mixed sets using\
+  \ a CNN-RNN encoder-decoder architecture with an attention mechanism."
 ...

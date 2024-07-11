@@ -16,5 +16,19 @@ format:
 - TIFF
 - JPEG
 reference: iet:/content/conferences/10.1049/cp.2018.1286
-description: sssec:warped_arabic
+description: "\nIn \\cite{iet:/content/conferences/10.1049/cp.2018.1286}, a dataset\
+  \ of 200 historical Arabic document images from the 16th to the 19th century and\
+  \ four different libraries was introduced. \nThe images were derived from books,\
+  \ newspapers, legal documents, and journals and contain a variety of layouts and\
+  \ states of degradation that help in facing challenges in baseline detection and\
+  \ text-line segmentation tasks. \nThe PAGE XML ground truth \\cite{5597587} contains\
+  \ text line-level information and metadata information according to bibliographic\
+  \ knowledge (author, title, date, location, document type, and page number), physical\
+  \ properties (language, script, font, and number of columns), and copyright data.\
+  \ \nResults were shown for text-line segmentation using four methods: Voronoi diagrams,\
+  \ a smearing method, a hybrid approach, and a projection profile-based method. \n\
+  For these methods, three warping percentages were utilized: 0\\%, 25\\%, and 50\\\
+  %. \nThe results suggested that the Voronoi diagrams achieved the highest success\
+  \ rate. Finally, the more warped the text lines are, the more challenging the task\
+  \ is. \nThus, the performance decreases as the curvature increases."
 ...

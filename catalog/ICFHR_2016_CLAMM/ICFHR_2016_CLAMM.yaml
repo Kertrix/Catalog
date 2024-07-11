@@ -14,5 +14,22 @@ resolution: 300 dpi
 format:
 - TIFF
 reference: '7814129'
-description: sssec:ICFHR16CLAMM
+description: "\nThe ICFHR16 Competition \\cite{7814129} provided a collection of grayscale\
+  \ Latin manuscript images for script type classification.\nTwo tasks were proposed\
+  \ in this competition: Task 1, which uses a single label for each image, and Task\
+  \ 2, which uses multi weighted labeling for each image. \nThe dataset is comprised\
+  \ of 12 script classes and 3 sets, the training set contains 2K images and the test\
+  \ sets for Tasks 1 and 2 contain 1K and 2K images, respectively. \nThe average \\\
+  ac{acc} and the average intraclass distance were used for the evaluation of the\
+  \ proposed systems. The system that achieved the highest accuracy for Task 1 used\
+  \ I-vector extraction \\cite{Dehak2011LanguageRV} on image patches and a classification\
+  \ of the extracted vectors using Latent Dirichlet Analysis (LDA). \nFor Task 2,\
+  \ the best performing system in terms of Final Score utilized a neural network architecture\
+  \ named DeepScript\\footnote{\\url{https://github.com/mikekestemont/DeepScript}\\\
+  label{deepscript}} and pre-processing to yield information on random image crops\
+  \ and their various perturbations to the network classifier as input.\nIn terms\
+  \ of the average intraclass distance, the higher ranked system in both tasks was\
+  \ the FRDC-OCR and consisted of a \\ac{CNN} classifier that was applied on patches,\
+  \ where for every image, the result is the average of the recognition confidence\
+  \ and feature vector across its patches."
 ...

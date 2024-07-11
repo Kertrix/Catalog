@@ -17,5 +17,19 @@ resolution: N/A
 format:
 - JPEG2000
 reference: .nan
-description: sssec:DMAS2019
+description: '
+
+  This competition\footnote{\url{https://www.primaresearch.org/DMAS2019/}\label{dmas2019}}
+  aimed to recognize and classify parts of articles present in digitized historical
+  magazines.
+
+  The competition provided 50-100 annotated images from magazines from 1800 -1938
+  taken by the National Library of the Netherlands and their layout and \ac{OCR} ground
+  truth.
+
+  The annotations include cover, table of contents, content, and index as page classes
+  and article, illustration with caption, advertisement, index, and colophon as article
+  classes.
+
+  The competition does not seem to provide information about the submitted systems.'
 ...

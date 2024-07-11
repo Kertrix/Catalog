@@ -14,5 +14,33 @@ resolution: High and low quality factor resolution 2K pixel larger dimension
 format:
 - JPEG
 reference: Seuret2020ICFHR2C
-description: sssec:HisFragIR20
+description: '
+
+  Another competition, which is similar to the ICDAR17 Historical-WI (Section \ref{sssec:Historical-WI})
+  and the ICDAR2019-HDRC-IR (Section \ref{sssec:ICDAR2019-HDRC-IR}) is the HisFragIR20
+  \cite{Seuret2020ICFHR2C}.
+
+  This competition further increased the size of the dataset by generating 120K fragments,
+  randomly shaped and rectangular, from 20K documents and 9.8K writers.
+
+  The test data come from European Middle Age books (\nth{9} to \nth{15} century CE).
+
+  Fragments extracted from the ICDAR2019-HDRC-IR test set comprise the training set.
+
+  The competition evaluated the test set for two tasks, retrieval per writer and per
+  image.
+
+  For the writer task, the best system in terms of \ac{mAP} used a ResNet \cite{He2016DeepRL}
+  with 20 layers trained on SIFT keypoints and multi-\ac{VLAD} encoding, PCA for descriptor
+  dimensionality reduction, k-means clustering on the descriptors, and cosine similarity
+  for the final results.
+
+  The whole process was based on the work presented in \cite{christlein2017unsupervised}.
+
+  Accuracy, Pr@10, and Pr@100 metrics were used.
+
+  The system that achieved the highest values used a ResNet50 \cite{He2016DeepRL}
+  feature extractor with whole fragment image input and the $\chi^2$ distance.
+
+  This system also obtained the highest values in all retrieval per image task metrics.'
 ...

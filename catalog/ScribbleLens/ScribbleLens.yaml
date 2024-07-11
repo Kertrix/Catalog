@@ -15,5 +15,12 @@ resolution: 150 - 300 dpi
 format:
 - JPEG
 reference: '9257750'
-description: sssec:scribblelens
+description: "\nIn \\cite{9257750}, a corpus for automatic manuscript transcription\
+  \ was presented. \nThis dataset contains 1K pages from early modern Dutch manuscripts\
+  \ spanning over 150 years with line, character, year, and writer ground truth. \n\
+  It further provides a set of unlabeled images for unsupervised or weakly-supervised\
+  \ learning investigation. \nAs a baseline, a network that combines Convolutional\
+  \ Neural Networks and bi-directional \\ac{LSTM} with a \\ac{CTC} (CNN/BLSTM/\\ac{CTC})\
+  \ \\cite{7814068, Nina2018NephiA} was used, and it was shown that the \\ac{CER}\
+  \ would be reduced in the presence of additional annotated data.\n "
 ...

@@ -20,5 +20,27 @@ resolution: 300 dpi or 75-300 dpi
 format:
 - JPEG
 reference: SANCHEZ2019122
-description: sssec:htr_benchmarks
+description: "\nThe work published in \\cite{SANCHEZ2019122} presents four benchmarks\
+  \ for historical document HTR and achieves state of the art results for four different\
+  \ competitions: ICFHR-2014 \\cite{6981116}, ICDAR-2015 \\cite{7333944}, ICFHR-2016\
+  \ \\cite{Snchez2016ICFHR2016CO}, and ICDAR-2017 \\cite{8270157}. \nThe ICFHR-2014\
+  \ dataset is a subset of the Bentham Papers \\cite{Causer2012BuildingAV} that contains\
+  \ 433 images with line detection and recognition ground truth in PAGE XML format.\n\
+  Similarly, the ICDAR-15 competition  contains Bentham page images, but presenting\
+  \ a more difficult layout than those of ICFHR-2014.\nThis dataset consists of different\
+  \ subsets that include line images with their corresponding line transcriptions\
+  \ aligned, or images with page-level transcriptions, but no alignment.\nThe ICFHR-2016\
+  \ dataset includes 450 single-block page images derived from the German Ratsprotokolle\
+  \ collection, that contain approximately 10K lines and 43K running words.\nThe provided\
+  \ ground truth is at line-level.\nThe three mentioned competitions include a Restricted\
+  \ and an Unrestricted Track.\nFinally, the ICDAR-2017 competition provides 10,172\
+  \ images distributed across two training and two test subsets.\nThe data provided\
+  \ come from the Alfred Escher Letter (AEC) and other German collections and present\
+  \ heterogeneous writing styles.\nThe competition includes a Traditional challenge\
+  \ for simple transcription and an Advanced challenge for transcription, but with\
+  \ a pre-step of line detection.\nFor the benchmarking, a CRNN with four convolutional\
+  \ and three recurrent layers is used for character optical modeling and enhanced\
+  \ with the use of N-gram language models on the output character probabilities.\n\
+  With this enhancement, the work achieves the lowest \\ac{CER} and \\ac{WER} for\
+  \ all cases."
 ...

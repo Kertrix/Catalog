@@ -16,5 +16,72 @@ resolution: 200 dpi
 format:
 - TIFF
 reference: 10.1007/978-3-031-06555-2_10
-description: sssec:popp
+description: "\nThe POPP dataset \\cite{10.1007/978-3-031-06555-2_10} contains lines\
+  \ extracted from Paris census tables of 1926 and consists of three sub-datasets:\
+  \ the \"Generic dataset\", the \"Belleville\", and the \"Chaussée d'Antin\".\nThe\
+  \ Generic dataset contains 80 double page images, one for every Paris district,\
+  \ each one from a different writer, and 4,800 lines divided in 3,840 train, 480\
+  \ validation, and 480 test lines.\nThe Belleville dataset contains 49 pages and\
+  \ 1,470 lines from the Belleville district written from a single writer.\nThe Chaussée\
+  \ d'Antin is a 10-writer set of 780 lines and 26 pages from the Chaussée d'Antin\
+  \ census.\nPOPP includes grayscale images, their corresponding line bounding boxes\
+  \ in XML files, and the line labels in JSON format.\nThis work presents line recognition\
+  \ results of the \\ac{CER} and \\ac{WER} for each of the three datasets using an\
+  \ end-to-end hybrid attention network \\cite{Coquenet2022}.\nFinally, the paper\
+  \ presents a complete pipeline, with the steps of pre-processing, handwriting recognition,\
+  \ and domain knowledge integration, that extracted a vast number of information\
+  \ from the Paris census to be used as annotated dataset and improves the \\ac{CER}\
+  \ with the use of self-training.\n%%\n%%\n%%\n%%\n\\section{Observations \\& Discussion}\n\
+  \\label{sec:discussion}\nSeveral datasets exist for the tasks in the three categories\
+  \ that we presented in this paper: document classification, document structure,\
+  \ and content analysis.\nThere is a variation in languages, tasks, and sizes; however,\
+  \ no large-scale dataset seems to exist that can address various tasks and be used\
+  \ by the community for pretraining or transfer learning.\nVarious evaluation methods\
+  \ are also presented when benchmarking. \nNevertheless, it is difficult to directly\
+  \ compare datasets and techniques, as there is no universal evaluation that can\
+  \ directly compare the performance of systems on datasets.\nThe classification of\
+  \ objects on a page level is highly represented in document structure tasks. \n\
+  Nevertheless, a document could also be considered as the whole manuscript collection.\n\
+  We found six studies related to document classification, which means that this task\
+  \ is rarely addressed.\nOnly one dataset offers more than 35K pages, but the overall\
+  \ amount is relatively low.\nThe main focus of datasets is on Latin scripts, while\
+  \ others such as Arabic are also represented.\nSome scripts, such as Hebrew or Greek,\
+  \ are rarely represented.\nWe detected more meta-data information in several datasets\
+  \ that we categorized in the document structure and content analysis sections, as\
+  \ they are not used or included in the benchmarks.\nConsidering the document structure\
+  \ studies, we found only two datasets containing more than 10K images.\nAgain, there\
+  \ is a significant focus on Latin scripts; however, more languages are observed\
+  \ for this task as it is much more represented than document classification.\nA\
+  \ noticeable issue, in this case, is the comparison across databases as a variety\
+  \ of evaluation measures and benchmarks are used.\nWe propose harmonizing the evaluation\
+  \ metrics using the \\ac{mIoU} and \\ac{mAP} metrics (at 50\\%, 60\\%, 70\\%, and\
+  \ 80\\%).\nIn terms of annotation format, we note that most datasets use PAGE XML,\
+  \ three datasets use the COCO format, and only one dataset uses the VOC format.\n\
+  It would be beneficial to establish a conversion between annotation formats to promote\
+  \ the use of state-of-the-art computer vision models for historical document analysis.\n\
+  The content analysis task seems to have the most prominent representation in the\
+  \ set of datasets.\nIn this case, approximately 30\\% of the semantics-related studies\
+  \ include more than 1K images.\nThe majority of this percentage appears for isolated\
+  \ character recognition, which is reasonably the easiest case of samples one could\
+  \ obtain and manage in a database.\nIn general, there is an emphasis on \\ac{OCR},\
+  \ but the level of detail differs (character, word, or line).\nRetrieval further\
+  \ focuses on text on the word, image, or writer level.\nLikewise, there is a focus\
+  \ on Latin scripts.\nStill, there is also a high representation of Asian scripts\
+  \ and the least representation on Arabic scripts.\nFinally, there is more interest\
+  \ in paleography, but we lack the representation of digits and tables as content.\n\
+  \\section{Conclusion}\n\\label{sec:conclusion}\nWe demonstrated a survey of historical\
+  \ document image datasets following a systematic literature review methodology.\n\
+  We summarized 65 studies and clustered them considering the related general tasks\
+  \ that we defined.\nWe list the datasets in a table, connecting them to their corresponding\
+  \ section, and mark the possible tasks they include.\nFor every study, we tabulate\
+  \ detailed information about the statistics, tasks, document type, languages, input\
+  \ image visual aspects, annotations, and benchmark and quantitative performance\
+  \ analysis information.\nThis way, we facilitate researchers in finding the most\
+  \ fitting datasets and enable historical document image analysis.\nOur findings\
+  \ unveil a focus on Latin scripts and several evaluation methods, but not much compliance\
+  \ with deep learning trends.\nA clear size limitation on dataset samples is also\
+  \ obvious.\nAs future directions, we urge the need for large-scale datasets to apply\
+  \ state-of-the-art deep learning methods, the inclusion of more classification tasks\
+  \ using metadata information, and the harmonization of evaluation schemes for direct\
+  \ comparison across datasets.\n%"
 ...

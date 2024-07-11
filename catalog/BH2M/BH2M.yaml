@@ -13,5 +13,27 @@ resolution: 300 dpi
 format:
 - N/A
 reference: '6976764'
-description: sssec:bh2m
+description: '
+
+  The Barcelona Historical Handwritten Marriages Database or BH2M \cite{6976764} consists
+  of 174 handwritten marriage record pages, where 100 pages are meant for training,
+  34 for validation, and 40 for testing.
+
+  The included pages were written in Old Catalan by a single writer between 1617 and
+  1619 and preserved in the Barcelona central archives.
+
+  The database provides the ground truth for layout analysis, text transcription,
+  and semantic analysis.
+
+  XML annotation files are organized hierarchically into text blocks, segmented lines,
+  and text words for layout analysis.
+
+  The additional word transcriptions and semantics about the license, appearance order,
+  date, and information about the wife and husband, may enable handwritten text recognition,
+  word spotting, information extraction and understanding and context-aware algorithms.
+
+  Moreover, baseline results of line segmentation \cite{Mota2014AGA} using the \ac{DR},
+  \ac{RA}, and \ac{FM} metrics, and segmentation-free \cite{Vinciarelli2002OfflineCW}
+  and -based \cite{Almazn2012EfficientEW} word spotting algorithms using the \ac{mAP}
+  were presented.'
 ...

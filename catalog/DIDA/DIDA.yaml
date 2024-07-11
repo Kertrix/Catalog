@@ -15,5 +15,16 @@ resolution: 240× 210 Pixels
 format:
 - JPEG
 reference: KUSETOGULLARI2021100182
-description: sssec:dida
+description: "\nThe Digit Dataset DIDA \\cite{KUSETOGULLARI2021100182} is an extension\
+  \ of the previously mentioned ARDIS digit dataset. \nDIDA is composed of three datasets:\
+  \ Dataset I, with 250K single-digit color images of 10 classes (0-9), Dataset II,\
+  \ with 200K multi-digit year string samples, and Dataset III, with 25K digits with\
+  \ bounding boxes meant for object detection.\nA digit detection and recognition\
+  \ system named DIGITNET was proposed that initially detects handwritten digits and\
+  \ passes the output to a recognition network to classify them.\nThe results of this\
+  \ system were further evaluated on DIDA, comparing it to other classical methods\
+  \ \\cite{merabti2018segmentation, Chen2000SegmentationOS,Gattal2017SegmentationAR}\
+  \ and network architectures such as YOLOv3 and YOLOv3-tiny \\cite{Redmon2018YOLOv3AI}.\
+  \ \nSimilar to ARDIS, several experiments with different combinations of datasets\
+  \ were performed and state-of-the-art results in digit detection were achieved."
 ...

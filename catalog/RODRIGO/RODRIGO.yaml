@@ -16,5 +16,21 @@ resolution: 300 dpi
 format:
 - N/A
 reference: serrano-etal-2010-rodrigo
-description: sssec:rodrigo
+description: '
+
+  The RODRIGO database \cite{serrano-etal-2010-rodrigo} contains data derived from
+  a manuscript written in 1545 in old Castilian by one writer.
+
+  The database follows a similar strategy as the GERMANA database in creation, ground
+  truth, and experimental baseline.
+
+  It includes 853-page images of one column text blocks, where each block is annotated
+  with a bounding rectangle, and then each line within it with the corresponding baseline.
+
+  The annotations further include transcriptions for every line, which results in
+  a total of 20,357 text lines and 231K words as ground truth.
+
+  Baseline results were provided for the task of handwriting recognition using the
+  same model and processes as in Section \ref{sssec:germana}, by using 20 blocks of
+  1K lines, and a \ac{WER} of 36.5\% was achieved on the last block. '
 ...

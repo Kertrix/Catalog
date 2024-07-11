@@ -21,5 +21,18 @@ resolution: 300 dpi
 format:
 - N/A
 reference: '5277691'
-description: sssec:germana
+description: "\nGERMANA \\cite{5277691} is a database of 764 scanned pages from an\
+  \ 1,891 manuscript written in Spanish.\nThe pages contain 21K text lines and 217K\
+  \ words.\nCatalan, French, Latin, German, and Italian may also appear in some parts\
+  \ of the text.\nThe ground truth comprises bounding box annotations for the text\
+  \ blocks, straight baselines for every text line, and line-by-line transcriptions.\n\
+  Although the database annotations contain both layout and text information, the\
+  \ baseline experiments were limited to the task of handwriting recognition. \nThe\
+  \ transcription \\ac{WER} per block for handwriting recognition experiments were\
+  \ presented using a system that combines Hidden Markov Models for text recognition\
+  \ and n-grams for language modeling \\cite{4377054}.\nThe results contained the\
+  \ first 180 pages of the database separated into blocks of 20 pages and were presented\
+  \ by adding each block consecutively.\nA 37\\% \\ac{WER} was achieved for the last\
+  \ two blocks, while the error is higher in the first blocks, where more out-of-vocabulary\
+  \ words were presented."
 ...

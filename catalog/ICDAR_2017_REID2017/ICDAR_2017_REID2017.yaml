@@ -15,5 +15,28 @@ resolution: N/A
 format:
 - TIFF
 reference: '8270161'
-description: sssec:reid2017
+description: '
+
+  The REID 2017 Competition \cite{8270161} held at ICDAR 2017 includes 26 evaluation
+  images written in Bengali from 1785-1909 and an example set of 5 images for training.
+
+  The competition originally held two tasks, the Bengali text recognition and the
+  Quarterly Lists challenge (tabular recognition in English and Bengali); however,
+  there were no submissions for the latter challenge.
+
+  The organizers of the competition provided the image annotations in PAGE XML format
+  \cite{5597587} created using Aletheia \cite{6065274}.
+
+  These annotations included layout region polygons, metadata such as heading, paragraph,
+  captions, footer, etc., and reading order information.
+
+  %The competition hosted two tasks, layout analysis and OCR, but focuses mostly on
+  Bengali text recognition.
+
+  The Google Multilingual \ac{OCR} that uses the Google Cloud vision API \footnote{\url{https://cloud.google.com/vision/}\label{google}}
+  achieved the highest flex \ac{ca} compared to the other submissions; however, the
+  \ac{ca} of 75.4\% suggests that there is plenty of room for improvement.
+
+  The same system, with a success rate of 78.4\%, outperformed the other systems on
+  the text region segmentation task.'
 ...

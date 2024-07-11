@@ -15,5 +15,27 @@ resolution: N/A
 format:
 - N/A
 reference: '9412210'
-description: sssec:hisclima
+description: '
+
+  HisClima \cite{9412210} is a database of handwritten weather ship log book pages
+  from 1880 to 1881 that contains both layout annotations of blocks, columns, rows,
+  and lines and transcription annotations with relevant information such as number
+  of cells in the tables.
+
+  The dataset comprises 208 pages with tables and 211 pages with descriptive text.
+
+  Baseline experiments are performed for text recognition, line segmentation, and
+  information extraction.
+
+  A CRNN  with CTC loss performing on line images was used for the recognition task
+  with and without a language model (LM) and evaluated according to the \ac{WER} and
+  \ac{CER}.
+
+  The neural network architecture presented in \cite{Quirs2018MultiTaskHD}, that performs
+  geometric and logical layout analysis, was used for the task of line segmentation.
+
+  Finally, for the information extraction for cell position and line geometry an information
+  retrieval on tables method without segmentation based in \cite{8563224} was used.
+
+  The two latter tasks were evaluated according to precision, recall, and F1 scores.'
 ...

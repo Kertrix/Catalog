@@ -16,5 +16,26 @@ format:
 - PNG
 - JPEG
 reference: '8977999'
-description: sssec:chinese_reading_challenge
+description: '
+
+  This competition \cite{8977999} presented a database of approximately 10K historical
+  Chinese family record pages to evaluate systems for the tasks of (1) text recognition
+  on extracted lines, (2) pixel-level layout analysis, and (3) text-line detection
+  and recognition.
+
+  More specifically, the training set includes 11,715 pages derived from 37 different
+  books along with their PAGE XML \cite{5597587} and pixel-wise annotations, while
+  the test set includes 1,135 images from 12 books.
+
+  To evaluate the submitted systems, Task 1 uses the edit distance (editDistance),
+  Task 2 uses the \ac{mIoU}, and Task 3 uses the total counted errors (totalErrors)
+  of the output XML file.
+
+  The team that achieved the best results for all tasks used a Convolutional Recurrent
+  Neural Network (CRNN) \cite{Shi2017AnET} to recognize Chinese text, a Cascade R-CNN
+  \cite{Cai2018CascadeRD} to detect text lines, and a U-Net-shaped network for the
+  pixel-wise classification.
+
+  For Task 2, the system that outperformed the others achieved a 99.96\% IoU for the
+  background class and 99.24\% for the text class.'
 ...

@@ -15,5 +15,24 @@ resolution: N/A
 format:
 - JPEG
 reference: 10.1145/3476887.3476892
-description: sssec:digital_peter
+description: '
+
+  Digital Peter \cite{10.1145/3476887.3476892} is a dataset of 9,694 images and their
+  corresponding text from manuscripts, written by Peter the Great from 1709 to 1713
+  for handwriting recognition.
+
+  This dataset provides a 6,237 training, 1,930 validation, and 1,527 test splits
+  that can be used either for line segmentation or line recognition.
+
+  A competition\footnote{\url{https://github.com/sberbank-ai/digital\_peter\_aij2020}\label{digital_peter_note}}
+  on text-line recognition was launched using this dataset.
+
+  As a baseline, a 7-layer \ac{CNN} was used for image feature extraction and then
+  a bidirectional GRU network with \ac{CTC} loss \cite{10.1145/1143844.1143891} was
+  used to predict the image text.
+
+  The model performance was further optimized using different hyperparameter values
+  and beam search.
+
+  The task was evaluated according to the \ac{CER}, the \ac{WER}, and the string \ac{acc}.'
 ...

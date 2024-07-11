@@ -16,5 +16,21 @@ resolution: N/A
 format:
 - JPEG
 reference: '8978120'
-description: sssec:ctdar
+description: "\nThe cTDaR competition of 2019 \\cite{8978120} held two tracks, Track\
+  \ A for table region detection and Track B for table recognition, and two datasets,\
+  \ modern and historical.\nThe historical document dataset includes civil records\
+  \ containing various handwritten tables sourced from 23 different institutions.\n\
+  For the table detection track, the dataset provides 600 training and 199 test images.\n\
+  The table recognition track provides 600 training and 150 test samples for two subtracks:\
+  \ B1, which provides the tables regions, and B2, which does not provide any a priori\
+  \ knowledge. \nHence, there is a need for both region and structure detection for\
+  \ B2. \nThe results from 11 teams for track A and two teams for track B were compared.\
+  \ \nThe winning team for track A achieved a \\ac{WA} F1 score of 0.94 for the historical\
+  \ documents by using a classifier to categorize modern and archive samples and Faster-RCNN\
+  \ \\cite{NIPS2015_14bfa6bb} for table detection. \nThen, they merged the overlapping\
+  \ regions that exceeded a given threshold value.\nFor the second track, the best\
+  \ submission achieved a \\ac{WA} F1 of 0.48 for B1 and 0.47 for B2. \nAn \\ac{FCN}\
+  \ was used to obtain the tables' guiding lines and junction points for broken line\
+  \ repair.\nThen, the cells were extracted through Connected Component Analysis and\
+  \ the row and column range were handled through a neighbor graph."
 ...

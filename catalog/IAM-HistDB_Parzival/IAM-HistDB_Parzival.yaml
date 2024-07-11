@@ -18,5 +18,38 @@ format:
 - JPEG
 - PNG
 reference: '5306020'
-description: sssec:iam-histdb
+description: "\nIAM-HistDB \\cite{10.1145/1815330.1815331} is a highly used database\
+  \ of handwritten historical manuscript images that contains three datasets: Saint\
+  \ Gall, Parzival, and George Washington (GW).\nWe present these datasets in the\
+  \ following paragraphs.\n%All datasets contain Latin, Old German, and English text\
+  \ pages from the 9th, 13th and 18th century, respectively.\nThe Saint Gall database\
+  \ \\cite{10.1145/2037342.2037348} is a set of 60 page images and 1,410 binarized\
+  \ and normalized text-line images of manuscripts written in the \\nth{9} century\
+  \ in Latin language and Carolingian script by one writer.\nThe text edition for\
+  \ every page image was provided.\nThe pages are composed of 11,597 words, 4,890\
+  \ word labels, 5,436 word spellings, and 49 letters.\nThe ground truth includes\
+  \ the line-level text transcriptions and the word and line locations.\nAn evaluation\
+  \ of a transcription alignment system based on HMM is proposed in the paper and\
+  \ compared with three more reference systems.\nThe Parzival database \\cite{FISCHER2012934}\
+  \ provides handwritten documents from the \\nth{13} century originating from three\
+  \ writers and was written in Old German and Gothic script.\nIt contains 47 pages,\
+  \ 4,477 text lines, 23,478 words, 4,934 word categories, and 93 letters.\nSimilar\
+  \ to St. Gall, the line and word images are binarized and normalized.\nAs ground\
+  \ truth, Parzival includes line- and word-level transcriptions.\nThe work presented\
+  \ in \\cite{5306020} used a HMM-based system similar to \\cite{10.5555/505741.505745}\
+  \ and the BLSTM introduced in \\cite{Graves2009855} recognizer for automatic handwriting\
+  \ recognition on the Parzival dataset and achieved a word \\ac{acc} of 88.69\\%\
+  \ and 93.32\\%.\nFurthermore, in \\cite{FISCHER2012934}, a lexicon-free word spotting\
+  \ method based on character HMMs was proposed and evaluated on the Parzival and\
+  \ GW datasets.\nThe GW database \\cite{FISCHER2012934} is comprised of \\nth{18}\
+  \ century documents from the George Washington Papers and contains 656 text and\
+  \ 4,894 word images, binarized and normalized, along with their transcription annotations.\n\
+  The pages are written in English by two writers in longhand script.\nThe dataset\
+  \ statistics also include 1,471 word classes and 82 letters.\nThis dataset is widely\
+  \ used to evaluate word spotting algorithms. \n\\cite{5871643} used this database\
+  \ and compared a proposed word spotting method that used a BLSTM and a modified\
+  \ CTC algorithm with a HMM \\cite{10.1016/j.patcog.2009.02.005} and a DTW \\cite{Rath2006WordSF}\
+  \ method.\nThe paper presented average precision results using GW and Parzival datasets\
+  \ and the proposed method achieved 0.84 on the GW and 0.94 average precision on\
+  \ Parzival."
 ...

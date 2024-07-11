@@ -14,5 +14,18 @@ resolution: High-resolution
 format:
 - N/A
 reference: adam2018kertas
-description: sssec:kertas
+description: "\nThe KERTAS dataset \\cite{adam2018kertas} consists of handwritten\
+  \ Arabic manuscripts from the Qatar National Library intended for age and writer\
+  \ detection.\nThis dataset contains 2,502 high-resolution document images and their\
+  \ corresponding date annotation according to the Islamic century in which they were\
+  \ written.\nThe dataset provides the additional source, manuscript name, description,\
+  \ writer name, and ID information in XML format for every manuscript.\nFurthermore,\
+  \ an age detection algorithm based on sparse representations was introduced in this\
+  \ work and results on the dataset using different image size inputs were shown.\
+  \ \nThis method was also compared with three different writing style feature algorithms,\
+  \ Run Length \\cite{4107573}, Edge Direction \\cite{BRINK2012162}, and Edge Hinge\
+  \ \\cite{10.1016/j.patrec.2013.03.020}, with 3-NN as the classifier.\nBoth sets\
+  \ of experiments were made using predefined and random splits, and the predefined\
+  \ splits performed better in all cases.\nThe proposed method on the $50 \\times\
+  \ 50$ image size achieved the best performance."
 ...

@@ -13,5 +13,39 @@ resolution: 300 dpi
 format:
 - TIFF
 reference: ROMERO20131658
-description: sssec:esposalles
+description: '
+
+  The ESPOSALLES database \cite{ROMERO20131658} is a collection of ancient marriage
+  license documents separated into the LICENSES and the INDEX subsets.
+
+  A single-writer book written in old Catalan is the main content of the LICENSES
+  set, and is comprised of 173 pages and 1,747 licenses.
+
+  For every page, the subset includes the main text block bounding box, the text line
+  within the text block coordinates, the license label, and the transcription for
+  every line, word, and character in the main block.
+
+  The INDEX subset, which includes 29 pages of the initial indexes of two volumes
+  by a single writer created between 1491 and 1495.
+
+  Similar to the LICENSES part, INDEX contains text and line layout as well as transcription
+  annotations.
+
+  Both subsets provide dataset splits for cross-validation.
+
+  Finally, baseline results using Hidden Markov Models (HMM) \cite{Toselli2004IntegratedHR}
+  and a BLSTM \cite{Graves2009855} with two feature sets, PRHLT \cite{Toselli2004IntegratedHR}
+  and IAM \cite{10.5555/505741.505745}, showed the efficiency of neural networks with
+  larger datasets for handwriting recognition.
+
+  The database was further used in the ICDAR17 Competition on Information Extraction
+  in Historical Handwritten Records \cite{8270158}.
+
+  The aim there was to detect and assign name entities to semantic categories (name,
+  surname, occupation, etc.) for two Tracks: Basic and Complete, which also contains
+  the person (husband, wife, etc.).
+
+  The team that obtained the highest average score with word-level segmentation used
+  a ResNet-based unigram system for character recognition and named entity recognition,
+  while with line-level segmentation, the best method used a RNN-LSTM with \ac{CTC}.'
 ...

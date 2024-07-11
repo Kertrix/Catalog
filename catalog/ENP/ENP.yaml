@@ -29,5 +29,17 @@ resolution: 300 dpi 400 dpi
 format:
 - TIFF
 reference: '7333898'
-description: sssec:enp
+description: "\nThe Europeana Newspapers Project (ENP) dataset \\cite{7333898} consists\
+  \ of European cultural heritage documents of 13 different languages from 12 European\
+  \ libraries published in newspapers from the \\nth{17} to the \\nth{20} century.\
+  \ \nAll page images in the dataset are either 300 or 400 dpi, and there is a broad\
+  \ distribution of grayscale, bitonal, and color pages. \nThe ground truth contains\
+  \ region outlines and their labels (text lines, text regions, tables, images/graphics,\
+  \ and blocks/zones), Unicode text transcriptions, and reading order.\nIn addition\
+  \ to conventional downloading, this dataset can be accessed through a web interface\
+  \ with several services such as document and attachment retrieval and a search function\
+  \ to determine if a document exists in the database.\nA performance evaluation for\
+  \ \\ac{OCR} and layout analysis was conducted using a commercial system (ABBYY FineReader\
+  \ 11) and an OCR system (Tesseract 3.03)\\footnote{\\url{https://github.com/tesseract-ocr/tesseract}\\\
+  label{tesseract}}."
 ...

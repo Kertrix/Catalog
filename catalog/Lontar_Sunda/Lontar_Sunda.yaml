@@ -20,5 +20,26 @@ format:
 - PNG
 - TIFF
 reference: '8270066'
-description: sssec:SUNDANESE_PALM_LEAF
+description: "\nThe Lontar Sunda dataset \\cite{8270066} is a collection of \\nth{15}\
+  \ century Sundanese palm leaf manuscripts from Garut, West Java, and Indonesia.\n\
+  This dataset includes 66 pages with corresponding binarization, word-level, and\
+  \ character-level annotations.\nLontar Sunda was one of the datasets used in the\
+  \ ICFHR 2018 Competition on Document Image Analysis Tasks for Southeast Asian Palm\
+  \ Leaf Manuscripts \\cite{8583808}.\nThis competition hosted 4 challenges: A. Binarization,\
+  \ B. Text-line segmentation, C. Isolated character/glyph recognition, and D. Word\
+  \ transliteration.\nAs the original dataset paper did not include any benchmark\
+  \ results, the competition results are considered.\nFor Challenge A, systems were\
+  \ evaluated according to the \\ac{FM}, Peak SNR (PSNR), and Negative Rate Metric\
+  \ (NRM).\nThe best performing system on the Sundanese data used Gaussian operators\
+  \ and a non-linear function to enhance the images. \nThen, the enhanced images were\
+  \ finally segmented with a threshold of 0.9.\nIn Challenge B, the system evaluation\
+  \ was made using the \\ac{DR}, the \\ac{RA}, and the \\ac{FM}.\nThe system with\
+  \ the best values on the Sundanese collection, which was also the only submission\
+  \ for this task, used the binarized images from Challenge A and horizontal projection\
+  \ profile to perform line segmentation.\nThe character recognition challenge (C)\
+  \ was evaluated according to the recognition rate, and the highest value was obtained\
+  \ by a dense 100-layer \\ac{CNN} architecture that classified similar characters.\n\
+  Finally, in Challenge D, the best performing system achieved an 8.81\\% \\ac{CER}\
+  \ on the Sundanese set using a CNN-RNN encoder-decoder architecture with an attention\
+  \ mechanism."
 ...

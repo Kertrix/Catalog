@@ -19,5 +19,31 @@ resolution: N/A
 format:
 - N/A
 reference: '7333841'
-description: sssec:GRPOLY-DB
+description: "\nThe Greek polytonic database (GRPOLY-DB) \\cite{7333841} contains\
+  \ images of printed and handwritten documents from different sources distributed\
+  \ across four subsets: GRPOLY-DB-Handwritten, GRPOLY-DB-MachinePrinted-A, GRPOLY-DB-MachinePrinted-B,\
+  \ and GRPOLY-DB-MachinePrinted-C. \nThe documents were written or printed in the\
+  \ old polytonic system from 1838 to 1977.\nThe overall dataset includes 399 pages,\
+  \ 15,084 text lines, 102,596 words, and 171,511 characters with ground truth.\n\
+  The provided annotations include text and word-level segmentation information and\
+  \ transcriptions for text recognition and isolated character recognition.\nLayout-related\
+  \ and content-related experimental results were shown on the dataset using various\
+  \ methods. \nFor text-line segmentation, a shredding-based system \\cite{5277573},\
+  \ which achieved a value of 94.58\\% for the average F-measure on the four subsets,\
+  \ outperformed a Hough transform method. \nFor word segmentation, sequential clustering\
+  \ \\cite{953781} and Gaussian mixture-based methods \\cite{10.1016/j.patcog.2008.12.016}\
+  \ were applied. \nThe former method achieved the highest average FM of 94.85\\%.\n\
+  The GRPOLY-DB-MachinePrinted-B was the only subset used for isolated character recognition\
+  \ in two scenarios, one scenario with all character instances and another with 30\
+  \ random samples per class.\nThus, there were 143,051 and 3,750 characters per scenario,\
+  \ respectively.\nTwo algorithms were evaluated for both scenarios, HoG features\
+  \ \\cite{1467360} with an SVM classifier and adaptive window features \\cite{6065492}\
+  \ with a k-NN classifier.\nFor both systems, the first scenario obtained the highest\
+  \ \\ac{RA}. \nBetween the two methods, HoG features with the SVM classifier obtained\
+  \ the highest metric values in both scenarios.\nIn addition, \\ac{OCR} experiments\
+  \ were performed at the character and word levels using Tesseract\\footref{tesseract}\
+  \ and ABBY FineReader, with the latter performing the best. Finally, the \\ac{mAP}\
+  \ was presented for query-by-example word spotting, where profile features with\
+  \ dynamic time warping (DTW) \\cite{Rath2006WordSF} for feature vector comparison\
+  \ obtained the best results on the whole dataset."
 ...

@@ -19,5 +19,24 @@ format:
 - JPEG
 - TIFF
 reference: 10.1145/3352631.3352640
-description: sssec:fonts
+description: '
+
+  This dataset \cite{10.1145/3352631.3352640} contains a set of 35,623 images for
+  font classification and consists of 12 different classes: Antiqua, Italic, Textura,
+  Rotunda, Gotico-Antiqua, Bastarda, Schwabacher, Fraktur, Greek, Hebrew, "Other Fonts"
+  and "Not a Font".
+
+  Several of the data samples have multiple labels, thus this dataset is appropriate
+  for testing multilabel classification methods.
+
+  This dataset is considered highly imbalanced.
+
+  Baseline results on ResNet with 50 and 18 layers \cite{He2016DeepRL}, VGG with 16
+  layers \cite{Simonyan2015VeryDC}, and DenseNet with 121 layers \cite{huang2018densely}
+  were presented, and the \ac{mIoU} metric was reported.
+
+  This dataset was further used on the Historical Document Classification Competition
+  \cite{10.1007/978-3-030-86337-1_41} that was part of the \nth{16} \ac{ICDAR} 2021.
+
+  Further information about this competition is presented in \ref{sssec:his_doc_classification_icdar_2021}.'
 ...

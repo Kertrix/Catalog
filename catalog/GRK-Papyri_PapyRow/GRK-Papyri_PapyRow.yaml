@@ -19,5 +19,20 @@ resolution: 'GRK-Papyri: 96-2000 dpi Height: 796-6818 Width: 177-2000 PapyRow: 1
 format:
 - JPEG
 reference: '8978142'
-description: sssec:grk-papyri
+description: "\nThe GRK-Papyri dataset \\cite{8978142} provides 50 handwritten Greek\
+  \ papyrus images from the \\nth{6} century A.D for writer identification. It includes\
+  \ color and grayscale documents with 4-7 samples each from 10 different writers.\
+  \ \nThis dataset provides a leave-one-out option that contains all images without\
+  \ any split and a train-test split with a balanced training set of 20 samples, keeping\
+  \ the rest with different numbers of samples per writer for testing.\nThe dataset\
+  \ has a high complexity, as the images are heavily degraded and low in quality,\
+  \ making pre- and post-processing inevitable.\nDue to size limitations, the method\
+  \ used for evaluation was a Normalized Local Na\\\"{\\i}ve Bayes Nearest-Neighbour\
+  \ (NBNN) classifier with FAST keypoints \\cite{mohammed2017normalised}.\nThe authors\
+  \ suggested that this dataset can be further used for image processing tasks or\
+  \ line/word segmentation.\nAn extension of the GRK-Papyri is presented in \\cite{10.1007/978-3-030-68787-8_16},\
+  \ where enhancement techniques, such as background smoothing, line resizing, and\
+  \ image rotation,  were used to obtain images with less degradation.\nIn this extended\
+  \ version of the dataset, named PapyRow, 6,498 images were obtained using a row\
+  \ segmentation method and included with their corresponding XML ground truth."
 ...

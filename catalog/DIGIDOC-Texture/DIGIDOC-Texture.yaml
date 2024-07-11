@@ -13,5 +13,14 @@ resolution: 300 dpi
 format:
 - ''
 reference: Mehri2016TextureFB
-description: sssec:digidoc-texture
+description: '
+
+  %This paper \cite{Mehri2016TextureFB} investigates and benchmarks texture features
+  extracted from 9 texture-based algorithms.
+
+  %To this end, they present the DIGIDOC-Texture dataset that is collected from different
+  types of books found in Gallica.
+
+  %The dataset contains 1,000 high resolution page images that contain (1) one font
+  and graphics, (2) two fonts and graphics, (3) two fonts, or (4) three fonts.'
 ...

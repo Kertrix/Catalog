@@ -15,5 +15,19 @@ resolution: N/A
 format:
 - TIFF
 reference: .nan
-description: sssec:rasm2019
+description: "\nThe next RASM competition after the one presented in section \\ref{sssec:rasm2018}\
+  \ is the ICDAR RASM19 \\footnote{\\url{https://www.primaresearch.org/RASM2019/}\\\
+  label{rasm2019}}, which focused on the recognition of archival Arabic scientific\
+  \ manuscripts.\nThis version of the competition offers 20 training images with PAGE\
+  \ XML annotations \\cite{5597587} and 100 test images to evaluate the systems.\n\
+  The ground truth has the same format and content as the previous competition for\
+  \ the three tasks: text block detection, text-line detection/segmentation, and text\
+  \ recognition.\nAlthough the competition did not provide any detailed information\
+  \ due to the absence of a published paper, a graph was provided for every task containing\
+  \ the results of the submitted systems.\nA Google submission shows the highest success\
+  \ rate for the first task and an RDI system shows the highest success rate for the\
+  \ second task. \nFor text recognition in normalized text, a 77.58\\% flex \\ac{ca}\
+  \ is achieved again by the RDI system.\nWe suspect that the RDI winning systems\
+  \ are the same as those in the previous round of the competition, however it is\
+  \ not clear in the competition's website."
 ...

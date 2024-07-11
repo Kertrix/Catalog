@@ -15,5 +15,28 @@ resolution: 28×28 64×64 pixel resolution
 format:
 - PNG
 reference: Clanuwat2018DeepLF
-description: sssec:K-MNIST
+description: "\nThe full Kuzushiji dataset \\cite{Clanuwat2018DeepLF} consists of\
+  \ three parts: the Kuzushiji-MNIST, the Kuzushiji-49, and the Kuzushiji-Kanji.\n\
+  The whole dataset is comprised of printed books from the \\nth{18} century written\
+  \ in cursive Japanese or Kuzushiji.\nThe K-MNIST subset includes 70K 28$\\times$28\
+  \ grayscale images of 10 Kuzushiji character classes to resemble the MNIST and Fashion-MNIST\
+  \ datasets but is even more challenging.\nKuzushiji-49 contains 270,912 images of\
+  \ the same pixel resolution and mode as K-MNIST, including 49 character classes.\n\
+  Finally, Kuzushiji-Kanji is a subset of 140,426 64$\\times$64 grayscale images of\
+  \ 3,832 Kanji characters.\nThe two latter subsets are considered quite imbalanced.\
+  \ \nBenchmark results on the K-MNIST and Kuzushiji-49 were presented using a 4-nearest\
+  \ neighbor classifier, a 2-layer CNN, ResNet-18 \\cite{10.1007/978-3-319-46493-0_38},\
+  \ ResNet-18 with input mixup \\cite{Zhang2018mixupBE}, and  ResNet-18 with manifold\
+  \ mixup regularizer \\cite{verma2018manifold}. \nThe performance of these models\
+  \ were compared using MNIST. All models had the highest test accuracy on the MNIST\
+  \ test set, followed by K-MNIST, and finally Kuzushiji-49. \nThe best performing\
+  \ model for the K-MNIST and Kuzushiji-49 test sets was ResNet-18 with manifold mixup,\
+  \ while for MNIST, it was the simple ResNet-18 model.\nDomain transfer was further\
+  \ explored from from Kuzushiji-Kanji to modern Kanji (stroke format).\nTwo Variational\
+  \ Autoencoders \\cite{Kingma2014AutoEncodingVB, JimenezRezende2014StochasticBA}\
+  \ were used to create the old (Kuzushiji) and new (Modern) latent space embeddings.\n\
+  Then, a Mixture Density Network \\cite{Bishop94mixturedensity} predicted the probability\
+  \ of the new embedding given the old embedding. \nFinally, a Sketch-RNN \\cite{Ha2018ANR}\
+  \ conditioned on the new latent space created modern Kanji stroke image versions\
+  \ of Kuzushiji."
 ...

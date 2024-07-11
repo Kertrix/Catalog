@@ -13,5 +13,26 @@ resolution: N/A
 format:
 - TIFF
 reference: Arvanitopoulos2017AHF
-description: sssec:cframuz
+description: '
+
+  The CFRAMUZ dataset \cite{Arvanitopoulos2017AHF} includes grayscale image pages
+  from handwritten novels by Charles Ferdinand Ramuz in French between 1910 and 1946.
+
+  Text and XML annotation files contain the unique word ID, coordinates, width and
+  height of word bounding boxes, word line number, word number in the current line,
+  and word transcription for word spotting without segmentation purposes.
+
+  The following methods were evaluated according to Precision-Recall curves: Word
+  Spotting and Recognition with Embedded Attributes (EAWS) \cite{6857995}, Efficient
+  Exemplar Word Spotting (EEWS) \cite{Almazn2012EfficientEW}, Bag-of-Visual-Words
+  Word Spotting (BoVWWS) \cite{Rusiol2011BrowsingHD}, and Fisher Kernels Word Spotting
+  (FKWS) \cite{5277774}.
+
+  The \ac{mAP} of these algorithms were compared on the introduced datasets with the
+  performance on the George Washington (GW) and the Lord Byron (LB) datasets.
+
+  Although this is a single-writer dataset, some variation in terms of writing style
+  occured due to the year range.
+
+  Therefore, additional experiments using splits according to style were conducted.'
 ...

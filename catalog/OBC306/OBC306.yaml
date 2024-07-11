@@ -13,5 +13,26 @@ resolution: '1:2 ratio Height: 50-150 pixels Width: 0-100 pixels'
 format:
 - N/A
 reference: '8978032'
-description: sssec:obc306
+description: '
+
+  OBC306 \cite{8978032} is a dataset of 309,551 images for Oracle Bone character recognition
+  distributed across 306 character classes.
+
+  This dataset consists of patch samples derived from different sources from full
+  image publications of oracle bones.
+
+  For patch extraction, an oracle bone character list and dictionary were used to
+  retrieve all characters and extract them from the source images to assign them to
+  a class and a specific encoding.
+
+  The challenges faced in the dataset are the class imbalance and the numerous variants
+  of each character.
+
+  The evaluation results of widely used \ac{CNN} architectures \cite{He2016DeepRL,
+  Simonyan2015VeryDC, NIPS2012_c399862d, 7298594}, and a classical method of HOG descriptors
+  with SVM \cite{1467360} were presented, and Inception-v4 \cite{7298594} achieved
+  the best performance.
+
+  Although the dataset is hand carved, we characterize it as handwritten in Table
+  \ref{tab:structure_content_class} for homogeneity reasons. '
 ...

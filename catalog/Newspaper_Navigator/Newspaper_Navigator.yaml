@@ -15,5 +15,24 @@ resolution: N/A
 format:
 - JPEG
 reference: 10.1145/3340531.3412767
-description: sssec:newspaper_navigator
+description: "\nThe Newspaper Navigator \\cite{10.1145/3340531.3412767} is a dataset\
+  \ extracted from the Chronicling America historical newspaper collection.\nThis\
+  \ dataset was created by employing an object detection pipeline over the 16.3 million\
+  \ collected pages that extracts visual and headline content. \nThe dataset provides\
+  \ 3,559 images with 48,409 COCO format annotations \\cite{Lin2014MicrosoftCC} for\
+  \ easy detection across 7 classes: headline, photograph, illustration, comic, map,\
+  \ editorial cartoon, and advertisement.\nThe textual content of the predicted bounding\
+  \ boxes is further rendered for \\ac{OCR} purposes and ResNet-18 and ResNet-50 embeddings\
+  \ \\cite{He2016DeepRL} for the different visual category crops. \nAdditional metadata\
+  \ in CSV format contain information such as file path, image URL, page URL, publication\
+  \ date, page sequence number, edition sequence number, batch name, LCCN, bounding\
+  \ box coordinates, prediction score, \\ac{OCR}, place of publication, geographic\
+  \ coverage, newspaper name, and newspaper publisher.\nA fine-tuned Faster-RCNN model\
+  \ \\cite{NIPS2015_14bfa6bb} with an R50-FPN backbone achieved a \\ac{mAP} of 63.4\\\
+  % on the validation set.\nThese results also included the AP for every class.\n\
+  The authors further chose 500 pages randomly from 1850-1875 and 1875-1900, treating\
+  \ them as test sets, and presented the \\ac{mAP} on the most frequently appearing\
+  \ classes: the headline, the advertisement, the illustration, and the one class\
+  \ (all visual content into 1 class).\nThese results were slightly worse than the\
+  \ results on the validation set, especially in the case of the 1850-1875 test set."
 ...

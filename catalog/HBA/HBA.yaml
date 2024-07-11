@@ -15,5 +15,19 @@ resolution: 300 dpi 400 dpi
 format:
 - TIFF
 reference: mehri:hal-01637826
-description: sssec:hba
+description: "\nHBA 1.0 \\cite{mehri:hal-01637826} is a collection of 11 books with\
+  \ 4,436 pages  of manuscripts and printed documents from the Gallica digital library\
+  \ from the \\nth{13} to the \\nth{19} century written in different scripts and languages.\
+  \ \nThis dataset provides either ground truth images, where every foreground pixel\
+  \ has a different color according to the class it belongs to out of the six predefined\
+  \ classes, which include graphics, main text body, capitalized text, handwritten\
+  \ text, italic text, footnote text, or text files containing the label of every\
+  \ pixel. \nAs a baseline, this paper presented the pixel-level classification accuracy\
+  \ (CA) of a texture-based layout segmentation method \\cite{Mehri2015ATP} that,\
+  \ averaging over 4 books, was 75.9\\%.\nThe ICDAR 2017 and ICDAR 2019 Competition\
+  \ on Historical Book Analysis \\cite{8978192} introduced this dataset into two tasks:\
+  \ textual and graphical content discrimination at pixel-level and pixel-level annotation\
+  \ of textual content. \nThe highest overall performance for both tasks was achieved\
+  \ by an \\ac{FCN} that performed on $512\\times512$ patches using a weighted cross\
+  \ entropy loss function.\n%"
 ...

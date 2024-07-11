@@ -17,5 +17,18 @@ resolution: '\textit{Dataset I}: 175×95 pixels \textit{Dataset IV}: 28×28 pixe
 format:
 - JPEG
 reference: kusetogullari2020ardis
-description: sssec:ardis
+description: "\nArkiv Digital Sweden (ARDIS) \\cite{kusetogullari2020ardis} is a handwritten\
+  \ digit dataset collection derived from historical church records. \nARDIS contains\
+  \ four different datasets: \\textit{Dataset I}, which contains 10K 4-digit string\
+  \ images that represent a year, \\textit{Dataset II}, which contains single digits\
+  \ of classes 0-9, \\textit{Dataset III}, which is the same as \\textit{Dataset II}\
+  \ but is cleansed from noise, and \\textit{Dataset IV}, which is the same as \\\
+  textit{Dataset III} but is in grayscale and is similar to the highly used MNIST\
+  \ Database \\cite{lecun1998mnist}.\n\\textit{Dataset II - IV} contain 7,600 digit\
+  \ images.\nSeveral experiments using CNN, SVM, HOG+SVM, k-NN, random forest, and\
+  \ RNN classifiers were presented. \nThe results of training using the MNIST and\
+  \ USPS \\cite{291440} datasets and testing on ARDIS reveal the diversity of the\
+  \ ARDIS dataset as the highest \\ac{RA} obtained reaches $58.80\\%$, while training\
+  \ and testing on ARDIS gives a performance of $98.6\\%$.\nIn all experimental cases,\
+  \ the best performance was achieved by the \\ac{CNN} digit classifier."
 ...

@@ -15,5 +15,17 @@ resolution: High-resolution
 format:
 - JPEG
 reference: '8978129'
-description: sssec:pinkas
+description: "\nThe Pinkas dataset \\cite{8978129} is a collection of 30 handwritten\
+  \ medieval Hebrew pages intended for page, line, and word segmentation tasks. \n\
+  The training and test sets contain 10,397 and 3,278 images, respectively.\nThese\
+  \ images are derived from records of European Jewish communities from 1500 to 1800.\n\
+  The \\ac{mAP} of different word spotting methods, including \\ac{CNN} variations,\
+  \ was utilized in this study.\nThree methods were set to provide a baseline for\
+  \ the dataset.\nSiamese \\ac{CNN} \\cite{Bromley1993SignatureVU} and PHOCNet \\\
+  cite{Sudholt2016PHOCNetAD} were compared as segmentation methods and an SVM with\
+  \ HOG descriptors \\cite{Almazn2012EfficientEW} was used as a segmentation-free\
+  \ method.\nThe Siamese CNN, which achieved a \\ac{mAP} of 61.5\\%, outperformed\
+  \ the other methods. PHOCNet achieved a \\ac{mAP} of 53.3\\% using one-hot encoding\
+  \ and 56.6\\% without it. \nThe SVM did not perform well, as it achieved a \\ac{mAP}\
+  \ of 1.5\\%."
 ...

@@ -19,5 +19,22 @@ resolution: 300 dpi
 format:
 - TIFF
 reference: '6121553'
-description: sssec:phtd
+description: '
+
+  PHTD \cite{6121553} is a 140-page dataset of handwritten documents in the Persian
+  language.
+
+  The dataset includes 1,787 text-lines and 27,073 words for text recognition and
+  word and line segmentation tasks.
+
+  For the former task, a unicode text file is included for every page, and for the
+  latter, a pixel-labeled file is provided as the ground truth.
+
+  Two algorithms were utilized for the task of text-line segmentation.
+
+  The Potential Piece-wise Separation Line (PPSL) method \cite{10.1007/s10044-011-0226-x}
+  obtained an 89.43\% segmentation accuracy, while the other method proposed by Alaei
+  et al. \cite{Alaei2011ANS}, outperformed PPSL with an accuracy of 94\%.
+
+  In both methods, each document was split vertically into stripes. '
 ...

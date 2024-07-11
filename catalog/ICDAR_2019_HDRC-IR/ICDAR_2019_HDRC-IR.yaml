@@ -14,5 +14,15 @@ resolution: High and low quality factor resolution 2K pixel larger dimension
 format:
 - JPEG
 reference: Christlein2019ICDAR2C
-description: sssec:ICDAR2019-HDRC-IR
+description: "\nThis competition \\cite{Christlein2019ICDAR2C} followed the previous\
+  \ competition mentioned in \\ref{sssec:Historical-WI} and handled the task of image\
+  \ retrieval according to writer style by providing a larger test set of 20K images\
+  \ from over 10K different writers.\nFor training, the competition proposed the dataset\
+  \ from the previous competition and further enlarged the training with images from\
+  \ Letters A and Manuscripts.\nThe \\ac{mAP} constituted the evaluation metric, similar\
+  \ to the previous competition. \nThe winning system obtained a 92.5\\% \\ac{mAP}\
+  \ using SIFT \\cite{LoweDavid2004DistinctiveIF} and Pathlet features \\cite{8978107}\
+  \ projected into a lower dimension space using SVD on the ICDAR17 Historical-WI\
+  \ data feature matrices, and then concatenated and normalized them to compute global\
+  \ descriptors using Euclidean distance."
 ...

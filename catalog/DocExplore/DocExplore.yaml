@@ -17,5 +17,30 @@ resolution: 72 dpi
 format:
 - JPEG
 reference: 10.1117/1.JEI.26.1.011010
-description: sssec:docexplore
+description: '
+
+  DocExplore \cite{10.1117/1.JEI.26.1.011010} is a pattern spotting dataset that contains
+  1.5K images with more than 1.4K queries.
+
+  The images originate from 6 different manuscripts written between the \nth{10} and
+  \nth{16} centuries.
+
+  The annotation process ends with 1,464 labeled objects belonging to 35 graphical
+  object categories, where one sample constitutes the query image and the remaining
+  objects from every category avail as retrieval outcomes.
+
+  The dataset was proposed for two tasks: image retrieval and pattern localization.
+
+  As baseline for the latter task a system that consists of an offline, online, and
+  post-processing step initially presented in \cite{EN2016149} is used.
+
+  In the offline step, the background is removed, a descriptor is used to find the
+  object regions of interest, and finally a \ac{VLAD} is created.
+
+  Then, during the online step, a similarity distance calculation is performed between
+  the extracted regions and the query image, then ranking was achieved through template
+  matching.
+
+  The system achieved a 0.613 \ac{mAP} for retrieval and a 0.111 for localization,
+  while further results on each category were shown.'
 ...

@@ -16,5 +16,21 @@ resolution: N/A
 format:
 - JPEG
 reference: 10.1145/3476887.3476892
-description: sssec:BiblIA
+description: '
+
+  BiblIA \cite{10.1145/3476887.3476896} is a publicly available dataset of Medieval
+  manuscripts written in Hebrew and Aramaic that contains 6 different scripts: Ashkenazi,
+  Byzantine, Italian, Oriental, Sephardi, Yemenite.
+
+  BiblIA contains more than 200 images with their corresponding annotations on baseline-
+  and transcription-level, both focusing on the main text.
+
+  Furthermore, a segmentation and recognition model based on kraken OCR is used for
+  evaluation.
+
+  The work presents \ac{acc} results on specific scripts (Ashkenazi, Italian, and
+  Sephardi) and all scripts as well as training information.
+
+  Further experimental results show the \ac{CER} and \ac{WER} on images not included
+  in the test set.'
 ...

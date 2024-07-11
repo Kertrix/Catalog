@@ -15,5 +15,23 @@ resolution: N/A
 format:
 - JPEG
 reference: monnier2020docExtractor
-description: sssec:illuhisdoc
+description: '
+
+  In \cite{monnier2020docExtractor}, a test set of Gallica images named IlluHisDoc
+  was presented for segmentation generalizability purposes.
+
+  This set was split into four types of documents: (a) printed documents with drawings,
+  photos, ornaments, and paintings; and manuscripts that contain (b) scientific graphs,
+  (c) illuminations, and (d) drawings.
+
+  Moreover, a segmentation method based on a ResNet-18 \cite{He2016DeepRL} backbone
+  encoder-decoder architecture was proposed.
+
+  The performance of this model was compared with the performance of Tesseract4\footref{tesseract}
+  and Mask-RCNN \cite{he2017mask} using pre-training either on the synthetic dataset
+  PubLayNet \cite{zhong2019publaynet} or on SynDoc, a 10K image synthetic corpus created
+  for this study.
+
+  The proposed method pretrained on SynDoc outperformed the other methods according
+  to the \ac{mIoU} results.'
 ...

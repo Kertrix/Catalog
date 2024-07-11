@@ -14,5 +14,24 @@ resolution: N/A
 format:
 - N/A
 reference: Yang2018DenseAT
-description: sssec:tripitaka
+description: "\nThe work presented in \\cite{Yang2018DenseAT} introduces two datasets\
+  \ for Chinese character detection and recognition, the Tripitaka Koreana in Han\
+  \ (TKH) and the Multiple Tripitaka in Han (MTH), created using the publicly available\
+  \ TKH images from the Tripitaka Koreana Institute.\n%The images were annotated by\
+  \ detecting the text lines and then segmenting them using beam-search to obtain\
+  \ the bounding box annotations.\nFor every character bounding box that the dataset\
+  \ includes, a character label was further provided.\nThe TKH consists of 1K pages,\
+  \ 23,471 lines, 323,491 characters, and 1,471 character classes, while the MTH contains\
+  \ 500 images, 17,178 lines, 197,886 characters, and 3,664 character classes.\nThe\
+  \ two datasets differ in terms of challenge, as the MTH dataset has a more complex\
+  \ character size uniformity, making the creation of bounding box annotations even\
+  \ harder.\nA three-part pipeline called Recognition Guided Detector (RGD) was proposed.\
+  \ \nFirst, segmentation is performed for every line. \nA Recognition Guided Proposal\
+  \ Network (RGPN) generates context information, and finally, a detector uses that\
+  \ information to find the characters in every line.\nFinally, several experiments\
+  \ were performed on the two datasets using the proposed system with and without\
+  \ a VGG-16 \\cite{Simonyan2015VeryDC} backbone and its performance was compared\
+  \ with other well-known object detection frameworks using either the whole image\
+  \ or text lines as input.\nThis method seems to perform comparably to other methods\
+  \ using fewer parameters."
 ...

@@ -14,5 +14,18 @@ resolution: N/A
 format:
 - GNTX
 reference: '8978010'
-description: sssec:casia-ahcdb
+description: "\nCASIA-AHCDB \\cite{8978010} is a database of 11,937 handwritten Chinese\
+  \ document pages.\nFor the task of character recognition, the database provides\
+  \ 2.2M handwritten characters belonging to 10,350 different classes.\nThe database\
+  \ distributes these elements across two different datasets: (a) the Complete Library\
+  \ in Four Sections (AHCDB - style1) and (b) the Ancient Buddhist Scriptures (AHCDB\
+  \ - style2).\nThen, each dataset is split into a Basic Category Set (BC) for basic\
+  \ character recognition, an Enhanced Category Set (EC) for open-set character recognition,\
+  \ and a Reserved Category Set (RC) for other recognition purposes.\nTo benchmark\
+  \ the database, a \\ac{CNN} \\cite{Zhang2017OnlineAO} and a Convolutional Prototype\
+  \ Network (CPN) \\cite{Yang2018RobustCW} were used and experiments were performed\
+  \ with only the \\textit{Basic Category Set} and with the combination of the \\\
+  textit{Basic} and \\textit{Enhanced Category Sets} for every dataset. \nMoreover,\
+  \ the transfer of information from the style1 to the style2 dataset with direct\
+  \ train-test and fine-tuning was attempted, which performed best among the two methods."
 ...

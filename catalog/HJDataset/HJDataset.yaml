@@ -14,5 +14,15 @@ resolution: N/A
 format:
 - JPEG
 reference: Shen_2020_CVPR_Workshops
-description: sssec:hjdataset
+description: "\nHJDataset \\cite{Shen_2020_CVPR_Workshops} was introduced in the Text\
+  \ and Documents in the Deep Learning Era Workshop hosted by CVPR 2020. \n%The authors\
+  \ followed a similar format as the modern document dataset PubLayNet \\cite{zhong2019publaynet}\
+  \ but for Japanese historical documents. \nThe HJDataset contains 2,271 pages from\
+  \ Japanese biography scans for layout analysis with COCO annotations \\cite{Lin2014MicrosoftCC},\
+  \ derived by a semirule-based method. \nFurthermore, the ground truth includes reading\
+  \ order and dependency structure information. \nBenchmark results of experiments\
+  \ with popular object detection models such as Faster-RCNN \\cite{NIPS2015_14bfa6bb},\
+  \ Mask-RCNN \\cite{he2017mask}, and Retinanet \\cite{lin2017focal} provided by Detectron2\
+  \ were shown \\cite{wu2019detectron2}. Moreover, few-shot and zero-shot learning\
+  \ results using COCO weights were presented."
 ...

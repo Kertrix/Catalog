@@ -18,5 +18,17 @@ resolution: 300 dpi
 format:
 - TIFF
 reference: Alaei2012DatasetAG
-description: sssec:pbok
+description: "\nThe PBOK dataset \\cite{Alaei2012DatasetAG} includes images of 707\
+  \ handwritten pages in four languages by numerous writers.\nMore specifically, this\
+  \ dataset provides 140 pages written in Persian, 228 pages written in Kannada, 199\
+  \ pages written in Bangla, and 140 pages written in Oriya pages.\nThis dataset contains\
+  \ both pixel- and content-level annotations.\nPBOK is considered quite complex,\
+  \ as it contains handwriting in both directions (left to right and right to left)\
+  \ and overlapping text.\nThe authors conducted line segmentation experiments for\
+  \ each language part and for the whole dataset using two algorithms, the Potential\
+  \ Piecewise Separation Line (PPSL) \\cite{10.1007/s10044-011-0226-x} and the method\
+  \ proposed by Alaei et al. \\cite{Alaei2011ANS}.\nThe Alaei et al. method achieved\
+  \ a \\ac{DR} of 91.33\\%, a \\ac{RA} of 90.41\\%, and an overall segmentation result\
+  \ (TLDM) of 90.87\\%, and outperformed PPSL, which achieved values of 88.07\\%,\
+  \ 86.69\\%, and 87.38\\%, respectively.\n "
 ...

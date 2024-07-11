@@ -15,5 +15,20 @@ resolution: N/A
 format:
 - TIFF
 reference: '8583806'
-description: sssec:rasm2018
+description: "\nThe RASM 2018 competition \\cite{8583806} was part of ICFHR 2018 and\
+  \ targeted the recognition of Arabic historical scientific manuscripts through three\
+  \ tasks: page segmentation, text-line detection, and \\ac{OCR}. \nAn example set\
+  \ of 15 single-column page images with PAGE XML ground truth format \\cite{5597587}\
+  \ was provided for training and 85 for evaluation to handle these tasks.\nAs in\
+  \ similar competitions, the ground truth included polygon regions, text transcriptions,\
+  \ and metadata for each region, such as headings, paragraphs, captions, footers,\
+  \ and reading order.\nFor system evaluation, the competition used the success rate\
+  \ and errors for the page and text-line segmentation predictions and the \\ac{ca}\
+  \ for the \\ac{OCR}.\nFor page segmentation, the winning system used an \\ac{FCN}\
+  \ applied on extracted patches.\nThe page layout predictions were further cropped\
+  \ for the text-line segmentation, which was performed at pixel-level using anisotropic\
+  \ Gaussian smoothing. \nThe highest performance was achieved for the rest of the\
+  \ tasks by a Historical Arabic Handwritten/Typewritten \\ac{OCR} system framework.\n\
+  This system can handle various fonts and layouts, and in the case of the competition,\
+  \ an instance-based segmentation on extracted lines was performed."
 ...

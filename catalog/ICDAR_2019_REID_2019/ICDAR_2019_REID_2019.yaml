@@ -15,5 +15,28 @@ resolution: N/A
 format:
 - TIFF
 reference: '8978191'
-description: sssec:reid2019
+description: '
+
+  The REID2019 competition \cite{8978191} is an extension of the previously mentioned
+  REID2017 competition (Section \ref{sssec:reid2017}).
+
+  This competition provided 25 labeled images with the same annotation format and
+  content as the previous competition and a balanced test set of 56 images written
+  in English and Bengali.
+
+  %The organizers of the competition provide the image annotations in PAGE XML format
+  cretaed using Aletheia.
+
+  %These annotations include layout region polygons, metadata such as heading, paragraph,
+  captions, footer, etc, and reading order information.
+
+  This competition hosted two tasks, layout analysis and text recognition, but focused
+  mostly on Bengali text recognition.
+
+  Again, the Google Multilingual \ac{OCR} achieved the highest flex \ac{ca} in the
+  text recognition task and success rate in the text region page segmentation.
+
+  The results from this competition were slightly better than those in 2017 but still
+  remain quite low, and the authors suggested a focus on preprocessing for better
+  performance.'
 ...

@@ -14,5 +14,16 @@ resolution: N/A
 format:
 - JPEG
 reference: '8978117'
-description: sssec:ABP_NAF
+description: '
+
+  The work presented in \cite{8978117} introduces a method for layout and page sub-division
+  that groups text-lines into semantic objects.
+
+  In order to evaluate the proposed method, they use the ABP dataset (ABP small) \cite{8395184}
+  and they further introduce and extension of it, ABP large, and the National Archive
+  Finland (NAF) dataset.
+
+  ABP small, ABP large, and NAF contain 180, 1,098, and 488 pages, respectively, and
+  were used for table rows, columns, and cells segmentation, where the F1 measure
+  is reported, and shows the most promising results in the cell partition.'
 ...

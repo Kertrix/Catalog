@@ -15,5 +15,33 @@ resolution: N/A
 format:
 - JPEG
 reference: '7814058'
-description: sssec:amadi_lontarset
+description: "\nAMADI\\_LontarSet \\cite{7814058} is a collection of palm leaf manuscripts\
+  \ from Bali.\nThis dataset was a part of the ICFHR 2016 Competition on the Analysis\
+  \ of Handwritten Text in Images of Balinese Palm Leaf Manuscripts \\cite{7814130}.\n\
+  It contains binarized, word annotated, and isolated character annotated ground truth\
+  \ images used for the following challenges: Binarization of Palm Leaf Manuscript\
+  \ Images, Query-by-Example Word Spotting on Palm Leaf Manuscript Images, and Isolated\
+  \ Character Recognition of Balinese Script in Palm Leaf Manuscript Images, respectively.\n\
+  For Challenge 1, binarization, the dataset includes 50 training images, 100 binarized\
+  \ images from two different sources (50 and 50) as ground truth, and 50 test images.\n\
+  The team that outperformed the others used a pretrained \\ac{FCN} on handwritten\
+  \ documents as presented in the work by Wolf et al. \\cite{1048482} that was fine-tuned\
+  \ on the DIBCO \\cite{5277767} and H-DIBCO \\cite{8583809} images and then fine-tuned\
+  \ on the competition images.\nThe results were evaluated according to the F-Measure\
+  \ (FM), PSNR, and Negative Rate Metric (NRM) between the ground truth and the predicted\
+  \ binarized images.\nFor Challenge 2, word-spotting, a split of 130 train and 100\
+  \ test images was provided along with 15,022 word annotated patches for training.\
+  \ \nMoreover, 36 word annotated patches were given as query test.\nThe goal was\
+  \ to use a query word image patch to retrieve similar word image patches in palm\
+  \ leaf manuscripts; however, there were no submissions for this challenge.\nFinally,\
+  \ Challenge 3 aimed to recognize isolated Balinese characters distributed over 130\
+  \ character classes.\nThe training set contains 11,710 labeled patch images, and\
+  \ the test set contains 7,673.\nThe method with the highest \\ac{RA} (VMQDF) initially\
+  \ preprocessed the input images by resizing, binarizing using the OTSU method, and\
+  \ then defeating grayscale variation.\nThen, synthetic samples were generated based\
+  \ on the preprocessed samples using the method in \\cite{Shao2012FastSV}, gradient\
+  \ features were extracted for all images.\nFinally, a classifier was trained on\
+  \ the new set that contained the original and \ngenerated images, while at the test\
+  \ phase, for every sample, 97 synthetic images were generated and treated according\
+  \ to the previously mentioned method."
 ...

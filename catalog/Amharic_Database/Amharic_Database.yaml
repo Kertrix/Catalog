@@ -17,5 +17,19 @@ resolution: '300 dpi Characters: 32×32 pixels Text-lines: 48×128 pixels'
 format:
 - PNG
 reference: '8977980'
-description: sssec:amharic
+description: '
+
+  The Amharic database \cite{8977980} presents a collection of 40,929 printed images
+  with Amharic script text lines originating from pages of different documents written
+  in Amharic and 296,403 synthetic images created using OCRopus \cite{Breuel2008TheOO}.
+
+  The generated synthetic images include the Power Geez and the Visual Geez fonts.
+
+  A Bidirectional \ac{LSTM} followed by a softmax function that produced 281 probability
+  values, which is the number of unique characters in the database, and a \ac{CTC}
+  output layer were proposed for text-line recognition.
+
+  This method achieved an 8.54\% \ac{CER} for the printed Power Geez documents, 2.28\%
+  \ac{CER} for the Visual Geez synthetic images and 4.24\% \ac{CER} for the Power
+  Geez synthetic images.'
 ...

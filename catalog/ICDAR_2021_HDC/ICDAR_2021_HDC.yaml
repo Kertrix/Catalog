@@ -23,5 +23,23 @@ format:
 - TIFF
 - JPEG
 reference: 10.1145/3476887.3476913
-description: sssec:his_doc_classification_icdar_2021
+description: "\nThe competition on Historical Document Classification \\cite{10.1007/978-3-030-86337-1_41},\
+  \ which was hosted at ICDAR 2021 included three tasks for single or multilabel document\
+  \ classification: font/script, location, and date.\nFor the first task of font/script\
+  \ classification, the organizers provided the multiple font dataset presented in\
+  \ Section \\ref{sssec:fonts} as the training dataset for the font classification\
+  \ task and the ICDAR17 (\\ref{sssec:ICDAR17CLAMM}) and ICDAR16 (\\ref{sssec:ICFHR16CLAMM})\
+  \ CLaMM datasets for the script classification task.\nTwo new test sets were introduced\
+  \ for each task. \nFor the date classification tasks, a new training and test set\
+  \ containing 11,294 and 2,516 images, respectively, was introduced. \nThe ICDAR17\
+  \ CLaMM dataset was suggested as an additional training set. \nNew training, validation,\
+  \ and test sets of French manuscript images with 13 location labels were introduced\
+  \ for the location task. \nThe competition results were evaluated using the top-1\
+  \ accuracy on the test sets for the font/script and location tasks and the mean\
+  \ average error (MAE) for the date classification task. \nFor all tasks, the winning\
+  \ team used \\ac{CNN} operating either on non overlapping patches of four different\
+  \ scales or text lines acquired through segmentation \\cite{10.1007/978-3-031-06555-2_11}.\
+  \ \nFor the date classification task, instead of a cross-entropy loss, which was\
+  \ used in the other tasks, an interval regression loss was used that treated the\
+  \ task as a regression problem."
 ...

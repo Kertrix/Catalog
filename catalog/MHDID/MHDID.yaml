@@ -14,5 +14,19 @@ resolution: 1024× 1280
 format:
 - JPEG
 reference: '8480372'
-description: sssec:mhdid
+description: "\nMHDID is the Multi-distortion Historical Document Image Database \\\
+  cite{8480372} for document quality assessment and distortion classification.\nThis\
+  \ dataset contains 335 images with four degradation types: wormholes, stains, reader\
+  \ annotations, and paper translucency.\nThe document images emanate from 130 books\
+  \ from the Qatar University Library and are written in Arabic.\nSeveral users are\
+  \ supposed to compare pairs of images and select among three options.\nThese options\
+  \ are \"The left image is better\", \"The images are similar\", or \"The right image\
+  \ is better\".\nWith six outliers removed, the user interface results were normalized\
+  \ between 0, the lowest perceptual quality value, and 9, the highest.\nFinally,\
+  \ the MOS value was computed for every image, which is the sum of the outcome pair\
+  \ comparisons divided by the number of pairs. \nA dataset analysis was further demonstrated\
+  \ in terms of color and spatial information to reveal the heterogeneity of the dataset.\
+  \ \nThis database seems to be an outlier. \nThus, we categorize it as retrieval\
+  \ in Table \\ref{tab:structure_content_class} with a (\\checkmark) since it is a\
+  \ database that compares pairs of images."
 ...

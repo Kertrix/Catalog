@@ -16,5 +16,25 @@ format:
 - JPEG
 - JPEG2000
 reference: 10.1145/2501115.2501130
-description: sssec:impact
+description: '
+
+  IMPACT \cite{10.1145/2501115.2501130} is a large-scale dataset of over 600K images
+  derived from different European libraries.
+
+  The provided PAGE XML files \cite{5597587} contain the layout, reading order, and
+  text transcription annotations for over 45K samples.
+
+  This collection also offers metadata information, including bibliographic information,
+  digitization information, physical characteristics, copyright information, administrative
+  information, and comments.
+
+  The dataset includes documents written in 18 different languages (Bulgarian, Catalan,
+  Czech, Dutch, English, French, German, Greek, Hebrew, Latin, Norwegian, Old Church
+  Slavonic, Polish, Portuguese, Russian, Slovenian, and Spanish) and 10 scripts (Bohoričica,
+  Cyrillic, French, Gaj, Greek, Hebrew, Latin, Latin/Gothic, Old Cyrillic, and Serif).
+
+  A web interface provides access to the image samples and annotations, giving various
+  options for the users to browse and search.
+
+  This paper did not present any benchmark results for this dataset.'
 ...

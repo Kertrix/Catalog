@@ -16,5 +16,25 @@ resolution: N/A
 format:
 - BMP
 reference: '8978205'
-description: sssec:DIBCO_2019
+description: '
+
+  The latest of the DIBCO competition series of 2019 \cite{8978205} aimed in evaluating
+  various systems for the task of image binarization.
+
+  The series of this competition initiated in 2009 \cite{5277767} and had several
+  rounds for printed and handwritten document images \cite{8270159, 6628857, 6065249}.
+
+  The 2019 competition included two categories, CATEGORY I, that provided 10 historical
+  handwritten and printed test images of the \nth{19} century, and CATEGORY II, that
+  provided 10 test images derived from papyri of various places in Egypt.
+
+  For CATEGORY I, the best performing method used noise reduction and then an ensemble
+  of three clustering algorithms (Fuzzy C-Means, K-Medoids and K-Means++) for the
+  step of grouping the foreground and background of the input images.
+
+  The best performing system for CATEGORY II, used the neural network architecture
+  LadderNet \cite{Zhuang2018LadderNetMN} on $48\times48$ image patches.
+
+  All systems were evaluated using \ac{FM}, pseudo-\ac{FM} ($F_{ps}$), PSNR, and Distance
+  Reciprocal Distortion Metric (DRD).'
 ...
