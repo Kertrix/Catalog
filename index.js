@@ -45,6 +45,12 @@ app.get("/detail/:id/bib", (req, res) => {
   }
 });
 
+app.get("/values/", (req, res) => {
+  // Send the JSON of all the possible values for the fields language, task, format and mode
+  res.header("Content-Type", "application/json");
+  res.sendFile(path.join(__dirname, "values.json"));
+});
+
 app.listen(port, () => {
   console.log(`Document Datasets API listening on port ${port}`);
 });

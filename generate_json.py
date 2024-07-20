@@ -5,6 +5,8 @@ import os
 
 import yaml
 
+from values import get_all_values
+
 
 def hash_name(name):
     hsh = hashlib.sha256(name.encode())
@@ -38,3 +40,6 @@ def process_folder():
 
 
 process_folder()
+
+with open("values.json", "w") as f:
+    json.dump(get_all_values(), f, indent=2)
