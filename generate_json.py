@@ -23,7 +23,7 @@ def process_folder():
     all_data = []
     for root, dirs, files in os.walk("catalog"):
         for file in files:
-            if file.endswith(".yaml") or file.endswith(".yml"):
+            if not file.startswith("[EXCLUDED]") and (file.endswith(".yaml") or file.endswith(".yml")):
                 yaml_file = os.path.join(root, file)
                 raw_data = convert_yaml_to_json(yaml_file)
                 _id = hash_name(raw_data["name"])
